@@ -9,6 +9,7 @@ import { ClubsComponent } from './clubs/clubs.component';
 import { CoachesComponent } from './coaches/coaches.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     ClubsComponent,
     CoachesComponent,
     ComingsoonComponent,
-    FooterComponent
+    FooterComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule
