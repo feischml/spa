@@ -7,28 +7,6 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-  <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
-  
-  <script src="https://unpkg.com/zone.js@0.7.4?main=browser"></script>
-  <script src="https://unpkg.com/systemjs@0.19.39/dist/system.src.js"></script>
-  
-
-  <script>
-    // Get the locale id somehow
-    document.locale = 'ro';
-  
-    // Map to the text plugin
-    System.config({
-      map: {
-        text: 'systemjs-text-plugin.js'
-      }
-    });
-  
-    // Launch the app
-    System.import('main.js').catch(function(err){ console.error(err); });
-  </script>
-
 </head>
 <body>
   <app-root></app-root>
