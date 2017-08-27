@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="clubs_burncalories" datatype="html">
+        <source>Burn those calories</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">clubs_burn_those_calories</note>
+        <note priority="1" from="meaning">clubs_title</note>
+      </trans-unit>
+      <trans-unit id="clubs_description" datatype="html">
+        <source>A variety of professional and custom made courts await you and your friends. Heavy sweating, good mood and good night sleep afterwards is guaranteed.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">clubs_general_description</note>
+        <note priority="1" from="meaning">clubs_description</note>
+      </trans-unit>
+      <trans-unit id="clubs_sccdescription" datatype="html">
+        <source>The club was founded in 2011 and has 4 professional courts. Monthly, local tournaments are organized for beginner and advanced players. The club will be also home for several national competitions.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">clubs_scc_description</note>
+        <note priority="1" from="meaning">clubs_scc_description</note>
+      </trans-unit>
+      <trans-unit id="clubs_scchomepage" datatype="html">
+        <source>Home page:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">clubs_scc_homepage</note>
+        <note priority="1" from="meaning">clubs_scc_homepage</note>
+      </trans-unit>
+      <trans-unit id="clubs_sccreservations" datatype="html">
+        <source>Reservations:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">clubs_scc_reservations</note>
+        <note priority="1" from="meaning">clubs_scc_reservations</note>
+      </trans-unit>
+      <trans-unit id="clubs_stdescription" datatype="html">
+        <source>You can still smell the fresh parquet. The club opened in May 2017. Two professional courts are waiting you. Weekly local competitions are organized and the opening tournament of the 2017/2018 season.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">clubs_st_description</note>
+        <note priority="1" from="meaning">clubs_st_description</note>
+      </trans-unit>
+      <trans-unit id="clubs_sthomepage" datatype="html">
+        <source>Home page:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">clubs_st_homepage</note>
+        <note priority="1" from="meaning">clubs_st_homepage</note>
+      </trans-unit>
+      <trans-unit id="clubs_streservations" datatype="html">
+        <source>Reservations:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">clubs_st_reservations</note>
+        <note priority="1" from="meaning">clubs_st_reservations</note>
+      </trans-unit>
+      <trans-unit id="clubs_sitdescription" datatype="html">
+        <source>The club opened its doors in 2015 and hosted several matches of the Romanian Open Squash that year. Three custom made courts are available for the clients. As usual, water and rackets are provided for free.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <note priority="1" from="description">clubs_sit_description</note>
+        <note priority="1" from="meaning">clubs_sit_description</note>
+      </trans-unit>
+      <trans-unit id="clubs_sitreservations" datatype="html">
+        <source>Reservations:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <note priority="1" from="description">clubs_sit_reservations</note>
+        <note priority="1" from="meaning">clubs_sit_reservations</note>
+      </trans-unit>
+      <trans-unit id="coaches_title" datatype="html">
+        <source>Coaches</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">coaches_title</note>
+        <note priority="1" from="meaning">coaches_title</note>
+      </trans-unit>
+      <trans-unit id="coaches_description" datatype="html">
+        <source>How you respond to the challenge in the second half will determine what you become after the game, whether you are a winner or a loser. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">coaches_description</note>
+        <note priority="1" from="meaning">coaches_description</note>
+      </trans-unit>
+      <trans-unit id="coaches_mp" datatype="html">
+        <source>WSF Level 1 Squash Coach</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">coaches_mp</note>
+        <note priority="1" from="meaning">coaches_mp</note>
+      </trans-unit>
+      <trans-unit id="coaches_mp_description" datatype="html">
+        <source>All led out world these music while asked. Paid mind even sons does he door no. Attended overcame repeated it is perceive marianne in. In am think on style child of. Servants moreover in sensible he it ye possible.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">coaches_mp_description</note>
+        <note priority="1" from="meaning">coaches_mp_description</note>
+      </trans-unit>
+      <trans-unit id="coaches_sl" datatype="html">
+        <source>WSF Level 1 Squash Coach </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">coaches_sl</note>
+        <note priority="1" from="meaning">coaches_sl</note>
+      </trans-unit>
+      <trans-unit id="coaches_sl_description" datatype="html">
+        <source>Set lose dear upon had two its what seen. Held she sir how know what such whom. Esteem put uneasy set piqued son depend her others. Two dear held mrs feet view her old fine. Bore can led than how has rank. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">coaches_sl_description</note>
+        <note priority="1" from="meaning">coaches_sl_description</note>
+      </trans-unit>
+      <trans-unit id="coaches_em" datatype="html">
+        <source>WSF Level 1 Squash Coach </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">coaches_em</note>
+        <note priority="1" from="meaning">coaches_em</note>
+      </trans-unit>
+      <trans-unit id="coaches_em_description" datatype="html">
+        <source>Exquisite cordially mr happiness of neglected distrusts. Boisterous impossible unaffected he me everything. Is fine loud deal an rent open give. Find upon and sent spot song son eyes.Do endeavor he differed carriage. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">coaches_em_description</note>
+        <note priority="1" from="meaning">coaches_em_description</note>
+      </trans-unit>
+      <trans-unit id="coaches_cc" datatype="html">
+        <source>WSF Level 1 Squash Coach </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">coaches_cc</note>
+        <note priority="1" from="meaning">coaches_cc</note>
+      </trans-unit>
+      <trans-unit id="coaches_cc_description" datatype="html">
+        <source>Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">coaches_cc_description</note>
+        <note priority="1" from="meaning">coaches_cc_description</note>
+      </trans-unit>
+      <trans-unit id="coaches_lf" datatype="html">
+        <source>WSF Level 1 Squash Coach </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">coaches_mp</note>
+        <note priority="1" from="meaning">coaches_lf</note>
+      </trans-unit>
+      <trans-unit id="coaches_lf_description" datatype="html">
+        <source>Rendered her for put improved concerns his. Ladies bed wisdom theirs mrs men months set. Everything so dispatched as it increasing pianoforte. Hearing now saw perhaps minutes herself his. Of instantly excellent. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <note priority="1" from="description">coaches_lf_description</note>
+        <note priority="1" from="meaning">coaches_lf_description</note>
+      </trans-unit>
+      <trans-unit id="coaches_vc" datatype="html">
+        <source>WSF Level 1 Squash Coach </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">coaches_vc</note>
+        <note priority="1" from="meaning">coaches_vc</note>
+      </trans-unit>
+      <trans-unit id="coaches_cv_description" datatype="html">
+        <source>Way devonshire introduced expression saw travelling affronting. Her and effects affixed pretend account ten natural. Need eat week even yet that. Incommode delighted he resolving sportsmen do in listening. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <note priority="1" from="description">coaches_cv_description</note>
+        <note priority="1" from="meaning">coaches_cv_description</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_title" datatype="html">
+        <source>Future projects for the community</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_title</note>
+        <note priority="1" from="meaning">comingsoon_title</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_description" datatype="html">
+        <source> Paul Ford is the co-founder of Postlight, a digital product studio in New York City with clients that include Vice Media, Goldman Sachs. New Website for the whole community with features like</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_description</note>
+        <note priority="1" from="meaning">comingsoon_description</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_lr" datatype="html">
+        <source>Local Rankings </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_localranking</note>
+        <note priority="1" from="meaning">comingsoon_feature_lr</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_lrdesc" datatype="html">
+        <source>Attachment apartments in delightful by motionless it no. And now she burst sir learn total. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_localrankingdesc</note>
+        <note priority="1" from="meaning">comingsoon_feature_lr_desc</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_ec" datatype="html">
+        <source>Event Calendar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_eventcalendar</note>
+        <note priority="1" from="meaning">comingsoon_feature_ec</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_ecdesc" datatype="html">
+        <source>Solicitude uncommonly use her motionless not collecting age. The required mistaken outlived bed and. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_eventcalendardaesc</note>
+        <note priority="1" from="meaning">comingsoon_feature_ec_desc</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_n" datatype="html">
+        <source>News </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_news</note>
+        <note priority="1" from="meaning">comingsoon_feature_n</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_ndesc" datatype="html">
+        <source>Behaviour we improving at something to. Evil true high lady roof men had open. To projection considered it.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_newsdesc</note>
+        <note priority="1" from="meaning">comingsoon_feature_n_desc</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_pp" datatype="html">
+        <source>Player Profiles </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_playerprofile</note>
+        <note priority="1" from="meaning">comingsoon_feature_pp</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_ppdesc" datatype="html">
+        <source>Required his you put the outlived answered position. An pleasure exertion if believed provided to.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_playerprofiledesc</note>
+        <note priority="1" from="meaning">comingsoon_feature_pp_desc</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_er" datatype="html">
+        <source>Event Registrations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_eventregister</note>
+        <note priority="1" from="meaning">comingsoon_feature_er</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_erdesc" datatype="html">
+        <source>Fulfilled direction use continual set him propriety continued. Saw met applauded engrossed concealed and her. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_eventregisterdesc</note>
+        <note priority="1" from="meaning">comingsoon_feature_er_desc</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_c" datatype="html">
+        <source>Coaching</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_coaching</note>
+        <note priority="1" from="meaning">comingsoon_feature_c</note>
+      </trans-unit>
+      <trans-unit id="comingsoon_feature_cdesc" datatype="html">
+        <source>Forfeited up if disposing perfectly in an eagerness perceived necessary. Belonging sir curiosity discovery own off.  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <note priority="1" from="description">comingsoon_feature_coachingdesc</note>
+        <note priority="1" from="meaning">comingsoon_feature_c_desc</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
