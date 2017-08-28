@@ -18,8 +18,13 @@ import { ContentcontainerComponent } from './contentcontainer/contentcontainer.c
 // import routing
 import { routing } from './app.routing';
 
+// import smooth scroll
+import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2-smooth-scroll";
+
 @NgModule({
   declarations: [
+    SmoothScrollToDirective,
+    SmoothScrollDirective,
     AppComponent,
     HeaderComponent,
     SquashComponent,
