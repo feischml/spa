@@ -37,11 +37,16 @@ import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2-smooth-scrol
     ContentcontainerComponent
   ],
   imports: [
-    BrowserModule,
     FormsModule,
+    BrowserModule,
     ReactiveFormsModule,
     HttpModule,
     routing
+  ],
+  exports: [
+    FormsModule,
+    BrowserModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
