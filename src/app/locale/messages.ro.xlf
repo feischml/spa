@@ -2,8 +2,88 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="header_clubs" datatype="html">
+        <source>Clubs</source>
+        <target>Cluburi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header_projects" datatype="html">
+        <source>Projects</source>
+        <target>Proiecte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header_coaches" datatype="html">
+        <source>Coaches</source>
+        <source>Antrenori</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="squash_description" datatype="html">
+        <source>Health, hobby or performance? Over 20,000,000 players play it world-wide. In one hour you have fun, burn lots of calories, have a great workout. It has been voted the world&apos;s healthiest sport. Get yourself warmed up and start moving! </source>
+        <target>Cu toate că rezultatele de anul trecut sunt ceva mai bune decât cele de la ediţiile anterioare, profesorii români spun că progresul din 2012 nu este unul semnificativ. Iar faptul că elevii români au probleme la citire şi matematică este cauzat de felul în care sunt predate lecţiile în şcoala românească.</tagret>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/squash/squash.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="squash_more" datatype="html">
+        <source>More </source>
+        <target>Mai mult</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/squash/squash.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="squash_videos" datatype="html">
+        <source>Videos </source>
+        <source>Videoclipuri</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/squash/squash.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="squashincluj_description" datatype="html">
+        <source>It all started in 2011 when the first club opened in town. There were two courts in the beginning and not many have heard about this sport. In a perfect sports business scenario, grass-roots participation and support attract corporate
+                        backing, which funds <x id="START_LINK" ctype="x-a"/>investment to grow the game<x id="CLOSE_LINK" ctype="x-a"/> and brands associated with it. However, virtuous circles don’t always last. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/squashincluj/squashincluj.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="squashincluj_description2" datatype="html">
+        <source>You can&apos;t train kids in a world where adults have no concept of what science literacy is. The adults are gonna squash the creativity that would manifest itself, because they&apos;re clueless about what it and why it matters. But science
+                        can always benefit from the more brains there are that are thinking about it - but that&apos;s true for any field. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/squashincluj/squashincluj.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="squashincluj_sebititle" datatype="html">
+        <source>El Presidente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/squashincluj/squashincluj.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="squashincluj_sebimoto" datatype="html">
+        <source>&quot;If you want to win hearts and minds, you have to lead with your heart as well as your mind.&quot; </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/squashincluj/squashincluj.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="clubs_burncalories" datatype="html">
-        <source>Burn those calories</source>
+        <source>
+                Burn those calories
+            </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
           <context context-type="linenumber">4</context>
@@ -12,10 +92,12 @@
         <note priority="1" from="meaning">clubs_title</note>
       </trans-unit>
       <trans-unit id="clubs_description" datatype="html">
-        <source>A variety of professional and custom made courts await you and your friends. Heavy sweating, good mood and good night sleep afterwards is guaranteed.</source>
+        <source>
+                A variety of professional and custom made courts await you and your friends. Heavy sweating, good mood and good night sleep afterwards is guaranteed.
+            </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">7</context>
         </context-group>
         <note priority="1" from="description">clubs_general_description</note>
         <note priority="1" from="meaning">clubs_description</note>
@@ -24,7 +106,7 @@
         <source>The club was founded in 2011 and has 4 professional courts. Monthly, local tournaments are organized for beginner and advanced players. The club will be also home for several national competitions.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">15</context>
         </context-group>
         <note priority="1" from="description">clubs_scc_description</note>
         <note priority="1" from="meaning">clubs_scc_description</note>
@@ -33,7 +115,7 @@
         <source>Home page:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">19</context>
         </context-group>
         <note priority="1" from="description">clubs_scc_homepage</note>
         <note priority="1" from="meaning">clubs_scc_homepage</note>
@@ -42,7 +124,7 @@
         <source>Reservations:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">20</context>
         </context-group>
         <note priority="1" from="description">clubs_scc_reservations</note>
         <note priority="1" from="meaning">clubs_scc_reservations</note>
@@ -51,7 +133,7 @@
         <source>You can still smell the fresh parquet. The club opened in May 2017. Two professional courts are waiting you. Weekly local competitions are organized and the opening tournament of the 2017/2018 season.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">25</context>
         </context-group>
         <note priority="1" from="description">clubs_st_description</note>
         <note priority="1" from="meaning">clubs_st_description</note>
@@ -60,7 +142,7 @@
         <source>Home page:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">29</context>
         </context-group>
         <note priority="1" from="description">clubs_st_homepage</note>
         <note priority="1" from="meaning">clubs_st_homepage</note>
@@ -69,7 +151,7 @@
         <source>Reservations:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <note priority="1" from="description">clubs_st_reservations</note>
         <note priority="1" from="meaning">clubs_st_reservations</note>
@@ -78,11 +160,11 @@
         <source>The club opened its doors in 2015 and hosted several matches of the Romanian Open Squash that year. Three custom made courts are available for the clients. As usual, water and rackets are provided for free.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">35</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">46</context>
         </context-group>
         <note priority="1" from="description">clubs_sit_description</note>
         <note priority="1" from="meaning">clubs_sit_description</note>
@@ -91,11 +173,11 @@
         <source>Reservations:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">39</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/clubs/clubs.component.ts</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">50</context>
         </context-group>
         <note priority="1" from="description">clubs_sit_reservations</note>
         <note priority="1" from="meaning">clubs_sit_reservations</note>
@@ -194,7 +276,7 @@
         <source>WSF Level 1 Squash Coach </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">36</context>
         </context-group>
         <note priority="1" from="description">coaches_mp</note>
         <note priority="1" from="meaning">coaches_lf</note>
@@ -203,7 +285,7 @@
         <source>Rendered her for put improved concerns his. Ladies bed wisdom theirs mrs men months set. Everything so dispatched as it increasing pianoforte. Hearing now saw perhaps minutes herself his. Of instantly excellent. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">37</context>
         </context-group>
         <note priority="1" from="description">coaches_lf_description</note>
         <note priority="1" from="meaning">coaches_lf_description</note>
@@ -212,7 +294,7 @@
         <source>WSF Level 1 Squash Coach </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">42</context>
         </context-group>
         <note priority="1" from="description">coaches_vc</note>
         <note priority="1" from="meaning">coaches_vc</note>
@@ -221,10 +303,46 @@
         <source>Way devonshire introduced expression saw travelling affronting. Her and effects affixed pretend account ten natural. Need eat week even yet that. Incommode delighted he resolving sportsmen do in listening. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">43</context>
         </context-group>
         <note priority="1" from="description">coaches_cv_description</note>
         <note priority="1" from="meaning">coaches_cv_description</note>
+      </trans-unit>
+      <trans-unit id="coaches_cb" datatype="html">
+        <source>WSF Level 1 Squash Coach </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">coaches_cb</note>
+        <note priority="1" from="meaning">coaches_cb</note>
+      </trans-unit>
+      <trans-unit id="coaches_cb_description" datatype="html">
+        <source>Exquisite cordially mr happiness of neglected distrusts. Boisterous impossible unaffected he me everything. Is fine loud deal an rent open give. Find upon and sent spot song son eyes.Do endeavor he differed carriage. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <note priority="1" from="description">coaches_cb_description</note>
+        <note priority="1" from="meaning">coaches_cb_description</note>
+      </trans-unit>
+      <trans-unit id="coaches_al" datatype="html">
+        <source>WSF Level 1 Squash Coach </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <note priority="1" from="description">coaches_al</note>
+        <note priority="1" from="meaning">coaches_al</note>
+      </trans-unit>
+      <trans-unit id="coaches_al_description" datatype="html">
+        <source>Exquisite cordially mr happiness of neglected distrusts. Boisterous impossible unaffected he me everything. Is fine loud deal an rent open give. Find upon and sent spot song son eyes.Do endeavor he differed carriage. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/coaches/coaches.component.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <note priority="1" from="description">coaches_al_description</note>
+        <note priority="1" from="meaning">coaches_al_description</note>
       </trans-unit>
       <trans-unit id="comingsoon_title" datatype="html">
         <source>Future projects for the community</source>
@@ -254,7 +372,7 @@
         <note priority="1" from="meaning">comingsoon_feature_lr</note>
       </trans-unit>
       <trans-unit id="comingsoon_feature_lrdesc" datatype="html">
-        <source>Attachment apartments in delightful by motionless it no. And now she burst sir learn total. </source>
+        <source>Attachment apartments in delightful by motionless it no. And now she burst sir learn total hello there. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
           <context context-type="linenumber">11</context>
@@ -308,7 +426,7 @@
         <note priority="1" from="meaning">comingsoon_feature_pp</note>
       </trans-unit>
       <trans-unit id="comingsoon_feature_ppdesc" datatype="html">
-        <source>Required his you put the outlived answered position. An pleasure exertion if believed provided to.</source>
+        <source>Required his you put the outlived answered position. An pleasure exertion if believed provided to append this.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/comingsoon/comingsoon.component.ts</context>
           <context context-type="linenumber">29</context>
@@ -351,6 +469,106 @@
         </context-group>
         <note priority="1" from="description">comingsoon_feature_coachingdesc</note>
         <note priority="1" from="meaning">comingsoon_feature_c_desc</note>
+      </trans-unit>
+      <trans-unit id="footer_text" datatype="html">
+        <source>On January 2013, the <x id="START_LINK" ctype="x-a"/>Professional Squash Association<x id="CLOSE_LINK" ctype="x-a"/> announced along with <x id="START_LINK_1" ctype="x-a"/>U.S. Squash<x id="CLOSE_LINK" ctype="x-a"/>,
+                        to create a new tournament series called the US Pro Squash Series. Similar to the <x id="START_LINK_2" ctype="x-a"/>U.S. Open Series<x id="CLOSE_LINK" ctype="x-a"/> in <x id="START_LINK_3" ctype="x-a"/>tennis<x id="CLOSE_LINK" ctype="x-a"/>,
+                        this tournament series is used to support marketing activities for tournaments in the <x id="START_LINK_4" ctype="x-a"/>United States<x id="CLOSE_LINK" ctype="x-a"/>.. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer_services" datatype="html">
+        <source>Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer_service1" datatype="html">
+        <source>Web design</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer_service2" datatype="html">
+        <source>Development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer_service3" datatype="html">
+        <source>Hosting</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer_about" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer_about1" datatype="html">
+        <source>Company</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer_about2" datatype="html">
+        <source>Team</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer_about3" datatype="html">
+        <source>Careers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactus_quote1" datatype="html">
+        <source>Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contactus/contactus.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactus_title1" datatype="html">
+        <source>CEO of Company Inc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contactus/contactus.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactus_quote2" datatype="html">
+        <source>Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contactus/contactus.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactus_title2" datatype="html">
+        <source>CEO of Company Inc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contactus/contactus.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactus_getintouch" datatype="html">
+        <source>Get in touch with us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contactus/contactus.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
