@@ -56,7 +56,7 @@ export class ContactusComponent implements OnInit {
       if ( this.simulateServer(message, email, name, this.reCaptchaResponse) == true){
         this.serverresponse = 'Message sent!';
       } else {
-        this.serverresponse = 'ReCaptcha validation error.';
+        this.serverresponse = 'Are you sure you are not a robot?';
       }
 
       this.refreshForm(form);
