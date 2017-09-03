@@ -11,7 +11,7 @@ import { RecaptchaComponent } from "ng-recaptcha";
 export class ContactusComponent implements OnInit {
 
   contactForm: FormGroup;
-  private reCaptchaResponse: string = '';
+  private reCaptchaResponse: string = ''; 
   private serverresponse: string;
 
   @ViewChild('captchaRef') reCaptcha: RecaptchaComponent;
