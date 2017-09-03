@@ -21,6 +21,11 @@ import { routing } from './app.routing';
 // import smooth scroll
 import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2-smooth-scroll";
 
+// import Rercapcha
+import { RecaptchaModule } from 'ng-recaptcha';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     SmoothScrollToDirective,
@@ -39,6 +44,8 @@ import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2-smooth-scrol
   imports: [
     FormsModule,
     BrowserModule,
+    BrowserAnimationsModule,
+    RecaptchaModule.forRoot(),
     ReactiveFormsModule,
     HttpModule,
     routing
@@ -46,6 +53,7 @@ import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2-smooth-scrol
   exports: [
     FormsModule,
     BrowserModule,
+    BrowserAnimationsModule,
     ReactiveFormsModule,
   ],
   providers: [],

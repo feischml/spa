@@ -9,7 +9,7 @@
                                 <p class="description text-justify" i18n="@@contactus_quote1">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
                             </div>
                             <div class="author"><img class="img-circle" src="assets/img/1.jpg">
-                                <h5 class="name">Ben Johnson</h5>
+                                <h5 class="name">Mircea Babă</h5>
                                 <p class="title" i18n="@@contactus_title1">CEO of Company Inc.</p>
                             </div>
                         </div>
@@ -20,7 +20,7 @@
                                 <p class="description text-justify" i18n="@@contactus_quote2">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
                             </div>
                             <div class="author"><img class="img-circle" src="assets/img/10.jpeg">
-                                <h5 class="name">Ben Johnson</h5>
+                                <h5 class="name">Paul Miheț</h5>
                                 <p class="title" i18n="@@contactus_title2">CEO of Company Inc.</p>
                             </div>
                         </div>
@@ -49,7 +49,15 @@
                             rows="14" name="message" placeholder="Message"></textarea>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-primary" type="submit" [disabled]="!contactForm.valid">Send </button>
+                            <re-captcha #captchaRef (resolved)="resolved($event)"
+                             siteKey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                             name="captcha" ></re-captcha>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary" type="submit" [disabled]="!contactForm.valid" (click)="submit(contactForm)">Send </button>
+                        </div>
+                        <div class="form-group">
+                                <p *ngIf="serverresponse">{{ serverresponse}}</p>
                         </div>
                     </form>
                 </div>
