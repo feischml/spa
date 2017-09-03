@@ -41,8 +41,6 @@ export class ContactusComponent implements OnInit {
       // https://www.google.com/recaptcha/api/siteverify -> backend service
 
       // If response is ok, then enable sending the message -> backend service
-      //console.log(`Resolved captcha with response ${captchaResponse}:`);
-      //this.reCaptcha.
 
       let message = form.controls.message.value;
       let name = form.controls.name.value;
