@@ -13,6 +13,7 @@ export class ContactusComponent implements OnInit {
   contactForm: FormGroup;
   private reCaptchaResponse: string = ''; 
   private serverresponse: string;
+  private spinning: boolean;
 
   @ViewChild('captchaRef') reCaptcha: RecaptchaComponent;
 
@@ -34,13 +35,8 @@ export class ContactusComponent implements OnInit {
 
   private submit(form: FormGroup){
 
-    //Site key for testing: 6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
-    //Secret key for testing: 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
-
-      //ToDo: send data to backend for verification:
-      // https://www.google.com/recaptcha/api/siteverify -> backend service
-
-      // If response is ok, then enable sending the message -> backend service
+      //Site key for testing: 6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
+      //Secret key for testing: 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
 
       let message = form.controls.message.value;
       let name = form.controls.name.value;
@@ -51,12 +47,7 @@ export class ContactusComponent implements OnInit {
         return;
       }
 
-      if ( this.simulateServer(message, email, name, this.reCaptchaResponse) == true){
-        this.serverresponse = 'Message sent!';
-      } else {
-        this.serverresponse = 'Are you sure you are not a robot?';
-      }
-
+      this.callServer(message, email, name, this.reCaptchaResponse);
       this.refreshForm(form);
       
   }
@@ -67,11 +58,35 @@ export class ContactusComponent implements OnInit {
     this.reCaptcha.reset();
   }
 
-  private simulateServer(message: string, email: string, name: string, reCaptcha: string){
+  private callServer(message: string, email: string, name: string, reCaptcha: string){
+    this.startSpinner();
+    this.http.get("http://localhost:3100/validate_captcha",{ params: { reCaptcha, message, email, name } })
+      .subscribe( 
+        res => {
+          let response = res.json();
+          if (response.validation == false)
+            this.serverresponse = "Are you sure you are not a robot?";
+          else 
+            if (response.validation == true && response.email == true)
+              this.serverresponse = "Message sent!";
+            else
+              if (response.validation == true && response.email == false)
+                this.serverresponse = "Some error occured, please retry.";
+          this.stopSpinner();
+        }, 
+        err => {
+          this.serverresponse = "Some error occured, please retry.";
+          this.stopSpinner();
+        }
+      );
+  }
 
-    let randomNumber = Math.floor(Math.random() * 6) + 1;
-    return randomNumber % 2 === 0; 
+  private startSpinner(){
+    this.spinning = true;
+  }
 
+  private stopSpinner(){
+    this.spinning = false;
   }
 
 }
