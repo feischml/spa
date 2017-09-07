@@ -5,5 +5,18 @@
         "SQUASH": "SQUASH în Cluj-Napoca",
         "PROJECTS": "Proiecte",
         "CONTACT": "Contact"
+    },
+    "SQUASH":{
+        "DESCRIPTION": "Votat 'cel mai sanatos sport din lume' de revista Forbes, squash-ul e o modalitate foarte eficienta de a arde calorii, a dezolta musculatura si fitness-ul si de a pierde in greutate. In plus, squash-ul este distractiv si competitiv. La nivel mondial, peste 20 de milioane de oameni practica acest sport. Asa ca ce mai astepti? Fa miscare, joaca squash!",
+        "MORE": "Citeste mai mult",
+        "VIDEOS": "Videoclipuri",
+        "SQUASH": "SQUASH"
+    },
+    "SQUASHINCJ":{
+        "DESCRIPTION1": "Observam cu bucurie deschiderea comunitatii de care incepe sa beneficieze squash-ul in Cluj Napoca, In Romania, amploarea de care se bucura in restul Europei si caracterul social care insoteste acest sport. In acest moment vreau sa remarc cu bucurie, ca squashul este pe un trend ascendent, ca tot mai multi tineri se indreapta inspre el pentru a-l practica de placere sau la nivel profesionist.",
+        "DESCRIPTION2": "Ca alaturi de barbati tot mai multe femei vin sa-l practice avand in vedere ca se pot arde pana la 1200 calorii/ora, ca exista componenta sociala, ca este o ora de relaxare benefica tonifierii corpului...",
+        "SEBASTIAN": "SEBASTIAN Baciu",
+        "SEBITITLE": "Presedinte Asociatia PRO SQUASH Romania",
+        "SEBIQUOTE": "... text ..."
     }
 }

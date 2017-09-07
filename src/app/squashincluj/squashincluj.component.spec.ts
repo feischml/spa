@@ -8,9 +8,9 @@ describe('SquashinclujComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SquashinclujComponent ]
+      declarations: [SquashinclujComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
