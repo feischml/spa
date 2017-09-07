@@ -1,6 +1,9 @@
 {
     "NAVBAR": {
         "COACHES": "Antrenori",
-        "CLUBS": "Cluburi"
+        "CLUBS": "Cluburi",
+        "SQUASH": "SQUASH în Cluj-Napoca",
+        "PROJECTS": "Proiecte",
+        "CONTACT": "Contact"
     }
 }
