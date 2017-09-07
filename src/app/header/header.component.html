@@ -10,15 +10,15 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
                     <li role="presentation"><a routerLink="home" scrollTo="#squashcluj" duration="2500" offset="80" style="padding:12px 8px;"><strong>SQUASH in Cluj-Napoca</strong></a></li>
-                    <li role="presentation"><a routerLink="home" scrollTo="#clubs" duration="2500" offset="80" style="padding:12px 8px;" i18n="@@header_clubs">Clubs </a></li>
+                    <li role="presentation"><a routerLink="home" scrollTo="#clubs" duration="2500" offset="80" style="padding:12px 8px;" i18n="@@header_clubs"> {{ 'NAVBAR.CLUBS' | translate }} </a></li>
                     <li role="presentation"><a routerLink="home" scrollTo="#soon" duration="2500" offset="80" style="padding:12px 8px;" i18n="@@header_projects">Projects</a></li>
                     <li role="presentation"><a routerLink="home" scrollTo="#coaches" duration="2500" offset="80" style="padding:12px 8px;" i18n="@@header_coaches">Coaches </a></li>
                 </ul>
 
                 <p class="navbar-text navbar-right" style="padding:0px;"> <a class="btn btn-default action-button" role="button" routerLink="contactus" style="padding:7px;font-size:14px;width:86px;">Contact </a>
-                    <a class="navbar-link btn btn-default action-button" href="#" role="button" style="margin:0px 5px;padding:13px 15px 5px 10px;background-image:url(&quot;assets/img/Flag_of_Romania.png&quot;);background-size:cover;background-repeat:round;">
+                    <a class="navbar-link btn btn-default action-button" (click)="translate.use('ro')" role="button" style="margin:0px 5px;padding:13px 15px 5px 10px;background-image:url(&quot;assets/img/Flag_of_Romania.png&quot;);background-size:cover;background-repeat:round;">
                     </a>
-                    <a class="navbar-link btn btn-default action-button" href="#" role="button" style="margin:0px 5px;padding:13px 15px 5px 10px;background-image:url(&quot;assets/img/british-flag-small.png&quot;);background-size:cover;background-repeat:round;">
+                    <a class="navbar-link btn btn-default action-button" (click)="translate.use('en')" role="button" style="margin:0px 5px;padding:13px 15px 5px 10px;background-image:url(&quot;assets/img/british-flag-small.png&quot;);background-size:cover;background-repeat:round;">
                     </a>
                 </p>
             </div>

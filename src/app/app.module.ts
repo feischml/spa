@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpModule, Http } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
@@ -20,6 +20,15 @@ import { routing } from './app.routing';
 
 // import smooth scroll
 import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2-smooth-scroll";
+
+// import translate module
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
+}
 
 // import Rercapcha
 import { RecaptchaModule } from 'ng-recaptcha';
@@ -45,6 +54,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [ HttpClient ]
+      }
+    }),
     RecaptchaModule.forRoot(),
     ReactiveFormsModule,
     HttpModule,
@@ -53,6 +70,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   exports: [
     FormsModule,
     BrowserModule,
+    TranslateModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
   ],
