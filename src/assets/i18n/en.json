@@ -39,75 +39,75 @@
         "RESERVATIONS": "Reservations: "
     },
     "COACHES":{
-        "TITLE": "",
-        "DESCRIPTION": "",
+        "TITLE": "Coaches",
+        "DESCRIPTION": "...todo...",
         "MIKI":{
-            "NAME": "",
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "NAME": "Micky PushSquash",
+            "TITLE": "WSF Level 1 Squash Coach",
+            "DESCRIPTION": "...todo..."
         },
         "SIMI":{
-            "NAME": "",
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "NAME": "Simion Lupșan",
+            "TITLE": "WSF Level 1 Squash Coach",
+            "DESCRIPTION": "...todo..."
         },
         "MANU":{
-            "NAME": "",
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "NAME": "Emanuel Mărcuș",
+            "TITLE": "WSF Level 1 Squash Coach",
+            "DESCRIPTION": "...todo..."
         },
         "CALIN":{
-            "NAME": "",
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "NAME": "Călin Codarcea",
+            "TITLE": "WSF Level 1 Squash Coach",
+            "DESCRIPTION": "With a 5-year squash experience, Calin trains juniors and adults of all levels. Besides being the co-organizer of the most important tournament in the country, Romanian Open Squash and promoter of PSA Romanian Open, he is also an active player in the national championship competitions. He has participated in specialized camps for players and coaches in Belgium, Poland and Hungary."
         },
         "LACI":{
-            "NAME": "",
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "NAME": "László Feischmidt",
+            "TITLE": "WSF Level 1 Squash Coach",
+            "DESCRIPTION": "...todo..."
         },
         "VALI":{
-            "NAME": "",
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "NAME": "Valentin Chindriș",
+            "TITLE": "WSF Level 1 Squash Coach",
+            "DESCRIPTION": "Hi, I was 17 when I first played squash and right away I found the passion for it. I always enjoyed teaching others how to play, so in just 4 years I managed to get the Level 1 WSF Certificate in coaching.The coaching model that I use is adapted to help each student reach its goals. Some train to get better in rankings while others do it for phisical exercise, stress relief etc but my goal is to make sure that after session, the studend leaves with the feeling of satisfaction and acomplishment."
         },
         "BARBU":{
-            "NAME": "",
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "NAME": "Barbu Câmpean",
+            "TITLE": "WSF Level 1 Squash Coach",
+            "DESCRIPTION": "I entered for the first time on a squash court in Bucharest, in 2005. When were opened in Cluj-Napoca, I started to play weekly. Participation for the first edition of Cluj Cup, lit the fire. Since then, I have been going 3-4 times a week. Camps with coaches and consecrated players followed, trainings, tournament participations at the national championship competition. Now I play, I provide start in squash and I train for all ages."
         },
         "LAJOS":{
-            "NAME": "",
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "NAME": "Lajos Almási",
+            "TITLE": "WSF Level 1 Squash Coach",
+            "DESCRIPTION": "Squash player sice 2013, multiple participations at regional and national competitions. Level 1 licensed coach at WSF / Romanian Squash Federation since 2016, with activity at the AquAngar squash court in Cehu Silvaniei."
         }
     },
-    "FEATURES":{
-        "TITLE": "",
-        "DESCRIPTION": "",
+    "FUTURE":{
+        "TITLE": "Future projects for our community",
+        "DESCRIPTION": "We are continuosely focusing on making players and coaches easy. Any sugestion in this direction is welcomed. Share your ideas with us to make a more friendly environment. Here are some topics on which we are already working:",
         "RANKINGS": {
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "TITLE": "Local Rankings",
+            "DESCRIPTION": "See up to date rankings for all competitions, all levels - beginners, advanced."
         },
         "EVENTCALENDAR":{
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "TITLE": "Event Calendar",
+            "DESCRIPTION": "See upcoming events and plan your next "
         },
         "NEWS":{
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "TITLE": "News",
+            "DESCRIPTION": "All the updates you need to know about Squash in your town."
         },
         "PROFILES":{
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "TITLE": "Player Profiles",
+            "DESCRIPTION": "Make your own player profile, challange others, see your achievments, plan your future"
         },
         "EVENTREGISTRATION":{
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "TITLE": "Event Registrations",
+            "DESCRIPTION": "Easily register and unregister from local events. "
         },
         "COACHING":{
-            "TITLE": "",
-            "DESCRIPTION": ""
+            "TITLE": "Coaching",
+            "DESCRIPTION": "Go to the next level. Get your periodic tipps from local coaches, stay in tuch with them."
         }
     }
 }

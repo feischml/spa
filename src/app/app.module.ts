@@ -68,9 +68,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     routing
   ],
   exports: [
+    TranslateModule,
     FormsModule,
     BrowserModule,
-    TranslateModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
   ],

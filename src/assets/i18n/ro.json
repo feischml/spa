@@ -37,5 +37,77 @@
         },
         "HOMEPAGE": "Pagina: ",
         "RESERVATIONS": "Rezervari: "
+    },
+    "COACHES":{
+        "TITLE": "Antrenori",
+        "DESCRIPTION": "...todo...",
+        "MIKI":{
+            "NAME": "Micky PushSquash",
+            "TITLE": "Antrenor acreditat WSF Level 1",
+            "DESCRIPTION": "...todo..."
+        },
+        "SIMI":{
+            "NAME": "Simion Lupșan",
+            "TITLE": "Antrenor acreditat WSF Level 1",
+            "DESCRIPTION": "...todo..."
+        },
+        "MANU":{
+            "NAME": "Emanuel Mărcuș",
+            "TITLE": "Antrenor acreditat WSF Level 1",
+            "DESCRIPTION": "...todo..."
+        },
+        "CALIN":{
+            "NAME": "Călin Codarcea",
+            "TITLE": "Antrenor acreditat WSF Level 1",
+            "DESCRIPTION": "Avand o experienta de 5 ani in squash, Calin antreneaza juniori si adulti de toate nivelurile. Pe langa a fi co-organizator al celui mai important turneu din tara, Romanian Open Squash si promoter al PSA Romanian Open, este si un jucator activ in competitiile din cadrul campionatului national. A participat la camp-uri de specialitate destinate jucatorilor si antrenoriilor in Belgia, Polonia si Ungaria."
+        },
+        "LACI":{
+            "NAME": "László Feischmidt",
+            "TITLE": "Antrenor acreditat WSF Level 1",
+            "DESCRIPTION": "...todo..."
+        },
+        "VALI":{
+            "NAME": "Valentin Chindriș",
+            "TITLE": "Antrenor acreditat WSF Level 1",
+            "DESCRIPTION": "Salut am inceput sa-mi devozvolt pasiunea pentru swuash la varsta de 17 ani , urmand ca la 21 de ani sa obtin diploma wsf level 1 coach.Modul de antrenament pe care il aplic se adapteaza cu dorintele fiecarui jucator pentru a se face progrese cu fiecare ora si pentru a ne simtii cat mai bine pe durata antrenamentului."
+        },
+        "BARBU":{
+            "NAME": "Barbu Câmpean",
+            "TITLE": "Antrenor acreditat WSF Level 1",
+            "DESCRIPTION": "Am intrat prima oară pe un teren de squash în 2005, la Bucureşti. Când s-au deschis în Cluj-Napoca, am început să joc săptămânal. Participarea la prima ediţie a Cupei Clujului, a aprins scânteia. De atunci, merg de 3-4 ori pe săptămână, au urmat camp-uri cu antrenori şi jucători consacraţi, antrenamente, participări la turnee din cadrul campionatului naţional. Acum joc, iniţiez şi antrenez squash pentru toate categoriile de vârstă."
+        },
+        "LAJOS":{
+            "NAME": "Lajos Almási",
+            "TITLE": "Antrenor acreditat WSF Level 1",
+            "DESCRIPTION": "Jucător de squash din anul 2013, multiple participări la competiții regionale și naționale. Antrenor licențiat al WSF Level 1/Federația Română de Squash din 2016, cu activitate  la terenul de squash   AquAngar din Cehu Silvaniei."
+        }
+    },
+    "FUTURE":{
+        "TITLE": "Proiecte viitoare pentru comunitate",
+        "DESCRIPTION": "...todo...",
+        "RANKINGS": {
+            "TITLE": "Clasamente locale",
+            "DESCRIPTION": "...todo..."
+        },
+        "EVENTCALENDAR":{
+            "TITLE": "Calendar evenimente",
+            "DESCRIPTION": "...todo..."
+        },
+        "NEWS":{
+            "TITLE": "Stiri",
+            "DESCRIPTION": "...todo..."
+        },
+        "PROFILES":{
+            "TITLE": "Profil jucatori",
+            "DESCRIPTION": "...todo..."
+        },
+        "EVENTREGISTRATION":{
+            "TITLE": "Registrare evenimente",
+            "DESCRIPTION": "...todo..."
+        },
+        "COACHING":{
+            "TITLE": "Antrenori",
+            "DESCRIPTION": "...todo..."
+        }
     }
 }
