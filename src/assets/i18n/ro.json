@@ -18,5 +18,24 @@
         "SEBASTIAN": "SEBASTIAN Baciu",
         "SEBITITLE": "Presedinte Asociatia PRO SQUASH Romania",
         "SEBIQUOTE": "... text ..."
+    },
+    "CLUBS":{
+        "BURN": "Arde calorii!",
+        "BURNTEXT1": "O varietate de terenuri profesionale cat si realizate la comanda, te asteapta pe tine si amicii tai. Vei transpira din plin, iar buna dispozitie cat si un somn bun dupa iti sunt garantate.",
+        "BURNTEXT2": "Pe langa competitie si antrenamente, un aspect important pentru fiecare club e latura sociala. Astfel ca, folosind un format saptamanal sau la fiecare doua saptamani, se organizeaza meciuri de tip liga sau challenger, unde cel mai important e sa te cunosti cu ceilalti jucatori de squash. Vino la sala, alatura-te cu oamenii pasionati si cu siguranta vei avea ce discuta despre subiectul cel mai important: Squash!",
+        "SCCJ":{
+            "TITLE": "Squash Club Cluj-Napoca",
+            "DESCRIPTION": "Cel mai vechi club din Cluj, fondat in 2011, detine 4 terenuri de squash profesioniste, realizate la standarde WSF. Lunar se organizeaza turnee locale pentru jucatori incepatori cat si avansati. De-asemenea clubul gazduieste numeroase si importante competitii din calendarul national al FRS."
+        },
+        "ST":{
+            "TITLE": "SquashTech",
+            "DESCRIPTION": "Locul inca miroase a nou, fiind cel mai recent deschis, in luna Mai 2017. Aici te asteapta 2 terenuri profesioniste, realizate la standarde WSF. Competitiile locale sunt organizate saptamanal, iar sezonul 2017/2018 din cadrul FRS s-a deschis aici printr-un turneu national."
+        },
+        "SIT":{
+            "TITLE": "Squash IT",
+            "DESCRIPTION": "Clubul si-a deschis usile pentru public in 2015, fiind gazda a mai multor meciuri din cadrul Romanian Open Squash 2015. Aici gasesti 3 terenuri facute la comanda, cat si echipament, rachete si multa apa, toate din partea clubului."
+        },
+        "HOMEPAGE": "Pagina: ",
+        "RESERVATIONS": "Rezervari: "
     }
 }

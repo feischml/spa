@@ -18,5 +18,96 @@
         "SEBASTIAN": "SEBASTIAN Baciu",
         "SEBITITLE": "President PRO SQUASH Romania Association",
         "SEBIQUOTE": "If you want to win hearts and minds, you have to lead with your heart as well as your mind."
+    },
+    "CLUBS":{
+        "BURN": "Burn those calories!",
+        "BURNTEXT1": "A variety of professional and custom made courts awaits you and your friends. Heavy sweating, good mood and good night sleep afterwards is guaranteed.",
+        "BURNTEXT2": "So beyond competition and practice, an important aspect for each of the clubs is the social part. That is why in a weekly or bi-weekly format there are league or challenger matches setup, where the get-together part is the most important one. Drop by, mingle with the great and passionate people, where the main topic is Squash! All clubs offer a large variety of professional equipment and accessories, as well as the well-deserved cold water after the game.",
+        "SCCJ":{
+            "TITLE": "Squash Club Cluj-Napoca",
+            "DESCRIPTION": "The oldest club in Cluj, was founded in 2011 and has 4 professional courts, all WSF approved. Monthly, local tournaments are organized for beginner and advanced players. The club will be also home for several national competitions."
+        },
+        "ST":{
+            "TITLE": "SquashTech",
+            "DESCRIPTION": "You can still smell the fresh parquet. The club opened in May 2017. Two professional courts are waiting you, all WSF approved. Weekly local competitions are organized and the opening tournament of the 2017/2018 Romanian National season."
+        },
+        "SIT":{
+            "TITLE": "Squash IT",
+            "DESCRIPTION": "The club opened its doors in 2015 and hosted several matches of the Romanian Open Squash that year. Three custom made courts are available for the clients. As usual, water and rackets are provided for free."
+        },
+        "HOMEPAGE": "Homepage: ",
+        "RESERVATIONS": "Reservations: "
+    },
+    "COACHES":{
+        "TITLE": "",
+        "DESCRIPTION": "",
+        "MIKI":{
+            "NAME": "",
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "SIMI":{
+            "NAME": "",
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "MANU":{
+            "NAME": "",
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "CALIN":{
+            "NAME": "",
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "LACI":{
+            "NAME": "",
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "VALI":{
+            "NAME": "",
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "BARBU":{
+            "NAME": "",
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "LAJOS":{
+            "NAME": "",
+            "TITLE": "",
+            "DESCRIPTION": ""
+        }
+    },
+    "FEATURES":{
+        "TITLE": "",
+        "DESCRIPTION": "",
+        "RANKINGS": {
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "EVENTCALENDAR":{
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "NEWS":{
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "PROFILES":{
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "EVENTREGISTRATION":{
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "COACHING":{
+            "TITLE": "",
+            "DESCRIPTION": ""
+        }
     }
 }
