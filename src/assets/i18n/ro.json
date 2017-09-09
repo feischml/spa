@@ -13,34 +13,34 @@
         "SQUASH": "SQUASH"
     },
     "SQUASHINCJ":{
-        "DESCRIPTION1": "Observam cu bucurie deschiderea comunitatii de care incepe sa beneficieze squash-ul in Cluj Napoca, In Romania, amploarea de care se bucura in restul Europei si caracterul social care insoteste acest sport. In acest moment vreau sa remarc cu bucurie, ca squashul este pe un trend ascendent, ca tot mai multi tineri se indreapta inspre el pentru a-l practica de placere sau la nivel profesionist.",
-        "DESCRIPTION2": "Ca alaturi de barbati tot mai multe femei vin sa-l practice avand in vedere ca se pot arde pana la 1200 calorii/ora, ca exista componenta sociala, ca este o ora de relaxare benefica tonifierii corpului...",
+        "DESCRIPTION1": "Observăm cu bucurie deschiderea comunității de care începe să beneficieze squash-ul în Cluj-Napoca, în România, amploarea de care se bucură în restul Europei și caracterul social care însoțește acest sport. În acest moment vreau să remarc cu bucurie, că squashul este pe un trend ascendent, tot mai mulți tineri se îndreaptă înspre el pentru a-l practica de plăcere sau la nivel profesionist.",
+        "DESCRIPTION2": "Alături de bărbaţi, tot mai multe femei vin să-l practice având în vedere că se pot arde pană la 1200 calorii/oră, că există componenţa socială, că este o oră de relaxare benefică tonifierii corpului, un sport uşor de învăţat. La Cluj comunitatea este în continuă creştere, fiind organizate regular competiţii locale la diferite cluburi pentru mai multe niveluri de joc.",
         "SEBASTIAN": "SEBASTIAN Baciu",
-        "SEBITITLE": "Presedinte Asociatia PRO SQUASH Romania",
-        "SEBIQUOTE": "... text ..."
+        "SEBITITLE": "Preşedinte Asociaţia PRO SQUASH România",
+        "SEBIQUOTE": "Romanian Open Squash este cea mai importantă competiţie a squas-ului românesc. În fiecare an, am încercat să aducem ceva nou. In 2017 face parte din calendarul competitional PSA World Tour."
     },
     "CLUBS":{
-        "BURN": "Arde calorii!",
-        "BURNTEXT1": "O varietate de terenuri profesionale cat si realizate la comanda, te asteapta pe tine si amicii tai. Vei transpira din plin, iar buna dispozitie cat si un somn bun dupa iti sunt garantate.",
-        "BURNTEXT2": "Pe langa competitie si antrenamente, un aspect important pentru fiecare club e latura sociala. Astfel ca, folosind un format saptamanal sau la fiecare doua saptamani, se organizeaza meciuri de tip liga sau challenger, unde cel mai important e sa te cunosti cu ceilalti jucatori de squash. Vino la sala, alatura-te cu oamenii pasionati si cu siguranta vei avea ce discuta despre subiectul cel mai important: Squash!",
+        "BURN": "Arde calorii",
+        "BURNTEXT1": "O varietate de terenuri profesionale cât şi realizate la comandă, te aşteaptă pe tine şi amicii tăi. Vei transpira din plin, iar bună dispoziţia cât şi un somn bun după, îţi sunt garantate. Pe lângă competiţie şi antrenamente, un aspect important pentru fiecare club este latura socială.",
+        "BURNTEXT2": "Astfel că, folosind un format săptămânal sau la fiecare două săptămâni, se organizează meciuri de tip ligă sau challenger, unde cel mai important este să te cunoşti cu ceilalţi jucători de squash. Vino la sală, alătura-te  oamenilor pasionaţi şi cu siguranţă vei avea ce discuta despre subiectul cel mai important, squash.",
         "SCCJ":{
             "TITLE": "Squash Club Cluj-Napoca",
-            "DESCRIPTION": "Cel mai vechi club din Cluj, fondat in 2011, detine 4 terenuri de squash profesioniste, realizate la standarde WSF. Lunar se organizeaza turnee locale pentru jucatori incepatori cat si avansati. De-asemenea clubul gazduieste numeroase si importante competitii din calendarul national al FRS."
+            "DESCRIPTION": "Cel mai vechi club din Cluj, fondat în 2011, deţine 4 terenuri de squash profesioniste, realizate la standarde WSF. Lunar se organizează turnee locale pentru jucători începători cât şi avansaţi. De-asemenea clubul găzduieşte numeroase şi importante competiţii din calendarul naţional al FRS."
         },
         "ST":{
             "TITLE": "SquashTech",
-            "DESCRIPTION": "Locul inca miroase a nou, fiind cel mai recent deschis, in luna Mai 2017. Aici te asteapta 2 terenuri profesioniste, realizate la standarde WSF. Competitiile locale sunt organizate saptamanal, iar sezonul 2017/2018 din cadrul FRS s-a deschis aici printr-un turneu national."
+            "DESCRIPTION": "Locul încă miroase a nou, fiind cel mai recent deschis, în luna Mai 2017. Aici te aşteaptă 2 terenuri profesioniste, realizate la standarde WSF. Competiţiile locale sunt organizate săptămânal, iar sezonul 2017/2018 din cadrul FRS s-a deschis aici printr-un turneu naţional."
         },
         "SIT":{
             "TITLE": "Squash IT",
-            "DESCRIPTION": "Clubul si-a deschis usile pentru public in 2015, fiind gazda a mai multor meciuri din cadrul Romanian Open Squash 2015. Aici gasesti 3 terenuri facute la comanda, cat si echipament, rachete si multa apa, toate din partea clubului."
+            "DESCRIPTION": "Clubul şi-a deschis uşile pentru public în 2015, fiind gazdă a mai multor meciuri din cadrul Romanian Open Squash 2015. Aici găseşti 3 terenuri făcute la comandă, cât şi echipament, rachete şi multă apă, toate din partea clubului. Antrenamentul, mişcarea bună sunt garantate."
         },
-        "HOMEPAGE": "Pagina: ",
-        "RESERVATIONS": "Rezervari: "
+        "HOMEPAGE": "Pagină: ",
+        "RESERVATIONS": "Rezervări: "
     },
     "COACHES":{
         "TITLE": "Antrenori",
-        "DESCRIPTION": "...todo...",
+        "DESCRIPTION": "Fă cunoştinţă cu antrenorii care te pot îndruma de la primele sesiuni pe terenul de squash, ca să te poţi bucura de frumuseţea acestui sport chiar de la început.",
         "MIKI":{
             "NAME": "Micky PushSquash",
             "TITLE": "Antrenor acreditat WSF Level 1",
@@ -84,30 +84,30 @@
     },
     "FUTURE":{
         "TITLE": "Proiecte viitoare pentru comunitate",
-        "DESCRIPTION": "...todo...",
+        "DESCRIPTION": "Încercam permanent să facem activitatea jucătorilor şi antrenorilor cât mai uşoară. Orice sugestie în această direcţie este bine venită. Împărtăşeşte-ţi ideile ca să construim un mediu prietenos. Câteva proiecte la care deja am început să lucrăm:",
         "RANKINGS": {
             "TITLE": "Clasamente locale",
-            "DESCRIPTION": "...todo..."
+            "DESCRIPTION": "Vezi toate clasamentele în timp real - competiţii de începători şi avansaţi."
         },
         "EVENTCALENDAR":{
             "TITLE": "Calendar evenimente",
-            "DESCRIPTION": "...todo..."
+            "DESCRIPTION": "Verifică următoarele evenimente şi planifică din timp obiectivele propuse."
         },
         "NEWS":{
-            "TITLE": "Stiri",
-            "DESCRIPTION": "...todo..."
+            "TITLE": "Ştiri",
+            "DESCRIPTION": "Fii la curent cu toate noutăţile legate de squash-ul din oraşul tău."
         },
         "PROFILES":{
-            "TITLE": "Profil jucatori",
-            "DESCRIPTION": "...todo..."
+            "TITLE": "Profile jucători",
+            "DESCRIPTION": "Crează-ţi profilul personal, provoacă alţi jucători, verifică-ţi realizările."
         },
         "EVENTREGISTRATION":{
-            "TITLE": "Registrare evenimente",
-            "DESCRIPTION": "...todo..."
+            "TITLE": "Înregistrare evenimente",
+            "DESCRIPTION": "Înregistrează-te uşor la evenimente locale. Inviţă-ţi prietenii, verifică adversarii."
         },
         "COACHING":{
             "TITLE": "Antrenori",
-            "DESCRIPTION": "...todo..."
+            "DESCRIPTION": "Păşeşte la următorul nivel. Citeşte sfaturile antrenorilor, rămâi cu ei în contact."
         }
     }
 }
