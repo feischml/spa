@@ -130,5 +130,10 @@
             "TITLE": "PRO SQUASH Romania player",
             "QUOTE": ""
         }
+    },
+    "MESSAGES":{
+        "ROBOT": "Are you sure you are not a robot?",
+        "SENT": "Message sent!",
+        "ERROR": "Some error occured, please retry."
     }
 }

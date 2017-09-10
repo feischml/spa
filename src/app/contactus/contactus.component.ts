@@ -4,6 +4,7 @@ import { Http } from "@angular/http";
 import { RecaptchaComponent } from "ng-recaptcha";
 import { TranslateService } from "@ngx-translate/core";
 import { constants } from '../app.constants';
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'app-contactus',
@@ -14,16 +15,15 @@ export class ContactusComponent implements OnInit {
 
   contactForm: FormGroup;
   private reCaptchaResponse: string = '';
-  private serverresponse: string;
   private spinning: boolean;
   private siteKey: string;
+  private observ: Observable<string>;
 
   @ViewChild('captchaRef') reCaptcha: RecaptchaComponent;
 
-  constructor(formBuilder: FormBuilder,
-    private http: Http,
-    viewRef: ViewContainerRef,
-    public translate: TranslateService) {
+  constructor(private formBuilder: FormBuilder,
+              private http: Http,
+              private translate: TranslateService) {
     this.contactForm = formBuilder.group({
       name: ['', Validators.required],
       email: ['', Validators.compose([Validators.required, Validators.email])],
@@ -40,15 +40,12 @@ export class ContactusComponent implements OnInit {
 
   private submit(form: FormGroup) {
 
-    //Site key for testing: 6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
-    //Secret key for testing: 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
-
     let message = form.controls.message.value;
     let name = form.controls.name.value;
     let email = form.controls.email.value;
 
     if (this.reCaptchaResponse == '') {
-      this.serverresponse = 'Are you a robot?';
+      this.observ = this.translate.get("MESSAGES.ROBOT");
       return;
     }
 
@@ -69,18 +66,19 @@ export class ContactusComponent implements OnInit {
       .subscribe(
       res => {
         let response = res.json();
-        if (response.validation == false)
-          this.serverresponse = "Are you sure you are not a robot?";
+        if (response.validation == false){
+          this.observ = this.translate.get("MESSAGES.ROBOT");
+        }
         else
           if (response.validation == true && response.email == true)
-            this.serverresponse = "Message sent!";
+            this.observ = this.translate.get("MESSAGES.SENT");
           else
             if (response.validation == true && response.email == false)
-              this.serverresponse = "Some error occured, please retry.";
+              this.observ = this.translate.get("MESSAGES.ERROR");
         this.stopSpinner();
       },
       err => {
-        this.serverresponse = "Some error occured, please retry.";
+        this.observ = this.translate.get("MESSAGES.ERROR");
         this.stopSpinner();
       }
       );

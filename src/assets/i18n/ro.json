@@ -130,5 +130,10 @@
             "TITLE": "jucător PRO SQUASH România",
             "QUOTE": ""
         }
+    },
+    "MESSAGES":{
+        "ROBOT": "Sigur nu eşti robot?",
+        "SENT": "Mesajul a fost trimis.",
+        "ERROR": "Ceva s-a întâmplat. Încearca din nou."
     }
 }
