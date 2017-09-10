@@ -44,7 +44,7 @@
         "MIKI":{
             "NAME": "Micky PushSquash",
             "TITLE": "Antrenor acreditat WSF Level 1",
-            "DESCRIPTION": "...todo..."
+            "DESCRIPTION": "Şi-a început cariera de jucător la Oradea unde în acea vreme se afla unul dintre puţinele terenuri de squash din ţară. Cel mai bun clasat jucător la nivel naţional al clubului, Micky este şi antrenorul principal din Cluj-Napoca. Îşi dedică 100% din timp pentru squash, învaţă şi antrenează copii şi adulţi, începători şi avansaţi."
         },
         "SIMI":{
             "NAME": "Simion Lupșan",
@@ -59,27 +59,27 @@
         "CALIN":{
             "NAME": "Călin Codarcea",
             "TITLE": "Antrenor acreditat WSF Level 1",
-            "DESCRIPTION": "Avand o experienta de 5 ani in squash, Calin antreneaza juniori si adulti de toate nivelurile. Pe langa a fi co-organizator al celui mai important turneu din tara, Romanian Open Squash si promoter al PSA Romanian Open, este si un jucator activ in competitiile din cadrul campionatului national. A participat la camp-uri de specialitate destinate jucatorilor si antrenoriilor in Belgia, Polonia si Ungaria."
+            "DESCRIPTION": "Având o experienţă de 5 ani în squash, Călin antrenează juniori şi adulţi de toate nivelurile. Pe lângă a fi co-organizator al celui mai important turneu din ţară, Romanian Open Squash şi promoter al PSA Romanian Open, este şi un jucător activ în competiţiile din cadrul campionatului naţional. A participat la câmp-uri de specialitate destinate jucătorilor şi antrenorilor în Belgia, Polonia şi Ungaria."
         },
         "LACI":{
             "NAME": "László Feischmidt",
             "TITLE": "Antrenor acreditat WSF Level 1",
-            "DESCRIPTION": "...todo..."
+            "DESCRIPTION": "Pasiunea lui pentru acest sport a început în anul 2014. Jucător activ de atunci, a reuşit să între în top 15 al celor mai bine clasaţi jucători la nivel naţional. Antrenează copii şi adulţi, începători şi avansaţi, încercând să facă ca acest sport să fie uşor practicat, chiar dacă în realitate este unul dintre cele mai  solicitante."
         },
         "VALI":{
             "NAME": "Valentin Chindriș",
             "TITLE": "Antrenor acreditat WSF Level 1",
-            "DESCRIPTION": "Salut am inceput sa-mi devozvolt pasiunea pentru swuash la varsta de 17 ani , urmand ca la 21 de ani sa obtin diploma wsf level 1 coach.Modul de antrenament pe care il aplic se adapteaza cu dorintele fiecarui jucator pentru a se face progrese cu fiecare ora si pentru a ne simtii cat mai bine pe durata antrenamentului."
+            "DESCRIPTION": "A început să-si devozvolte pasiunea pentru squash la vârstă de 17 ani, urmând ca la 21 să obţină diploma WSF Level 1 coach. Modul de antrenament pe care îl aplică se adaptează cu dorinţele fiecărui jucător pentru a se face progrese cu fiecare oră şi pentru a se simţii cât mai bine pe durata antrenamentului."
         },
         "BARBU":{
             "NAME": "Barbu Câmpean",
             "TITLE": "Antrenor acreditat WSF Level 1",
-            "DESCRIPTION": "Am intrat prima oară pe un teren de squash în 2005, la Bucureşti. Când s-au deschis în Cluj-Napoca, am început să joc săptămânal. Participarea la prima ediţie a Cupei Clujului, a aprins scânteia. De atunci, merg de 3-4 ori pe săptămână, au urmat camp-uri cu antrenori şi jucători consacraţi, antrenamente, participări la turnee din cadrul campionatului naţional. Acum joc, iniţiez şi antrenez squash pentru toate categoriile de vârstă."
+            "DESCRIPTION": "A intrat prima oară pe un teren de squash în 2005, la Bucureşti. Participarea la prima ediţie a Cupei Clujului, a aprins scânteia. De atunci, practică de 3-4 ori pe săptămană, a urmat câmp-uri cu antrenori şi jucători consacraţi, se antrenează, participă la turnee din cadrul campionatului naţional. Antrenează toate categoriile de varstă."
         },
         "LAJOS":{
             "NAME": "Lajos Almási",
             "TITLE": "Antrenor acreditat WSF Level 1",
-            "DESCRIPTION": "Jucător de squash din anul 2013, multiple participări la competiții regionale și naționale. Antrenor licențiat al WSF Level 1/Federația Română de Squash din 2016, cu activitate  la terenul de squash   AquAngar din Cehu Silvaniei."
+            "DESCRIPTION": "Jucător de squash din anul 2013 cu multiple participări la competiții regionale și naționale. Antrenor licențiat WSF Level 1/Federația Română de Squash din 2016 cu activitate la terenul de squash AquAngar din Cehu Silvaniei."
         }
     },
     "FUTURE":{
@@ -109,5 +109,9 @@
             "TITLE": "Antrenori",
             "DESCRIPTION": "Păşeşte la următorul nivel. Citeşte sfaturile antrenorilor, rămâi cu ei în contact."
         }
+    },
+    "FOOTER":{
+        "TITLE": "PRO SQUASH România",
+        "PROSQUASH": "Misiunea Asociaţiei PRO SQUASH România, din 2012 începând şi care continuă şi acum, este să ajute la construirea comunităţii de squash din România la nivel european. Viziunea asociaţiei este de a rămâne promotorul celui mai mare turneu open de squash din România, Romanian Open Squash, prin intermediul numărului şi nivelului calitativ al jucătorilor, al fondului de premii şi prin intermediul conceptului şi premierelor pe care fiecare noile ediţii le aduc."
     }
 }

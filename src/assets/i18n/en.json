@@ -44,7 +44,7 @@
         "MIKI":{
             "NAME": "Micky PushSquash",
             "TITLE": "WSF Level 1 Squash Coach",
-            "DESCRIPTION": "He started playing squash in Oradea where in that time, was one of the few courst in the country. Best national ranked player of the club and also the head coach in Cluj-Napoca. Micky is working full time with children and adults, beginners and advanced players, dedicating 100% of his time learning and teaching this sport."
+            "DESCRIPTION": "He started playing squash in Oradea where in that time, was one of the few courts in the country. Best national ranked player of the club and also the head coach in Cluj-Napoca. Micky is working full time with children and adults, beginners and advanced players, dedicating 100% of his time learning and teaching this sport."
         },
         "SIMI":{
             "NAME": "Simion Lupșan",
@@ -69,17 +69,17 @@
         "VALI":{
             "NAME": "Valentin Chindriș",
             "TITLE": "WSF Level 1 Squash Coach",
-            "DESCRIPTION": "17 when he first played squash and right away he found the passion for it. He always enjoyed teaching others how to play and also managed to get the Level 1 WSF Coaching Certificate. His coaching model is adapted to each student in order to help them reach their goals."
+            "DESCRIPTION": "17 when he first played squash and right away he found the passion for it. He always enjoyed teaching others to play and also managed to get the Level 1 WSF coaching certificate. His coaching model is adapted to each student in order to help them reach their goals."
         },
         "BARBU":{
             "NAME": "Barbu Câmpean",
             "TITLE": "WSF Level 1 Squash Coach",
-            "DESCRIPTION": "He entered for the first time on a squash court in Bucharest, in 2005. Participation for the first edition of Cluj Cup, lit the fire. Camps with coaches and consecrated players followed, trainings, tournament participations at national competition. Currently he plays, and trains all ages and categories."
+            "DESCRIPTION": "He entered for the first time on a squash court in Bucharest, in 2005. Participation for the first edition of Cluj Cup, lit the fire. Camps with coaches and consecrated players followed, trainings, tournament participations at national level. Currently he plays and trains all ages and categories."
         },
         "LAJOS":{
             "NAME": "Lajos Almási",
             "TITLE": "WSF Level 1 Squash Coach",
-            "DESCRIPTION": "Squash player sice 2013, multiple participant at regional and national competitions. Level 1 certified WSF coach since 2016, with activity at the AquAngar squash court in Cehu Silvaniei."
+            "DESCRIPTION": "Squash player since 2013, multiple participant at regional and national competitions. Level 1 certified WSF coach since 2016, with activity at the AquAngar squash court in Cehu Silvaniei."
         }
     },
     "FUTURE":{
@@ -109,5 +109,9 @@
             "TITLE": "Coaching",
             "DESCRIPTION": "Go to the next level. Get your periodic tips from coaches, stay in touch."
         }
+    },
+    "FOOTER":{
+        "TITLE": "PRO SQUASH Romania",
+        "PROSQUASH": "In 2012 we started our mission to build a squash community in Cluj-Napoca and Romania and to make this visible on the continent. Our vision is to remain the pomoter of the biggest squash open tournament from Romania, Romanian Open Squash, by bringing year after year the best players from all around the world."
     }
 }
