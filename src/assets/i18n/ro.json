@@ -113,5 +113,22 @@
     "FOOTER":{
         "TITLE": "PRO SQUASH România",
         "PROSQUASH": "Misiunea Asociaţiei PRO SQUASH România, din 2012 începând şi care continuă şi acum, este să ajute la construirea comunităţii de squash din România la nivel european. Viziunea asociaţiei este de a rămâne promotorul celui mai mare turneu open de squash din România, Romanian Open Squash, prin intermediul numărului şi nivelului calitativ al jucătorilor, al fondului de premii şi prin intermediul conceptului şi premierelor pe care fiecare noile ediţii le aduc."
+    },
+    "CONTACT":{
+        "GETINTOUCH": "Contactează-ne",
+        "NAME": "Nume",
+        "EMAIL": "Email",
+        "MESSAGE": "Mesaj",
+        "SEND": "Trimite",
+        "MIRCEA": {
+            "NAME": "Mircea Babă",
+            "TITLE": "jucător PRO SQUASH România",
+            "QUOTE": "Hello"
+        },
+        "PAUL": {
+            "NAME": "Paul Miheț",
+            "TITLE": "jucător PRO SQUASH România",
+            "QUOTE": "Hello"
+        }
     }
 }

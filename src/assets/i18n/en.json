@@ -112,6 +112,23 @@
     },
     "FOOTER":{
         "TITLE": "PRO SQUASH Romania",
-        "PROSQUASH": "In 2012 we started our mission to build a squash community in Cluj-Napoca and Romania and to make this visible on the continent. Our vision is to remain the pomoter of the biggest squash open tournament from Romania, Romanian Open Squash, by bringing year after year the best players from all around the world."
+        "PROSQUASH": "In 2012 we started our mission to build a squash community in Cluj-Napoca and Romania and to make this visible on the continent. Our vision is to remain the pomoter of the biggest squash open tournament from Romania, Romanian Open Squash, by bringing, year after year, the best players from all around the world."
+    },
+    "CONTACT":{
+        "GETINTOUCH": "Get in touch with us",
+        "NAME": "Name",
+        "EMAIL": "Email",
+        "MESSAGE": "Message",
+        "SEND": "Send",
+        "MIRCEA": {
+            "NAME": "Mircea Babă",
+            "TITLE": "PRO SQUASH Romania player",
+            "QUOTE": "Hello"
+        },
+        "PAUL": {
+            "NAME": "Paul Miheț",
+            "TITLE": "PRO SQUASH Romania player",
+            "QUOTE": "Hello"
+        }
     }
 }
