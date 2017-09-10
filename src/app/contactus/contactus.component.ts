@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from "@angular/forms";
-import { Http } from "@angular/http";
+import { Http, Headers } from "@angular/http";
 import { RecaptchaComponent } from "ng-recaptcha";
 import { TranslateService } from "@ngx-translate/core";
 import { constants } from '../app.constants';
