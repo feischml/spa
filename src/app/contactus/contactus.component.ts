@@ -13,11 +13,11 @@ import { Observable } from 'rxjs/Observable';
 })
 export class ContactusComponent implements OnInit {
 
-  contactForm: FormGroup;
+  public contactForm: FormGroup;
   private reCaptchaResponse: string = '';
-  private spinning: boolean;
-  private siteKey: string;
-  private observ: Observable<string>;
+  public spinning: boolean;
+  public siteKey: string;
+  public observ: Observable<string>;
 
   @ViewChild('captchaRef') reCaptcha: RecaptchaComponent;
 
