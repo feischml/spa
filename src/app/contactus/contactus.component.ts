@@ -3,6 +3,7 @@ import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 import { Http } from "@angular/http";
 import { RecaptchaComponent } from "ng-recaptcha";
 import { TranslateService } from "@ngx-translate/core";
+import { constants } from '../app.constants';
 
 @Component({
   selector: 'app-contactus',
@@ -15,6 +16,7 @@ export class ContactusComponent implements OnInit {
   private reCaptchaResponse: string = '';
   private serverresponse: string;
   private spinning: boolean;
+  private siteKey: string;
 
   @ViewChild('captchaRef') reCaptcha: RecaptchaComponent;
 
@@ -27,6 +29,7 @@ export class ContactusComponent implements OnInit {
       email: ['', Validators.compose([Validators.required, Validators.email])],
       message: ['', Validators.required]
     });
+    this.siteKey = constants.reCaptchaToken;
   }
 
   ngOnInit() { }
@@ -62,7 +65,7 @@ export class ContactusComponent implements OnInit {
 
   private callServer(message: string, email: string, name: string, reCaptcha: string) {
     this.startSpinner();
-    this.http.get("http://localhost:3100/validate_captcha", { params: { reCaptcha, message, email, name } })
+    this.http.get(constants.serverURL + "/validate_captcha", { params: { reCaptcha, message, email, name } })
       .subscribe(
       res => {
         let response = res.json();
