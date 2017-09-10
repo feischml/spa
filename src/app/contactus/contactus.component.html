@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="testimonials-clean">
-                    <div class="row people" style="padding: 20px;">
+                    <div class="row people" style="padding: 20px 20px 30px 20px;">
                         <div class="col-md-12 col-sm-12 item" style="padding:20px;margin:0px 0px 32px;">
                             <div class="box">
                                 <p class="description text-justify">"{{ 'CONTACT.MIRCEA.QUOTE' | translate }}"</p>
@@ -48,7 +48,7 @@
                             #message formControlName="message"
                             rows="14" name="message" placeholder="{{ 'CONTACT.MESSAGE' | translate }} "></textarea>
                         </div>
-                        <div class="form-group" style="transform:scale(0.70);-webkit-transform:scale(0.70);transform-origin:0 0;-webkit-transform-origin:0 0;">
+                        <div class="form-group" style="transform:scale(0.69);-webkit-transform:scale(0.69);transform-origin:0 0;-webkit-transform-origin:0 0;">
                             <re-captcha #captchaRef (resolved)="resolved($event)"
                              siteKey="{{ siteKey }}"
                              name="captcha"></re-captcha>

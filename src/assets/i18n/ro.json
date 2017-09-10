@@ -43,42 +43,42 @@
         "DESCRIPTION": "Fă cunoştinţă cu antrenorii care te pot îndruma de la primele sesiuni pe terenul de squash, ca să te poţi bucura de frumuseţea acestui sport chiar de la început.",
         "MIKI":{
             "NAME": "Micky PushSquash",
-            "TITLE": "Antrenor acreditat WSF Level 1",
+            "TITLE": "Antrenor WSF Level 1",
             "DESCRIPTION": "Şi-a început cariera de jucător la Oradea unde în acea vreme se afla unul dintre puţinele terenuri de squash din ţară. Cel mai bun clasat jucător la nivel naţional al clubului, Micky este şi antrenorul principal din Cluj-Napoca. Îşi dedică 100% din timp pentru squash, învaţă şi antrenează copii şi adulţi, începători şi avansaţi."
         },
         "SIMI":{
             "NAME": "Simion Lupșan",
-            "TITLE": "Antrenor acreditat WSF Level 1",
-            "DESCRIPTION": ""
+            "TITLE": "Antrenor WSF Level 1",
+            "DESCRIPTION": "Supranumit 'Maradona din Carpați', Hagi este considerat un erou în România. A fost numit fotbalistul român al anului de șapte ori, și este privit ca unul dintre cei mai buni fotbaliști ai generației sale.[3][4] Ca un constructor de joc avansat, a fost recunoscut pentru dribling, tehnică, viziune, pase și finalizare."
         },
         "MANU":{
             "NAME": "Emanuel Mărcuș",
-            "TITLE": "Antrenor acreditat WSF Level 1",
-            "DESCRIPTION": ""
+            "TITLE": "Antrenor WSF Level 1",
+            "DESCRIPTION": "În noiembrie 2003, pentru a celebra jubileul UEFA, a fost selectat de către Federația Română de Fotbal drept cel mai bun jucător al României din ultimii 50 de ani.[6] În 2004, a fost numit de Pelé drept unul dintre cei 125 cei mai mari fotbaliști în viață, la o ceremonie de premiere a FIFA.[7] Hagi este unul din puținii fotbaliști care au jucat pentru ambele cluburi rivale spaniole."
         },
         "CALIN":{
             "NAME": "Călin Codarcea",
-            "TITLE": "Antrenor acreditat WSF Level 1",
+            "TITLE": "Antrenor WSF Level 1",
             "DESCRIPTION": "Având o experienţă de 5 ani în squash, Călin antrenează juniori şi adulţi de toate nivelurile. Pe lângă a fi co-organizator al celui mai important turneu din ţară, Romanian Open Squash şi promoter al PSA Romanian Open, este şi un jucător activ în competiţiile din cadrul campionatului naţional. A participat la câmp-uri de specialitate destinate jucătorilor şi antrenorilor în Belgia, Polonia şi Ungaria."
         },
         "LACI":{
             "NAME": "László Feischmidt",
-            "TITLE": "Antrenor acreditat WSF Level 1",
+            "TITLE": "Antrenor WSF Level 1",
             "DESCRIPTION": "Pasiunea lui pentru acest sport a început în anul 2014. Jucător activ de atunci, a reuşit să între în top 15 al celor mai bine clasaţi jucători la nivel naţional. Antrenează copii şi adulţi, începători şi avansaţi, încercând să facă ca acest sport să fie uşor practicat, chiar dacă în realitate este unul dintre cele mai  solicitante."
         },
         "VALI":{
             "NAME": "Valentin Chindriș",
-            "TITLE": "Antrenor acreditat WSF Level 1",
+            "TITLE": "Antrenor WSF Level 1",
             "DESCRIPTION": "A început să-si devozvolte pasiunea pentru squash la vârstă de 17 ani, urmând ca la 21 să obţină diploma WSF Level 1 coach. Modul de antrenament pe care îl aplică se adaptează cu dorinţele fiecărui jucător pentru a se face progrese cu fiecare oră şi pentru a se simţii cât mai bine pe durata antrenamentului."
         },
         "BARBU":{
             "NAME": "Barbu Câmpean",
-            "TITLE": "Antrenor acreditat WSF Level 1",
+            "TITLE": "Antrenor WSF Level 1",
             "DESCRIPTION": "A intrat prima oară pe un teren de squash în 2005, la Bucureşti. Participarea la prima ediţie a Cupei Clujului, a aprins scânteia. De atunci, practică de 3-4 ori pe săptămană, a urmat câmp-uri cu antrenori şi jucători consacraţi, se antrenează, participă la turnee din cadrul campionatului naţional. Antrenează toate categoriile de varstă."
         },
         "LAJOS":{
             "NAME": "Lajos Almási",
-            "TITLE": "Antrenor acreditat WSF Level 1",
+            "TITLE": "Antrenor WSF Level 1",
             "DESCRIPTION": "Jucător de squash din anul 2013 cu multiple participări la competiții regionale și naționale. Antrenor licențiat WSF Level 1/Federația Română de Squash din 2016 cu activitate la terenul de squash AquAngar din Cehu Silvaniei."
         }
     },
@@ -91,7 +91,7 @@
         },
         "EVENTCALENDAR":{
             "TITLE": "Calendar evenimente",
-            "DESCRIPTION": "Verifică următoarele evenimente şi planifică din timp obiectivele propuse."
+            "DESCRIPTION": "Verifică următoarele evenimente şi planifică-ţi din timp obiectivele."
         },
         "NEWS":{
             "TITLE": "Ştiri",
@@ -123,12 +123,13 @@
         "MIRCEA": {
             "NAME": "Mircea Babă",
             "TITLE": "jucător PRO SQUASH România",
-            "QUOTE": ""
+            "QUOTE": "Crearea unei platforme digitale pentru comunitate este una dintre cele mai bine venite inițiative anul acesta. O să fie un proces lung, dar cu siguranță va merita efortul."
         },
         "PAUL": {
             "NAME": "Paul Miheț",
             "TITLE": "jucător PRO SQUASH România",
-            "QUOTE": ""
+            "QUOTE": "Pe teren ești singur, dar în afară lui suntem uniți și numai împreună putem pune în practică idei care să ne împingă în față, să creștem squash-ul Clujean."
+            
         }
     },
     "MESSAGES":{
