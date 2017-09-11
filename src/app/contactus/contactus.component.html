@@ -8,7 +8,7 @@
                             <div class="box">
                                 <p class="description text-justify">"{{ 'CONTACT.MIRCEA.QUOTE' | translate }}"</p>
                             </div>
-                            <div class="author"><img class="img-circle" style="border:1px solid rgba(40,35,50,0.6)" src="assets/img/baba_profile.jpg">
+                            <div class="author"><img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93)" src="assets/img/baba_profile.jpg">
                                 <h5 class="name">{{ 'CONTACT.MIRCEA.NAME' | translate }}</h5>
                                 <p class="title">{{ 'CONTACT.MIRCEA.TITLE' | translate }}</p>
                             </div>
@@ -19,7 +19,7 @@
                             <div class="box">
                                 <p class="description text-justify">"{{ 'CONTACT.PAUL.QUOTE' | translate }}"</p>
                             </div>
-                            <div class="author"><img class="img-circle" style="border:1px solid rgba(40,35,50,0.6)" src="assets/img/paul_profile.jpg">
+                            <div class="author"><img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93);" src="assets/img/paul_profile.jpg">
                                 <h5 class="name">{{ 'CONTACT.PAUL.NAME' | translate }}</h5>
                                 <p class="title">{{ 'CONTACT.PAUL.TITLE' | translate }}</p>
                             </div>
@@ -30,7 +30,7 @@
             <div class="col-md-6" style="padding:0px 0px 25px 0px;">
                 <div class="contact-clean" style="background-color:rgb(238,244,247); padding:20px;">
                     <form [formGroup]="contactForm">
-                        <h2 class="text-center">{{ 'CONTACT.GETINTOUCH' | translate }} </h2>
+                        <h2 class="text-center" style="color:rgba(30, 21, 54, 0.93)">{{ 'CONTACT.GETINTOUCH' | translate }} </h2>
                         <div class="form-group has-success has-error has-feedback">
                             <input #name formControlName="name" type="text" name="name" class="form-control" placeholder="{{ 'CONTACT.NAME' | translate }}" >
                             <i *ngIf="!contactForm.controls['name'].valid" class="form-control-feedback glyphicon glyphicon-remove" ></i>
