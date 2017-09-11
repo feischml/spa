@@ -1,0 +1,31 @@
+[debug] [2017-09-11T02:54:37.769Z] ----------------------------------------------------------------------
+[debug] [2017-09-11T02:54:37.771Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-09-11T02:54:37.772Z] CLI Version:   3.10.1
+[debug] [2017-09-11T02:54:37.772Z] Platform:      darwin
+[debug] [2017-09-11T02:54:37.772Z] Node Version:  v8.4.0
+[debug] [2017-09-11T02:54:37.772Z] Time:          Mon Sep 11 2017 05:54:37 GMT+0300 (EEST)
+[debug] [2017-09-11T02:54:37.772Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-11T02:54:37.782Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-11T02:54:37.782Z] > authorizing via signed-in user
+[debug] [2017-09-11T02:54:37.783Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-11T02:54:37.784Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/Jf6a-PH99eBABvFA3CCnZlFmc2rNR-RmBmp-EEEzC40',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Sep 11 2017 05:54:37 GMT+0300 (EEST)
+[debug] [2017-09-11T02:54:37.926Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-11T02:54:37.940Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pro-squash  
+ Mon Sep 11 2017 05:54:37 GMT+0300 (EEST)
+[debug] [2017-09-11T02:54:38.821Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-11T02:54:38.822Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pro-squash/tokens  
+ Mon Sep 11 2017 05:54:38 GMT+0300 (EEST)
+[debug] [2017-09-11T02:54:39.858Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pro-squash'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2017-09-11T02:54:41.738Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/pro-squash/uploads/-Ktir3P6KMjCdNRQo4cf?fileCount=42&message=  
+ Mon Sep 11 2017 05:54:41 GMT+0300 (EEST)
