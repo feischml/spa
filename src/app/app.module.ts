@@ -34,6 +34,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 import { RecaptchaModule } from 'ng-recaptcha';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CoachComponent } from './coach/coach.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ComingsoonComponent,
     FooterComponent,
     ContactusComponent,
-    ContentcontainerComponent
+    ContentcontainerComponent,
+    CoachComponent
   ],
   imports: [
     FormsModule,

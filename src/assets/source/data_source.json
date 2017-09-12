@@ -1,0 +1,79 @@
+{
+    "coaches":
+    [
+        {
+            "name": "COACHES.MIKI.NAME",
+            "photo": "assets/img/micky_profile.jpg",
+            "title": "COACHES.MIKI.TITLE",
+            "description": "COACHES.MIKI.DESCRIPTION",
+            "social": {
+                "facebook": "https://www.facebook.com/micky.puskas"
+            }
+        },
+        {
+            "name": "COACHES.SIMI.NAME",
+            "photo": "assets/img/simi_profile.jpg",
+            "title": "COACHES.SIMI.TITLE",
+            "description": "COACHES.SIMI.DESCRIPTION",
+            "social": {
+                "facebook": "https://www.facebook.com/profile.php?id=100008258236295"
+            }
+        },
+        {
+            "name": "COACHES.CALIN.NAME",
+            "photo": "assets/img/calin_profile.jpg",
+            "title": "COACHES.CALIN.TITLE",
+            "description": "COACHES.CALIN.DESCRIPTION",
+            "social": {
+                "facebook": "https://www.facebook.com/calin.codarcea",
+                "twitter": "https://twitter.com/calincodarcea",
+                "instagram": "https://www.instagram.com/calincodarcea/"
+            }
+        },
+        {
+            "name": "COACHES.BARBU.NAME",
+            "photo": "assets/img/barbu_profile.jpg",
+            "title": "COACHES.BARBU.TITLE",
+            "description": "COACHES.BARBU.DESCRIPTION",
+            "social": {
+                "facebook": "https://www.facebook.com/barbu.campean"
+            }
+        },
+        {
+            "name": "COACHES.LACI.NAME",
+            "photo": "assets/img/laci_profile.jpg",
+            "title": "COACHES.LACI.TITLE",
+            "description": "COACHES.LACI.DESCRIPTION",
+            "social": {
+                "facebook": "https://www.facebook.com/profile.php?id=100010499463804"
+            }
+        },
+        {
+            "name": "COACHES.VALI.NAME",
+            "photo": "assets/img/vali_profile.jpg",
+            "title": "COACHES.VALI.TITLE",
+            "description": "COACHES.VALI.DESCRIPTION",
+            "social": {
+                "facebook": "https://m.facebook.com/valentin.chindris.9",
+                "instagram": "https://www.instagram.com/valentinc95/"
+            }
+        },
+        {
+            "name": "COACHES.MANU.NAME",
+            "photo": "assets/img/manu_profile.jpg",
+            "title": "COACHES.MANU.TITLE",
+            "description": "COACHES.MANU.DESCRIPTION",
+            "social": {
+                "facebook": "https://www.facebook.com/marcus.emanuel.12"
+            }
+        },
+        {
+            "name": "COACHES.LAJOS.NAME",
+            "photo": "assets/img/lajos_profile.jpg",
+            "title": "COACHES.LAJOS.TITLE",
+            "description": "COACHES.LAJOS.DESCRIPTION",
+            "social": {
+                "facebook": "https://www.facebook.com/squashfan.zalau"
+            }
+        }]
+}
