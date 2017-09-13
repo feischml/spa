@@ -3,16 +3,16 @@ import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
 @Injectable()
-export class CoachesService {
+export class SourceService {
 
-  private coaches: Observable<any>;
+  private source: Observable<any>;
 
   constructor(private http:Http) {
-    this.coaches = this.http.get('./assets/source/data_source.json');
+    this.source = this.http.get('./assets/source/data_source.json');
   }
 
-  getCoaches(){
-    return this.coaches;
+  getSource(){
+    return this.source;
   }
 
 }

@@ -5,42 +5,7 @@
             <p class="text-center">{{ 'FUTURE.DESCRIPTION' | translate }}</p>
         </div>
         <div class="row features">
-            <div class="col-md-4 col-sm-6 item">
-                <div class="box"><i class="glyphicon glyphicon-stats icon"></i>
-                    <h3 class="name" style="color:rgba(30, 21, 54, 0.93);">{{ 'FUTURE.RANKINGS.TITLE' | translate }}</h3>
-                    <p class="description text-center">{{ 'FUTURE.RANKINGS.DESCRIPTION' | translate }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 item">
-                <div class="box"><i class="glyphicon glyphicon-calendar icon"></i>
-                    <h3 class="name" style="color:rgba(30, 21, 54, 0.93);">{{ 'FUTURE.EVENTCALENDAR.TITLE' | translate }}</h3>
-                    <p class="description text-center">{{ 'FUTURE.EVENTCALENDAR.DESCRIPTION' | translate }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 item">
-                <div class="box"><i class="glyphicon glyphicon-education icon"></i>
-                    <h3 class="name" style="color:rgba(30, 21, 54, 0.93);">{{ 'FUTURE.COACHING.TITLE' | translate }}</h3>
-                    <p class="description text-center">{{ 'FUTURE.COACHING.DESCRIPTION' | translate }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 item">
-                <div class="box"><i class="glyphicon glyphicon-list-alt icon"></i>
-                    <h3 class="name" style="color:rgba(30, 21, 54, 0.93);">{{ 'FUTURE.NEWS.TITLE' | translate }}</h3>
-                    <p class="description text-center">{{ 'FUTURE.NEWS.DESCRIPTION' | translate }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 item">
-                <div class="box"><i class="glyphicon glyphicon-user icon"></i>
-                    <h3 class="name" style="color:rgba(30, 21, 54, 0.93);">{{ 'FUTURE.PROFILES.TITLE' | translate }}</h3>
-                    <p class="description text-center">{{ 'FUTURE.PROFILES.DESCRIPTION' | translate }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 item">
-                <div class="box"><i class="glyphicon glyphicon-time icon"></i>
-                    <h3 class="name" style="color:rgba(30, 21, 54, 0.93);">{{ 'FUTURE.EVENTREGISTRATION.TITLE' | translate }}</h3>
-                    <p class="description text-center">{{ 'FUTURE.EVENTREGISTRATION.DESCRIPTION' | translate }}</p>
-                </div>
-            </div>
+            <app-feature *ngFor="let feature of features" [feature]="feature"></app-feature>
         </div>
     </div>
 </div>

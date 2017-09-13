@@ -35,6 +35,7 @@ import { RecaptchaModule } from 'ng-recaptcha';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoachComponent } from './coach/coach.component';
+import { FeatureComponent } from './feature/feature.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { CoachComponent } from './coach/coach.component';
     FooterComponent,
     ContactusComponent,
     ContentcontainerComponent,
-    CoachComponent
+    CoachComponent,
+    FeatureComponent
   ],
   imports: [
     FormsModule,

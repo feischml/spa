@@ -75,5 +75,31 @@
             "social": {
                 "facebook": "https://www.facebook.com/squashfan.zalau"
             }
-        }]
+        }],
+        "features": [
+            {
+                "title": "FUTURE.RANKINGS.TITLE",
+                "description": "FUTURE.RANKINGS.DESCRIPTION"
+            },
+            {
+                "title": "FUTURE.EVENTCALENDAR.TITLE",
+                "description": "FUTURE.EVENTCALENDAR.DESCRIPTION"
+            },
+            {
+                "title": "FUTURE.COACHING.TITLE",
+                "description": "FUTURE.COACHING.DESCRIPTION"
+            },
+            {
+                "title": "FUTURE.NEWS.TITLE",
+                "description": "FUTURE.NEWS.DESCRIPTION"
+            },
+            {
+                "title": "FUTURE.PROFILES.TITLE",
+                "description": "FUTURE.PROFILES.DESCRIPTION"
+            },
+            {
+                "title": "FUTURE.EVENTREGISTRATION.TITLE",
+                "description": "FUTURE.EVENTREGISTRATION.DESCRIPTION"
+            }
+        ]
 }
