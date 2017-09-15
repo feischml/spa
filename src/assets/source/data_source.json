@@ -90,16 +90,16 @@
                 "description": "FUTURE.COACHING.DESCRIPTION"
             },
             {
-                "title": "FUTURE.NEWS.TITLE",
-                "description": "FUTURE.NEWS.DESCRIPTION"
+                "title": "FUTURE.EVENTREGISTRATION.TITLE",
+                "description": "FUTURE.EVENTREGISTRATION.DESCRIPTION"
             },
             {
                 "title": "FUTURE.PROFILES.TITLE",
                 "description": "FUTURE.PROFILES.DESCRIPTION"
             },
             {
-                "title": "FUTURE.EVENTREGISTRATION.TITLE",
-                "description": "FUTURE.EVENTREGISTRATION.DESCRIPTION"
+                "title": "FUTURE.NEWS.TITLE",
+                "description": "FUTURE.NEWS.DESCRIPTION"
             }
         ]
 }

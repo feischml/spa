@@ -14,7 +14,7 @@
     },
     "SQUASHINCJ":{
         "DESCRIPTION1": "We gladly notice the embrace of the community towards squash in Cluj-Napoca, in Romania, together with the rest of Europe and the social character that comes with this sport. At this point I am pleased to notice that squash is on an ascending trend, more and more young people are keen to practice it for pleasure or professional level.",
-        "DESCRIPTION2": "Along with men, more and more women come to practice squash, knowing that they can burn more that 1200 calories per hour. Having a strong social component, squash is easy to learn and brings you one hour of relaxation that is great for body toning. In Cluj, the squash community is constantly growing. Local and national competitions are organized on a regular basis by the squash clubs, for different skill levels.",
+        "DESCRIPTION2": "Along with men, more and more women come to practice squash, knowing that they can burn more that 1200 calories per hour. Having a strong social component, squash is easy to learn and brings you one hour of relaxation that is great for body toning. In Cluj, the squash community is constantly growing. Local and national competitions are organized on a regular basis by the squash clubs for players with different skill levels - beginners, intermediate and advanced.",
         "SEBASTIAN": "Sebastian Baciu",
         "SEBITITLE": "President PRO SQUASH Romania Association",
         "SEBIQUOTE": "In 2017 Romanian Open Squash is part of the PSA (Professional Squash Association) World Tour calendar. This is a huge achievement for of our local and national squash image."
@@ -29,11 +29,11 @@
         },
         "ST":{
             "TITLE": "SquashTech",
-            "DESCRIPTION": "You can still smell the fresh parquet. The club opened in May 2017. Two professional, WSF approved courts are waiting you. Local competitions are oeganized weekly. The opening of the 2017/2018 Romanian National season was held here."
+            "DESCRIPTION": "You can still smell the fresh parquet. The club opened in May 2017. Two professional, WSF approved courts are waiting you. Local competitions are organized weekly. The opening of the 2017/2018 Romanian National season was held here."
         },
         "SIT":{
             "TITLE": "Squash IT",
-            "DESCRIPTION": "The club opened its doors in 2015 and hosted several matches of the Romanian Open Squash that year. Three custom made courts are available for the clients. As usual, water and rackets are provided free, good workout is guaranteed."
+            "DESCRIPTION": "The club opened its doors in 2015 and hosted several matches of the Romanian Open Squash that year. Three custom made courts are available for the clients. As usual, water and rackets are provided free of charge, good workout is guaranteed."
         },
         "HOMEPAGE": "Homepage: ",
         "RESERVATIONS": "Reservations: "
@@ -44,12 +44,12 @@
         "MIKI":{
             "NAME": "Micky PushSquash",
             "TITLE": "WSF Level 1 Coach",
-            "DESCRIPTION": "He started playing squash in Oradea where in that time, was one of the few courts in the country. Best national ranked player of the club and also the head coach in Cluj-Napoca. Micky is working full time with children and adults, beginners and advanced players, dedicating 100% of his time studying and teaching this sport."
+            "DESCRIPTION": "He started playing squash in Oradea where at that time, was one of the few courts in the country. Best national ranked player of the club and also the head coach in Cluj-Napoca. He works full time with children and adults, beginners and advanced players, dedicating 100% of his time studying and teaching squash."
         },
         "SIMI":{
             "NAME": "Simion Lupșan",
             "TITLE": "WSF Level 1 Coach",
-            "DESCRIPTION": "Active player, paricipating at national competitions and also active coach, Simion is one of the coaches who started playing when the first club opened in Cluj. His passion for squash is limitless, all the time up to date with the latest news. As a result of his calm manner, his specialty is coaching children, but not only."
+            "DESCRIPTION": "Active player, participating at national competitions and also active coach, Simion is one of the coaches who started playing when the first club opened in Cluj. His passion for squash is limitless, all the time up to date with the latest news. As a result of his calm manner, his specialty is coaching children, but not only."
         },
         "MANU":{
             "NAME": "Emanuel Mărcuș",
@@ -107,12 +107,12 @@
         },
         "COACHING":{
             "TITLE": "Coaching",
-            "DESCRIPTION": "Go to the next level. Get your periodic tips from coaches, stay in touch."
+            "DESCRIPTION": "Go to the next level. Get your periodic tips from coaches."
         }
     },
     "FOOTER":{
         "TITLE": "PRO SQUASH Romania",
-        "PROSQUASH": "Squash is a new sport in Romania, it was practiced at the beginning by foreign players, 13 years ago. During 2010-2012, a campaign for popularization and official recognition of this sport started. The Romanian Squash Federation was finally recognized in 2014. In 2012 we started our mission to build a squash community in Cluj-Napoca and Romania and to make this visible on the continent. Our vision is to remain the pomoter of the biggest squash open tournament from Romania, Romanian Open Squash by bringing year after year the best players from all around the world."
+        "PROSQUASH": "Squash is a new sport in Romania, it was practiced in the beginning by foreign players, 13 years ago. During 2010-2012, a campaign for popularization and official recognition of this sport started. The Romanian Squash Federation was finally recognized in 2014. We started our mission in 2012 to build a squash community in Cluj-Napoca and Romania and to make it visible on the continent. Our vision is to remain the pomoter of the biggest squash open tournament from Romania, Romanian Open Squash by bringing year after year the best players from all around the world."
     },
     "CONTACT":{
         "GETINTOUCH": "Get in touch with us",
