@@ -79,27 +79,33 @@
         "features": [
             {
                 "title": "FUTURE.RANKINGS.TITLE",
-                "description": "FUTURE.RANKINGS.DESCRIPTION"
+                "description": "FUTURE.RANKINGS.DESCRIPTION",
+                "icon": "glyphicon glyphicon-stats icon"
             },
             {
                 "title": "FUTURE.EVENTCALENDAR.TITLE",
-                "description": "FUTURE.EVENTCALENDAR.DESCRIPTION"
+                "description": "FUTURE.EVENTCALENDAR.DESCRIPTION",
+                "icon": "glyphicon glyphicon-calendar icon"
             },
             {
                 "title": "FUTURE.COACHING.TITLE",
-                "description": "FUTURE.COACHING.DESCRIPTION"
+                "description": "FUTURE.COACHING.DESCRIPTION",
+                "icon": "glyphicon glyphicon-info-sign icon"
             },
             {
                 "title": "FUTURE.EVENTREGISTRATION.TITLE",
-                "description": "FUTURE.EVENTREGISTRATION.DESCRIPTION"
+                "description": "FUTURE.EVENTREGISTRATION.DESCRIPTION",
+                "icon": "glyphicon glyphicon-flag icon"
             },
             {
                 "title": "FUTURE.PROFILES.TITLE",
-                "description": "FUTURE.PROFILES.DESCRIPTION"
+                "description": "FUTURE.PROFILES.DESCRIPTION",
+                "icon": "glyphicon glyphicon-user icon"
             },
             {
                 "title": "FUTURE.NEWS.TITLE",
-                "description": "FUTURE.NEWS.DESCRIPTION"
+                "description": "FUTURE.NEWS.DESCRIPTION",
+                "icon": "glyphicon glyphicon-list-alt icon"
             }
         ]
 }
