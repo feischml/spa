@@ -1,6 +1,5 @@
-{
-    "coaches":
-    [
+    {
+        "coaches":[
         {
             "name": "COACHES.MIKI.NAME",
             "photo": "assets/img/micky_profile.jpg",
@@ -108,4 +107,4 @@
                 "icon": "glyphicon glyphicon-list-alt icon"
             }
         ]
-}
+    }

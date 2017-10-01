@@ -14,6 +14,11 @@ import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ContentcontainerComponent } from './contentcontainer/contentcontainer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CoachComponent } from './coach/coach.component';
+import { FeatureComponent } from './feature/feature.component';
+import { ProfilesComponent } from './profiles/profiles.component';
+import { ProfileComponent } from './profiles/profile/profile.component';
 
 // import routing
 import { routing } from './app.routing';
@@ -33,10 +38,6 @@ export function HttpLoaderFactory(http: HttpClient) {
 // import Rercapcha
 import { RecaptchaModule } from 'ng-recaptcha';
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CoachComponent } from './coach/coach.component';
-import { FeatureComponent } from './feature/feature.component';
-
 @NgModule({
   declarations: [
     SmoothScrollToDirective,
@@ -52,7 +53,9 @@ import { FeatureComponent } from './feature/feature.component';
     ContactusComponent,
     ContentcontainerComponent,
     CoachComponent,
-    FeatureComponent
+    FeatureComponent,
+    ProfilesComponent,
+    ProfileComponent
   ],
   imports: [
     FormsModule,
