@@ -137,5 +137,15 @@
         "ROBOT": "Sigur nu eşti robot?",
         "SENT": "Mesajul a fost trimis.",
         "ERROR": "Ceva s-a întâmplat. Încearca din nou."
+    },
+    "PROFILES":{
+        "TITLE": "Echipa",
+        "DESCRIPTION": "Hello, and welcome to the website for the Royal Air ForcePresentation Team. My name is Flight Lieutenant Richard Smithson, and alongwith my team we deliver."
+    },
+    "GENERAL":{
+        "NEXT": "Următoarea",
+        "LAST": "Ultima",
+        "PREVIOUS": "Precedenta",
+        "FIRST": "Prima pagină"
     }
 }

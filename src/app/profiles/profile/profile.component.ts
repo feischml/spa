@@ -7,7 +7,8 @@ import { Component, OnInit, Input} from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
-  @Input() profile;
+  @Input() profileSrc;
+  @Input() profileNumber;
 
   constructor() { }
 

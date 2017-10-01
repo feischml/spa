@@ -37,6 +37,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 // import Rercapcha
 import { RecaptchaModule } from 'ng-recaptcha';
+import { PagerService } from 'app/service/pager.service';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,9 @@ import { RecaptchaModule } from 'ng-recaptcha';
     BrowserAnimationsModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [
+    PagerService
+],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
