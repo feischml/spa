@@ -15,7 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ContentcontainerComponent } from './contentcontainer/contentcontainer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CoachComponent } from './coach/coach.component';
+import { CoachComponent } from './coaches/coach/coach.component';
 import { FeatureComponent } from './feature/feature.component';
 import { ProfilesComponent } from './profiles/profiles.component';
 import { ProfileComponent } from './profiles/profile/profile.component';
