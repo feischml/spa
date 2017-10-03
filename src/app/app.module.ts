@@ -39,6 +39,9 @@ export function HttpLoaderFactory(http: HttpClient) {
 import { RecaptchaModule } from 'ng-recaptcha';
 import { PagerService } from 'app/service/pager.service';
 
+// import Material
+//import {MatProgressSpinnerModule} from '@angular/material';
+
 @NgModule({
   declarations: [
     SmoothScrollToDirective,
@@ -61,6 +64,7 @@ import { PagerService } from 'app/service/pager.service';
   imports: [
     FormsModule,
     BrowserModule,
+    //MatProgressSpinnerModule,
     BrowserAnimationsModule,
     HttpClientModule,
     TranslateModule.forRoot({
