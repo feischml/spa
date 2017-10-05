@@ -40,7 +40,7 @@ import { RecaptchaModule } from 'ng-recaptcha';
 import { PagerService } from 'app/service/pager.service';
 
 // import Material
-//import {MatProgressSpinnerModule} from '@angular/material';
+import {MatProgressSpinnerModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -64,8 +64,8 @@ import { PagerService } from 'app/service/pager.service';
   imports: [
     FormsModule,
     BrowserModule,
-    //MatProgressSpinnerModule,
     BrowserAnimationsModule,
+    MatProgressSpinnerModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

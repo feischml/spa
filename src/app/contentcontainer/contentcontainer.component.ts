@@ -6,10 +6,12 @@ import { TranslateService } from "@ngx-translate/core";
   templateUrl: './contentcontainer.component.html',
   styleUrls: ['./contentcontainer.component.css']
 })
-export class ContentcontainerComponent implements OnInit {
+export class ContentcontainerComponent implements OnInit{
 
   constructor(public translate: TranslateService) { }
 
-  ngOnInit() { }
+  ngOnInit() { 
+    
+  }
 
 }
