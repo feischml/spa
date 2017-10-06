@@ -1,17 +1,19 @@
-import { Component, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ViewContainerRef , AfterViewInit} from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 import { Http, Headers } from "@angular/http";
 import { RecaptchaComponent } from "ng-recaptcha";
 import { TranslateService } from "@ngx-translate/core";
 import { constants } from '../app.constants';
 import { Observable } from 'rxjs/Observable';
+import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
 
 @Component({
   selector: 'app-contactus',
+  providers: [ SmoothScrollToDirective ],
   templateUrl: './contactus.component.html',
   styleUrls: ['./contactus.component.css']
 })
-export class ContactusComponent implements OnInit {
+export class ContactusComponent implements OnInit, AfterViewInit {
 
   public contactForm: FormGroup;
   private reCaptchaResponse: string = '';
@@ -23,7 +25,8 @@ export class ContactusComponent implements OnInit {
 
   constructor(private formBuilder: FormBuilder,
               private http: Http,
-              private translate: TranslateService) {
+              private translate: TranslateService,
+              private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective()) {
     this.contactForm = formBuilder.group({
       name: ['', Validators.required],
       email: ['', Validators.compose([Validators.required, Validators.email])],
@@ -33,6 +36,12 @@ export class ContactusComponent implements OnInit {
   }
 
   ngOnInit() { }
+
+  ngAfterViewInit(): void {
+    this.myScroll.scrollTo = "#contactus";
+    this.myScroll.offset = 80;
+    this.myScroll.onClick();
+  }
 
   private resolved(captchaResponse: string) {
     this.reCaptchaResponse = captchaResponse;

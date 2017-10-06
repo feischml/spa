@@ -5,6 +5,7 @@ import { ProfilesService } from 'app/profiles/service/ProfilesService';
 import * as _ from 'underscore';
 
 import { PagerService } from '../service/pager.service';
+import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
 
 @Component({
   selector: 'app-profiles',
@@ -22,10 +23,14 @@ export class ProfilesComponent implements OnInit {
   pagedItems: any[];
   pagedItemsUp: any[];
   pagedItemsDown: any[];
+  // scroller
+  myScroll: SmoothScrollToDirective;
   
   constructor(public translate: TranslateService,
               private profilesService: ProfilesService,
-              private pagerService: PagerService) { }
+              private pagerService: PagerService) {
+    this.myScroll = new SmoothScrollToDirective();
+  }
   
   ngOnInit() {
     this.profilesService.getProfiles().subscribe(
@@ -53,6 +58,14 @@ export class ProfilesComponent implements OnInit {
     this.pagedItems = this.profiles.slice(this.pager.startIndex, this.pager.endIndex + 1);
     this.pagedItemsUp = this.pagedItems.slice(0,3);
     this.pagedItemsDown = this.pagedItems.slice(3,6);
+
+    if (page != 1)
+      this.myScroll.scrollTo = "#profiles";
+    else
+      this.myScroll.scrollTo = "#profileheader";
+    this.myScroll.offset = 60;
+    this.myScroll.onClick();
+
   }
 
 }
