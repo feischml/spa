@@ -19,6 +19,7 @@ import { CoachComponent } from './coaches/coach/coach.component';
 import { FeatureComponent } from './feature/feature.component';
 import { ProfilesComponent } from './profiles/profiles.component';
 import { ProfileComponent } from './profiles/profile/profile.component';
+import { LoginComponent } from 'app/header/login/login.component';
 
 // import routing
 import { routing } from './app.routing';
@@ -41,6 +42,8 @@ import { PagerService } from 'app/service/pager.service';
 
 // import Material
 import {MatProgressSpinnerModule} from '@angular/material';
+import {MatDialogModule} from '@angular/material'
+
 
 @NgModule({
   declarations: [
@@ -59,13 +62,18 @@ import {MatProgressSpinnerModule} from '@angular/material';
     CoachComponent,
     FeatureComponent,
     ProfilesComponent,
-    ProfileComponent
+    ProfileComponent,
+    LoginComponent
+  ],
+  entryComponents: [ 
+    LoginComponent // MODALS HAVE TO BE ADDED HERE
   ],
   imports: [
     FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatProgressSpinnerModule,
+    MatDialogModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
@@ -85,6 +93,7 @@ import {MatProgressSpinnerModule} from '@angular/material';
     BrowserModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    MatDialogModule
   ],
   providers: [
     PagerService

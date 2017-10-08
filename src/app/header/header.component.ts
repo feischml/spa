@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from "@ngx-translate/core";
 import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
+import { MatDialogRef, MdDialog } from '@angular/material';
+import { LoginComponent } from 'app/header/login/login.component';
+
 
 @Component({
   selector: 'app-header',
@@ -10,8 +13,11 @@ import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
 })
 export class HeaderComponent implements OnInit {
 
+  private lodginDialog: LoginComponent;
+
   constructor(public translate: TranslateService,
-              private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective()) { 
+              private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
+              public dialog: MdDialog) { 
   }
 
   ngOnInit() { }
@@ -25,4 +31,8 @@ export class HeaderComponent implements OnInit {
     this.myScroll.onClick();
   }
 
+  private login(){
+    console.log("login pressed");
+    let dialogRef = this.dialog.open(LoginComponent);
+  }
 }
