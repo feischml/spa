@@ -4,10 +4,9 @@ import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
 import { MatDialogRef, MdDialog } from '@angular/material';
 import { LoginComponent } from 'app/header/login/login.component';
 
-
 @Component({
   selector: 'app-header',
-  providers: [ SmoothScrollToDirective ],
+  providers: [SmoothScrollToDirective],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
@@ -16,14 +15,14 @@ export class HeaderComponent implements OnInit {
   private lodginDialog: LoginComponent;
 
   constructor(public translate: TranslateService,
-              private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
-              public dialog: MdDialog) { 
+    private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
+    public dialog: MdDialog) {
   }
 
   ngOnInit() { }
 
   // scroll to specified element
-  private scrollTo(element: String){
+  private scrollTo(element: String) {
     this.myScroll.scrollTo = element;
     this.myScroll.duration = 2500;
     this.myScroll.offset = 80;
@@ -31,8 +30,7 @@ export class HeaderComponent implements OnInit {
     this.myScroll.onClick();
   }
 
-  private login(){
-    console.log("login pressed");
+  private login() {
     let dialogRef = this.dialog.open(LoginComponent);
   }
 }

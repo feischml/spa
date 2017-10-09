@@ -41,8 +41,8 @@ import { RecaptchaModule } from 'ng-recaptcha';
 import { PagerService } from 'app/service/pager.service';
 
 // import Material
-import {MatProgressSpinnerModule} from '@angular/material';
-import {MatDialogModule} from '@angular/material'
+import { MatProgressSpinnerModule } from '@angular/material';
+import { MatDialogModule } from '@angular/material'
 
 
 @NgModule({
@@ -65,7 +65,7 @@ import {MatDialogModule} from '@angular/material'
     ProfileComponent,
     LoginComponent
   ],
-  entryComponents: [ 
+  entryComponents: [
     LoginComponent // MODALS HAVE TO BE ADDED HERE
   ],
   imports: [
@@ -77,9 +77,9 @@ import {MatDialogModule} from '@angular/material'
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
-          provide: TranslateLoader,
-          useFactory: HttpLoaderFactory,
-          deps: [ HttpClient ]
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
       }
     }),
     RecaptchaModule.forRoot(),
@@ -97,7 +97,7 @@ import {MatDialogModule} from '@angular/material'
   ],
   providers: [
     PagerService
-],
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
