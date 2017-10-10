@@ -44,6 +44,20 @@ import { PagerService } from 'app/service/pager.service';
 import { MatProgressSpinnerModule } from '@angular/material';
 import { MatDialogModule } from '@angular/material'
 
+// social sign-in
+import { SocialLoginModule, AuthServiceConfig } from "angular4-social-login";
+import { GoogleLoginProvider, FacebookLoginProvider } from "angular4-social-login";
+
+let config = new AuthServiceConfig([
+  {
+    id: GoogleLoginProvider.PROVIDER_ID,
+    provider: new GoogleLoginProvider("667065783677-t393d4phksuu3lr87ihg5o6k1vlaqflb.apps.googleusercontent.com")
+  },
+  {
+    id: FacebookLoginProvider.PROVIDER_ID,
+    provider: new FacebookLoginProvider("Facebook-login-provider-id")
+  }
+]);
 
 @NgModule({
   declarations: [
@@ -84,6 +98,7 @@ import { MatDialogModule } from '@angular/material'
     }),
     RecaptchaModule.forRoot(),
     ReactiveFormsModule,
+    SocialLoginModule.initialize(config),
     HttpModule,
     routing
   ],
