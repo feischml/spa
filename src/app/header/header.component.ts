@@ -28,6 +28,7 @@ export class HeaderComponent implements OnInit {
     this.authService.authState.subscribe((user) => {
         this.user = user
     });
+
   }
 
   // scroll to specified element
@@ -40,7 +41,9 @@ export class HeaderComponent implements OnInit {
   }
 
   private login() {
-    let dialogRef = this.dialog.open(LoginComponent);
+    // check if dialog already opened
+    if (this.dialog.openDialogs.length == 0 )
+      this.dialog.open(LoginComponent);
   }
 
   private logout() {
