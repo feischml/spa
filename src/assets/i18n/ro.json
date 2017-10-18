@@ -6,12 +6,14 @@
         "PROJECTS": "Proiecte",
         "CONTACT": "Contact",
         "PROFILES": "Echipa",
-        "LOGIN": "Logare"
+        "LOGIN": "Logare",
+        "LOGOUT": "Delogare",
+        "HELLO": "Salut, "
     },
     "LOGIN": {
-        "SELECT": "Selectează modul de logare:",
-        "WITHGOOGLE": "Mă loghez cu Google",
-        "WITHFACEBOOK": "Mă loghez cu Facebook"
+        "SELECT": "Mă loghez cu:",
+        "WITHGOOGLE": "Google",
+        "WITHFACEBOOK": "Facebook"
     },
     "SQUASH":{
         "DESCRIPTION": "Votat cel mai sănătos sport din lume de revista Forbes, squash-ul este o modalitate foarte eficientă de a arde calorii, a dezolta musculatura, fitness-ul şi de a pierde în greutate. În plus, squash-ul este distractiv şi competitiv. La nivel mondial, peste 20 de milioane de oameni practică acest sport. Aşa că ce mai aştepţi? Fă mişcare, joacă squash!",

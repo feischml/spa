@@ -6,12 +6,14 @@
         "PROJECTS": "Projects",
         "CONTACT": "Contact",
         "PROFILES": "Team",
-        "LOGIN": "Login"
+        "LOGIN": "Sign in",
+        "LOGOUT": "Logout",
+        "HELLO": "Hi, "
     },
     "LOGIN": {
-        "SELECT": "Please select from below:",
-        "WITHGOOGLE": "Sign in with Google",
-        "WITHFACEBOOK": "Sign in with Facebook"
+        "SELECT": "Sign in with:",
+        "WITHGOOGLE": "Google",
+        "WITHFACEBOOK": "Facebook"
     },
     "SQUASH":{
         "DESCRIPTION": "Voted the world's healthiest sport by Forbes Magazine, squash is a very effective way to burn lots of calories, build muscles, increase fitness and lose weight. On top of this, squash is competitive and you can have lots of fun. Over 20 million people play it worldwide. So what are you waiting for? Get moving and start playing squash!",

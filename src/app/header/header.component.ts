@@ -3,6 +3,8 @@ import { TranslateService } from "@ngx-translate/core";
 import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
 import { MatDialogRef, MdDialog } from '@angular/material';
 import { LoginComponent } from 'app/header/login/login.component';
+import { AuthService } from 'angular4-social-login';
+import { SocialUser } from 'angular4-social-login';
 
 @Component({
   selector: 'app-header',
@@ -14,12 +16,19 @@ export class HeaderComponent implements OnInit {
 
   private lodginDialog: LoginComponent;
 
+  user: SocialUser;   
+
   constructor(public translate: TranslateService,
     private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
-    public dialog: MdDialog) {
+    public dialog: MdDialog,
+    private authService: AuthService) {
   }
 
-  ngOnInit() { }
+  ngOnInit(){
+    this.authService.authState.subscribe((user) => {
+        this.user = user
+    });
+  }
 
   // scroll to specified element
   private scrollTo(element: String) {
@@ -32,5 +41,11 @@ export class HeaderComponent implements OnInit {
 
   private login() {
     let dialogRef = this.dialog.open(LoginComponent);
+  }
+
+  private logout() {
+    this.authService.signOut().catch( 
+      err => console.log(err)
+    );
   }
 }

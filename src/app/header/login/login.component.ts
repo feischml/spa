@@ -13,23 +13,20 @@ import { FacebookLoginProvider } from 'angular4-social-login';
 })
 export class LoginComponent implements OnInit{
     
-    user: SocialUser;    
-
     constructor(public dialogRef: MatDialogRef<LoginComponent>,
                 private authService: AuthService,
                 public translate: TranslateService) { }
 
-    ngOnInit(){
-        this.authService.authState.subscribe((user) => 
-            this.user = user
-        );
-    }
+    ngOnInit(){ }
 
     private signInWithGoogle(): void {
         this.authService.signIn(GoogleLoginProvider.PROVIDER_ID);
+        this.dialogRef.close();
     }
 
     private signInWithFacebook(): void {
         this.authService.signIn(FacebookLoginProvider.PROVIDER_ID);
+        this.dialogRef.close();
     }
+
 }
