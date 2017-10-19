@@ -43,7 +43,7 @@ export class HeaderComponent implements OnInit {
   private login() {
     // check if dialog already opened
     if (this.dialog.openDialogs.length == 0 )
-      this.dialog.open(LoginComponent);
+      this.dialog.open(LoginComponent, { width: "320px", height: "380px"});
   }
 
   private logout() {
