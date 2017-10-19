@@ -16,12 +16,12 @@
                     <li role="presentation"><a routerLink="contactus" style="padding:12px 8px;">{{ 'NAVBAR.CONTACT' | translate }}</a></li>
                 </ul>
 
-                <p class="navbar-text navbar-right" style="padding:0px; width: 180px;">
+                <p class="navbar-text navbar-right" style="padding:0px; width: 180px">
                     <a *ngIf="user" class="btn btn-default action-button" role="button" (click)="logout()" style="padding:7px;font-size:12px;width:66px;">{{ 'NAVBAR.LOGOUT' | translate }}</a>
                     <a *ngIf="!user" class="btn btn-default action-button" role="button" (click)="login()" style="padding:7px;font-size:12px;width:66px;">{{ 'NAVBAR.LOGIN' | translate }}</a>
                     <a class="navbar-link btn btn-default action-button" (click)="translate.use('ro')" role="button" style="margin:0px 5px;padding:13px 11px 5px 9px;background-image:url(&quot;assets/img/Flag_of_Romania.png&quot;);background-size:cover;background-repeat:round;"></a>
                     <a class="navbar-link btn btn-default action-button" (click)="translate.use('en')" role="button" style="margin:0px 5px;padding:13px 11px 5px 9px;background-image:url(&quot;assets/img/british-flag-small.png&quot;);background-size:cover;background-repeat:round;"></a>
-                    <li *ngIf="user" style="margin: 10px 0px 0px 0px;" role="presentation">{{ 'NAVBAR.HELLO' | translate }}{{ user.name }}</li>
+                        <li *ngIf="user" style="margin: 5px 0px 0px 2px; font-size:11px; list-style-type: none;" role="presentation">{{ 'NAVBAR.HELLO' | translate }}{{ user.name }}</li>
                 </p>
             </div>
 
