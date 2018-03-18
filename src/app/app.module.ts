@@ -59,6 +59,10 @@ let config = new AuthServiceConfig([
   }
 ]);
 
+export function provideConfig() {
+  return config;
+}
+
 @NgModule({
   declarations: [
     SmoothScrollToDirective,
@@ -98,7 +102,7 @@ let config = new AuthServiceConfig([
     }),
     RecaptchaModule.forRoot(),
     ReactiveFormsModule,
-    SocialLoginModule.initialize(config),
+    SocialLoginModule,
     HttpModule,
     routing
   ],
@@ -111,7 +115,11 @@ let config = new AuthServiceConfig([
     MatDialogModule
   ],
   providers: [
-    PagerService
+    PagerService,
+    {
+      provide: AuthServiceConfig,
+      useFactory: provideConfig
+    }
   ],
   bootstrap: [AppComponent]
 })
