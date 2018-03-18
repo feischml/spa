@@ -16,25 +16,25 @@
         "WITHFACEBOOK": "Facebook"
     },
     "SQUASH":{
-        "DESCRIPTION": "Votat cel mai sănătos sport din lume de revista Forbes, squash-ul este o modalitate foarte eficientă de a arde calorii, a dezolta musculatura, fitness-ul şi de a pierde în greutate. În plus, squash-ul este distractiv şi competitiv. La nivel mondial, peste 20 de milioane de oameni practică acest sport. Aşa că ce mai aştepţi? Fă mişcare, joacă squash!",
+        "DESCRIPTION": "Votat cel mai sănătos sport din lume de revista Forbes, squash-ul este o modalitate foarte eficientă de a arde calorii, a dezvolta musculatura, fitness-ul şi de a pierde în greutate. În plus, squash-ul este distractiv şi competitiv. La nivel mondial, peste 20 de milioane de oameni practică acest sport. Aşa că ce mai aştepţi? Fă mişcare, joacă squash!",
         "MORE": "Citeste mai mult",
         "VIDEOS": "Videoclipuri",
         "SQUASH": "SQUASH"
     },
     "SQUASHINCJ":{
         "DESCRIPTION1": "Observăm cu bucurie deschiderea comunității de care începe să beneficieze squash-ul în Cluj-Napoca, în România, amploarea de care se bucură în restul Europei și caracterul social care însoțește acest sport. În acest moment vreau să remarc cu bucurie, că squash-ul este pe un trend ascendent, tot mai mulți tineri se îndreaptă înspre el pentru a-l practica de plăcere sau la nivel profesionist.",
-        "DESCRIPTION2": "Alături de bărbaţi, tot mai multe femei vin să-l practice având în vedere că se pot arde pană la 1200 calorii/oră, că există componenţa socială, că este o oră de relaxare benefică tonifierii corpului, un sport uşor de învăţat. La Cluj comunitatea este în continuă creştere, fiind organizate regular competiţii locale la diferite cluburi pentru mai multe niveluri de joc.",
+        "DESCRIPTION2": "Alături de bărbaţi, tot mai multe femei vin să-l practice având în vedere că se pot arde pană la 1200 calorii/oră, că există componenţa socială, că este o oră de relaxare benefică tonifierii corpului, un sport uşor de învăţat. La Cluj comunitatea este în continuă creştere, fiind organizate regulat competiţii locale la diferite cluburi pentru mai multe niveluri de joc.",
         "SEBASTIAN": "Sebastian Baciu",
         "SEBITITLE": "Preşedinte Asociaţia PRO SQUASH România",
-        "SEBIQUOTE": "Romanian Open Squash este cea mai importantă competiţie a squash-ului românesc. În fiecare an, am încercat să aducem ceva nou. In 2017 face parte din calendarul competitional PSA (Professional Squash Association) World Tour."
+        "SEBIQUOTE": "Romanian Open Squash este cea mai importantă competiţie a squash-ului românesc. În fiecare an, am încercat să aducem ceva nou. In 2017 face parte din calendarul competițional PSA (Professional Squash Association) World Tour."
     },
     "CLUBS":{
         "BURN": "Arde calorii",
-        "BURNTEXT1": "O varietate de terenuri profesionale cât şi realizate la comandă, te aşteaptă pe tine şi amicii tăi. Vei transpira din plin, iar bună dispoziţia cât şi un somn bun după, îţi sunt garantate. Pe lângă competiţie şi antrenamente, un aspect important pentru fiecare club este latura socială.",
-        "BURNTEXT2": "Astfel că, folosind un format săptămânal sau la fiecare două săptămâni, se organizează meciuri de tip ligă sau challenger, unde cel mai important este să te cunoşti cu ceilalţi jucători de squash. Vino la sală, alătura-te  oamenilor pasionaţi şi cu siguranţă vei avea ce discuta despre subiectul cel mai important, squash.",
+        "BURNTEXT1": "O varietate de terenuri profesionale cât şi realizate la comandă, te aşteaptă pe tine şi amicii tăi. Vei transpira din plin, iar buna dispoziţie cât şi un somn bun după, îţi sunt garantate. Pe lângă competiţie şi antrenamente, un aspect important pentru fiecare club este latura socială.",
+        "BURNTEXT2": "Astfel că, folosind un format săptămânal sau la fiecare două săptămâni, se organizează meciuri de tip ligă sau challenger, unde cel mai important este să te cunoşti cu ceilalţi jucători de squash. Vino la sală, alătură-te  oamenilor pasionaţi şi cu siguranţă vei avea ce discuta despre subiectul cel mai important, squash.",
         "SCCJ":{
             "TITLE": "Squash Club Cluj-Napoca",
-            "DESCRIPTION": "Cel mai vechi club din Cluj, fondat în 2011, cu patru terenuri profesioniste acreditate, realizate la standarde WSF. Lunar se organizează turnee locale pentru practicanţi începători cât şi avansaţi. De-asemenea clubul găzduieşte numeroase şi importante competiţii din calendarul naţional al FRS."
+            "DESCRIPTION": "Cel mai vechi club din Cluj, fondat în 2011, cu patru terenuri profesioniste acreditate, realizate la standarde WSF. Lunar se organizează turnee locale pentru practicanţii începători cât şi avansaţi. De asemenea clubul găzduieşte numeroase şi importante competiţii din calendarul naţional al FRS."
         },
         "ST":{
             "TITLE": "SquashTech",
@@ -42,7 +42,7 @@
         },
         "SIT":{
             "TITLE": "Squash IT",
-            "DESCRIPTION": "Clubul şi-a deschis uşile pentru public în 2015, fiind gazda a mai multor meciuri din cadrul Romanian Open Squash 2015. Aici găseşti 3 terenuri făcute la comandă, cât şi echipament, rachete şi multă apă, toate din partea clubului. Antrenamentul, mişcarea bună sunt garantate."
+            "DESCRIPTION": "Clubul şi-a deschis uşile pentru public în 2015, fiind gazda a mai multor meciuri din cadrul Romanian Open Squash 2015. Aici găseşti 3 terenuri făcute la comandă, cât şi echipament, rachete şi multă apă, toate din partea clubului. Antrenamentul şi mişcarea bună sunt garantate."
         },
         "HOMEPAGE": "Pagină: ",
         "RESERVATIONS": "Rezervări: "
@@ -58,32 +58,32 @@
         "SIMI":{
             "NAME": "Simion Lupșan",
             "TITLE": "Antrenor WSF Level 1",
-            "DESCRIPTION": "Jucător activ în prezent cu multiple participări la competiții naționale și de asemenea antrenor. Este unul dintre persoanele care au început să practice squash-ul de când s-a deschis primul teren la Cluj. Pasiunea lui pentru acest sport nu are limite. Calmul care îl carecterizeaza este principalul motiv pentru care se ocumă mai ales de juniori."
+            "DESCRIPTION": "Jucător activ în prezent cu multiple participări la competiții naționale și de asemenea antrenor. Este unul dintre persoanele care au început să practice squash-ul de când s-a deschis primul teren la Cluj. Pasiunea lui pentru acest sport nu are limite. Calmul care îl carecterizează este principalul motiv pentru care se ocupă mai ales de juniori."
         },
         "MANU":{
             "NAME": "Emanuel Mărcuș",
             "TITLE": "Antrenor WSF Level 1",
-            "DESCRIPTION": "Primul antrenor cine obține certificarea WSF din Cluj. A fost și este în continuare mentor și exemplu pentru mulți jucători din oraș. Emanuel este activ la competiții locale și naționale, stilul lui unic de joc îl caracterizează și când antrenează. Învață începători, dar lucrează și cu jucători avansați."
+            "DESCRIPTION": "Primul antrenor care obține certificarea WSF din Cluj. A fost și este în continuare mentor și exemplu pentru mulți jucători din oraș. Emanuel este activ la competiții locale și naționale, stilul lui unic de joc îl caracterizează și când antrenează. Învață începători, dar lucrează și cu jucători avansați."
         },
         "CALIN":{
             "NAME": "Călin Codarcea",
             "TITLE": "Antrenor WSF Level 1",
-            "DESCRIPTION": "Având o experienţă de 5 ani în squash, Călin antrenează juniori şi adulţi de toate nivelurile. Pe lângă a fi co-organizator al celui mai important turneu din ţară, Romanian Open Squash şi promoter al PSA Romanian Open, este şi un jucător activ în competiţiile din cadrul campionatului naţional. A participat la câmp-uri de specialitate destinate jucătorilor şi antrenorilor în Belgia, Polonia şi Ungaria."
+            "DESCRIPTION": "Având o experienţă de 5 ani în squash, Călin antrenează juniori şi adulţi de toate nivelurile. Pe lângă a fi co-organizator al celui mai important turneu din ţară, Romanian Open Squash şi promoter al PSA Romanian Open, este şi un jucător activ în competiţiile din cadrul campionatului naţional. A participat la camp-uri de specialitate destinate jucătorilor şi antrenorilor în Belgia, Polonia şi Ungaria."
         },
         "LACI":{
             "NAME": "László Feischmidt",
             "TITLE": "Antrenor WSF Level 1",
-            "DESCRIPTION": "Pasiunea lui pentru acest sport a început în anul 2014. Jucător activ de atunci, a reuşit să între în top 15 al celor mai bine clasaţi jucători la nivel naţional. Antrenează copii şi adulţi, începători şi avansaţi, încercând să facă ca acest 'joc' să fie uşor practicat, chiar dacă în realitate este unul dintre cele mai solicitante sporturi."
+            "DESCRIPTION": "Pasiunea lui pentru acest sport a început în anul 2014. Jucător activ de atunci, a reuşit să intre în top 15 al celor mai bine clasaţi jucători la nivel naţional. Antrenează copii şi adulţi, începători şi avansaţi, încercând să facă din acest 'joc' unul uşor de practicat, chiar dacă în realitate este unul dintre cele mai solicitante sporturi."
         },
         "VALI":{
             "NAME": "Valentin Chindriș",
             "TITLE": "Antrenor WSF Level 1",
-            "DESCRIPTION": "A început să-si devozvolte pasiunea pentru squash la vârstă de 17 ani, urmând ca la 21 să obţină diploma WSF Level 1 coach. Modul de antrenament pe care îl aplică se adaptează cu dorinţele fiecărui jucător pentru a se face progrese cu fiecare oră şi pentru a se simţii cât mai bine pe durata antrenamentului."
+            "DESCRIPTION": "A început să-şi dezvolte pasiunea pentru squash la vârsta de 17 ani, urmând ca la 21 să obţină diploma WSF Level 1 coach. Modul de antrenament pe care îl aplică se adaptează la dorinţele fiecărui jucător pentru a progresa cu fiecare oră şi pentru a se simţi cât mai bine pe durata antrenamentului."
         },
         "BARBU":{
             "NAME": "Barbu Câmpean",
             "TITLE": "Antrenor WSF Level 1",
-            "DESCRIPTION": "A intrat prima oară pe un teren de squash în 2005, la Bucureşti. Participarea la prima ediţie a Cupei Clujului, a aprins scânteia. De atunci, practică de 3-4 ori pe săptămană, a urmat camp-uri cu antrenori şi jucători consacraţi, se antrenează, participă la turnee din cadrul campionatului naţional. Antrenează toate categoriile de varstă."
+            "DESCRIPTION": "A intrat prima oară pe un teren de squash în 2005, la Bucureşti. Participarea la prima ediţie a Cupei Clujului, a aprins scânteia. De atunci, practică de 3-4 ori pe săptămană, a urmat camp-uri cu antrenori şi jucători consacraţi, se antrenează, participă la turnee din cadrul campionatului naţional. Antrenează toate categoriile de vârstă."
         },
         "LAJOS":{
             "NAME": "Lajos Almási",
@@ -93,7 +93,7 @@
     },
     "FUTURE":{
         "TITLE": "Proiecte viitoare pentru comunitate",
-        "DESCRIPTION": "Încercam permanent să facem activitatea jucătorilor şi antrenorilor cât mai uşoară. Orice sugestie în această direcţie este bine venită. Împărtăşeşte-ţi ideile ca să construim un mediu prietenos. Câteva proiecte la care deja am început să lucrăm:",
+        "DESCRIPTION": "Încercăm permanent să facem activitatea jucătorilor şi antrenorilor cât mai uşoară. Orice sugestie în această direcţie este bine venită. Împărtăşeşte-ţi ideile ca să construim un mediu prietenos. Câteva proiecte la care deja am început să lucrăm:",
         "RANKINGS": {
             "TITLE": "Clasamente locale",
             "DESCRIPTION": "Vezi toate clasamentele în timp real - competiţii pentru începători şi avansaţi."
@@ -121,7 +121,7 @@
     },
     "FOOTER":{
         "TITLE": "PRO SQUASH România",
-        "PROSQUASH": "Squash-ul este un sport nou în România, începând să fie practicat în urmă cu circa 13 ani, mai întâi de unii jucători străini prezenți în țară. În perioada 2010-2012 a început o campanie de popularizare și de recunoaștere oficială a acestui sport. Misiunea Asociaţiei PRO SQUASH România, din 2012 începând şi care continuă şi acum, este să ajute la construirea comunităţii de squash din România la nivel european. Viziunea asociaţiei este de a rămâne promotorul celui mai mare turneu open de squash din România, Romanian Open Squash, prin intermediul numărului şi nivelului calitativ al jucătorilor, al fondului de premii şi prin intermediul conceptului şi premierelor pe care fiecare noile ediţii le aduc."
+        "PROSQUASH": "Squash-ul este un sport nou în România, începând să fie practicat în urmă cu circa 13 ani, mai întâi de unii jucători străini prezenți în țară. În perioada 2010-2012 a început o campanie de popularizare și de recunoaștere oficială a acestui sport. Misiunea Asociaţiei PRO SQUASH România, din 2012 începând şi care continuă şi acum, este să ajute la construirea comunităţii de squash din România la nivel european. Viziunea asociaţiei este de a rămâne promotorul celui mai mare turneu open de squash din România, Romanian Open Squash, prin intermediul numărului şi nivelului calitativ al jucătorilor, al fondului de premii şi prin intermediul conceptului şi premierelor pe care noile ediţii le aduc."
     },
     "CONTACT":{
         "GETINTOUCH": "Contactează-ne",
@@ -137,7 +137,7 @@
         "PAUL": {
             "NAME": "Paul Miheț",
             "TITLE": "jucător PRO SQUASH România",
-            "QUOTE": "Pe teren ești singur, dar în afară lui suntem uniți și numai împreună putem pune în practică idei care să ne împingă în față, să creștem squash-ul Clujean."
+            "QUOTE": "Pe teren ești singur, dar în afara lui suntem uniți și numai împreună putem pune în practică idei care să ne împingă în față, să creștem squash-ul Clujean."
             
         }
     },
@@ -148,7 +148,7 @@
     },
     "PROFILES":{
         "TITLE": "Echipa PRO Squash",
-        "DESCRIPTION": " Squash-ul pentru noi este mai mult decât un sport, este un stil de viață. O parte dintre jucătorii de squash din Cluj au dus această pasiune la următorul nivel. Ei au început să se antreneze serios pentru competițiile locale și naționale, rezultatele fiind constant pe un trend ascendent. Iată mai jos jucătorii legitimati la clubul ProSquash:"
+        "DESCRIPTION": " Squash-ul pentru noi este mai mult decât un sport, este un stil de viață. O parte dintre jucătorii de squash din Cluj au dus această pasiune la următorul nivel. Ei au început să se antreneze serios pentru competițiile locale și naționale, rezultatele fiind pe un trend ascendent. Iată mai jos jucătorii legitimați la clubul ProSquash:"
     },
     "GENERAL":{
         "NEXT": "Următoarea",
