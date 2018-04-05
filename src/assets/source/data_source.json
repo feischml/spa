@@ -90,7 +90,8 @@
             {
                 "title": "FUTURE.COACHING.TITLE",
                 "description": "FUTURE.COACHING.DESCRIPTION",
-                "icon": "glyphicon glyphicon-info-sign icon"
+                "icon": "glyphicon glyphicon-info-sign icon",
+                "link": "coaching"
             },
             {
                 "title": "FUTURE.EVENTREGISTRATION.TITLE",

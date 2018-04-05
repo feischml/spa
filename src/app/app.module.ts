@@ -47,6 +47,7 @@ import { MatDialogModule } from '@angular/material'
 // social sign-in
 import { SocialLoginModule, AuthServiceConfig } from "angular4-social-login";
 import { GoogleLoginProvider, FacebookLoginProvider } from "angular4-social-login";
+import { CoachingComponent } from './coaching/coaching.component';
 
 let config = new AuthServiceConfig([
   {
@@ -81,7 +82,8 @@ export function provideConfig() {
     FeatureComponent,
     ProfilesComponent,
     ProfileComponent,
-    LoginComponent
+    LoginComponent,
+    CoachingComponent,
   ],
   entryComponents: [
     LoginComponent // MODALS HAVE TO BE ADDED HERE

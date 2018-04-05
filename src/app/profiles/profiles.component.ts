@@ -13,7 +13,7 @@ import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
   styleUrls: ['./profiles.component.css'],
   providers: [ ProfilesService ]
 })
-export class ProfilesComponent implements OnInit {
+export class ProfilesComponent implements OnInit{
 
   private profiles: string[] = [];
 
