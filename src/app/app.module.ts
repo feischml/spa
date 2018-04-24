@@ -20,6 +20,9 @@ import { FeatureComponent } from './feature/feature.component';
 import { ProfilesComponent } from './profiles/profiles.component';
 import { ProfileComponent } from './profiles/profile/profile.component';
 import { LoginComponent } from 'app/header/login/login.component';
+import { CoachingComponent } from './coaching/coaching.component';
+import { RankingsComponent } from './rankings/rankings.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 // import routing
 import { routing } from './app.routing';
@@ -47,7 +50,6 @@ import { MatDialogModule } from '@angular/material'
 // social sign-in
 import { SocialLoginModule, AuthServiceConfig } from "angular4-social-login";
 import { GoogleLoginProvider, FacebookLoginProvider } from "angular4-social-login";
-import { CoachingComponent } from './coaching/coaching.component';
 
 let config = new AuthServiceConfig([
   {
@@ -84,6 +86,8 @@ export function provideConfig() {
     ProfileComponent,
     LoginComponent,
     CoachingComponent,
+    RankingsComponent,
+    CalendarComponent,
   ],
   entryComponents: [
     LoginComponent // MODALS HAVE TO BE ADDED HERE

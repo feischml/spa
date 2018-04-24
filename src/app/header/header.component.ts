@@ -27,10 +27,9 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(){
-    this.authService.authState.subscribe((user) => {
-        this.user = user
-    });
-
+    //this.authService.authState.subscribe((user) => {
+    //    this.user = user
+    //});
   }
 
   // scroll to specified element

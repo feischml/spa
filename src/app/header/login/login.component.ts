@@ -20,13 +20,13 @@ export class LoginComponent implements OnInit{
     ngOnInit(){ }
 
     private signInWithGoogle(): void {
-        this.authService.signIn(GoogleLoginProvider.PROVIDER_ID);
-        this.dialogRef.close();
+        //this.authService.signIn(GoogleLoginProvider.PROVIDER_ID);
+        //this.dialogRef.close();
     }
 
     private signInWithFacebook(): void {
-        this.authService.signIn(FacebookLoginProvider.PROVIDER_ID);
-        this.dialogRef.close();
+        //this.authService.signIn(FacebookLoginProvider.PROVIDER_ID);
+        //this.dialogRef.close();
     }
 
 }
