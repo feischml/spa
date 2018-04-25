@@ -14,7 +14,7 @@ import { FacebookLoginProvider } from 'angular4-social-login';
 export class LoginComponent implements OnInit{
     
     constructor(public dialogRef: MatDialogRef<LoginComponent>,
-                private authService: AuthService,
+                //private authService: AuthService,
                 public translate: TranslateService) { }
 
     ngOnInit(){ }

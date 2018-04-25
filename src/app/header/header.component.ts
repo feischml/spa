@@ -3,7 +3,7 @@ import { TranslateService } from "@ngx-translate/core";
 import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
 import { MatDialogRef, MdDialog } from '@angular/material';
 import { LoginComponent } from 'app/header/login/login.component';
-import { AuthService } from 'angular4-social-login';
+//import { AuthService } from 'angular4-social-login';
 import { SocialUser } from 'angular4-social-login';
 
 @Component({
@@ -14,14 +14,14 @@ import { SocialUser } from 'angular4-social-login';
 })
 export class HeaderComponent implements OnInit {
 
-  private lodginDialog: LoginComponent;
+  //private lodginDialog: LoginComponent;
 
-  user: SocialUser;   
+  //user: SocialUser;   
 
   constructor(public translate: TranslateService,
     private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
     public dialog: MdDialog,
-    private authService: AuthService,
+    //private authService: AuthService,
     private el: ElementRef, 
     private renderer: Renderer) {
   }
@@ -50,17 +50,17 @@ export class HeaderComponent implements OnInit {
     this.renderer.setElementClass(navbar, 'in', false);
   }
 
-  private login() {
+  /*private login() {
     this.closeNavbar();
     // check if dialog already opened
     if (this.dialog.openDialogs.length == 0 )
       this.dialog.open(LoginComponent, { width: "320px", height: "380px"});
-  }
+  }*/
 
-  private logout() {
+  /*private logout() {
     this.closeNavbar();
     this.authService.signOut().catch( 
       err => console.log(err)
     );
-  }
+  }*/
 }

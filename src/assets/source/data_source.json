@@ -94,21 +94,6 @@
                 "description": "FUTURE.COACHING.DESCRIPTION",
                 "icon": "glyphicon glyphicon-info-sign icon",
                 "link": "coaching"
-            },
-            {
-                "title": "FUTURE.EVENTREGISTRATION.TITLE",
-                "description": "FUTURE.EVENTREGISTRATION.DESCRIPTION",
-                "icon": "glyphicon glyphicon-flag icon"
-            },
-            {
-                "title": "FUTURE.PROFILES.TITLE",
-                "description": "FUTURE.PROFILES.DESCRIPTION",
-                "icon": "glyphicon glyphicon-user icon"
-            },
-            {
-                "title": "FUTURE.NEWS.TITLE",
-                "description": "FUTURE.NEWS.DESCRIPTION",
-                "icon": "glyphicon glyphicon-list-alt icon"
             }
         ]
     }
