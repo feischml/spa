@@ -8,7 +8,7 @@
                             <div class="box">
                                 <p class="description text-justify">"{{ 'CONTACT.MIRCEA.QUOTE' | translate }}"</p>
                             </div>
-                            <div class="author"><img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93)" src="assets/img/baba_profile.jpg">
+                            <div class="author"><img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" src="assets/img/baba_profile.jpg">
                                 <h5 class="name">{{ 'CONTACT.MIRCEA.NAME' | translate }}</h5>
                                 <p class="title">{{ 'CONTACT.MIRCEA.TITLE' | translate }}</p>
                             </div>
@@ -19,7 +19,7 @@
                             <div class="box">
                                 <p class="description text-justify">"{{ 'CONTACT.PAUL.QUOTE' | translate }}"</p>
                             </div>
-                            <div class="author"><img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93);" src="assets/img/paul_profile.jpg">
+                            <div class="author"><img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" src="assets/img/paul_profile.jpg">
                                 <h5 class="name">{{ 'CONTACT.PAUL.NAME' | translate }}</h5>
                                 <p class="title">{{ 'CONTACT.PAUL.TITLE' | translate }}</p>
                             </div>
@@ -54,8 +54,8 @@
                              name="captcha"></re-captcha>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-primary btn-lg" type="submit" [disabled]="!contactForm.valid" (click)="submit(contactForm)">
-                                    {{ 'CONTACT.SEND' | translate }}  <i *ngIf="spinning" class="fa fa-spinner fa-spin" style="font-size:13px;color:white;"></i></button>
+                            <button class="btn btn-primary btn-lg" type="submit" [disabled]="!contactForm.valid" (click)="submit(contactForm)" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+                                    {{ 'CONTACT.SEND' | translate }}  <i *ngIf="spinning" class="fa fa-spinner fa-spin" style="font-size:13px;color:white; "></i></button>
                         </div>
                         <div class="form-group">
                                 <p *ngIf="observ">{{ observ | async }}</p>

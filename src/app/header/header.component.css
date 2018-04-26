@@ -14,11 +14,11 @@
 
 /* Style the video: 100% width and height to cover the entire window */
 .myVideo {
-  position: absolute;
+  position: top;
   right: 0;
   bottom: 0;
   min-width: 100%; 
-  min-height: 100%;
+  min-height: 10%;
 }
 
 .content {
