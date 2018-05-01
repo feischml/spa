@@ -22,4 +22,10 @@ export class CoachingComponent implements OnInit {
     this.myScroll.onClick();
   }
 
+  private scrollToPlayer(){
+    this.myScroll.scrollTo = "video-placeholder";
+    this.myScroll.offset = 80;
+    this.myScroll.onClick();
+  }
+
 }

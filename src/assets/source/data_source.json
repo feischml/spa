@@ -80,8 +80,8 @@
             {
                 "title": "FUTURE.RANKINGS.TITLE",
                 "description": "FUTURE.RANKINGS.DESCRIPTION",
-                "icon": "glyphicon glyphicon-stats icon"
-                
+                "icon": "glyphicon glyphicon-stats icon",
+                "link": "rankings"
             },
             {
                 "title": "FUTURE.EVENTCALENDAR.TITLE",

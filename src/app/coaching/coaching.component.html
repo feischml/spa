@@ -18,9 +18,9 @@
       </div>
     </div>
   </div>
-  <div id="dqv" data-aos-once="true" style="padding:10px 0px 20px 30px">
+  <div id="dqv" data-aos-once="true" style="padding:0px 0px 20px 30px">
 
-    <div class="row" style="padding-bottom: 40px;">
+    <div class="row" style="padding-bottom: 30px;">
       <div class="col-lg-6 col-md-6 col-sm-6" style="margin: 20px 20px 0px 0px;">
         <div style="text-align: center;" id="video-placeholder">
           <img class="img-responsive center" src="https://img.youtube.com/vi/7si_4wdoQAI/hqdefault.jpg" data-video-id="7si_4wdoQAI">
@@ -55,40 +55,40 @@
         </div>
       </div>
       <div class="col-lg-5 col-md-5 col-sm-5">
-        <div class="row">
+        <div class="row hidden-xs">
           <div class="col-lg-6 col-md-6 col-sm-6 vids" style="padding-right: 35px; margin-top:20px;">
             <figure style="padding-bottom: 20px; ">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/7si_4wdoQAI/hqdefault.jpg"
-                 data-video-id="7si_4wdoQAI">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/7si_4wdoQAI/hqdefault.jpg" data-video-id="7si_4wdoQAI">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.1' | translate }}</figcaption>
             </figure>
             <figure style="padding-bottom: 20px;">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/etr1rdwNYA8/hqdefault.jpg"
-                 data-video-id="etr1rdwNYA8">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/etr1rdwNYA8/hqdefault.jpg" data-video-id="etr1rdwNYA8">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.2' | translate }}</figcaption>
             </figure>
             <figure style="padding-bottom: 20px;">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/ix0erbQ8oGs/hqdefault.jpg"
-                  data-video-id="ix0erbQ8oGs">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/ix0erbQ8oGs/hqdefault.jpg" data-video-id="ix0erbQ8oGs">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.3' | translate }}</figcaption>
             </figure>
             <figure style="padding-bottom: 20px;">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/vGWtyPBr21M/hqdefault.jpg"
-                  data-video-id="vGWtyPBr21M">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/vGWtyPBr21M/hqdefault.jpg" data-video-id="vGWtyPBr21M">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.4' | translate }}</figcaption>
             </figure>
             <figure style="padding-bottom: 20px;">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/lJfCFoxDkCQ/hqdefault.jpg"
-                  data-video-id="lJfCFoxDkCQ">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/lJfCFoxDkCQ/hqdefault.jpg" data-video-id="lJfCFoxDkCQ">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.5' | translate }}</figcaption>
             </figure>
@@ -96,41 +96,117 @@
           <div class="col-lg-6 col-md-6 col-sm-6 vids" style="padding-right: 35px; margin-top:20px;">
             <figure style="padding-bottom: 20px;">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/UlHP5CblzpA/hqdefault.jpg"
-                  data-video-id="UlHP5CblzpA">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/UlHP5CblzpA/hqdefault.jpg" data-video-id="UlHP5CblzpA">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.6' | translate }}</figcaption>
             </figure>
             <figure style="padding-bottom: 20px;">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/vQlJ2S0BXUo/hqdefault.jpg"
-                  data-video-id="vQlJ2S0BXUo">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/vQlJ2S0BXUo/hqdefault.jpg" data-video-id="vQlJ2S0BXUo">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.7' | translate }}</figcaption>
             </figure>
             <figure style="padding-bottom: 20px;">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/i8rVVsicIoI/hqdefault.jpg"
-                  data-video-id="i8rVVsicIoI">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/i8rVVsicIoI/hqdefault.jpg" data-video-id="i8rVVsicIoI">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.8' | translate }}</figcaption>
             </figure>
             <figure style="padding-bottom: 20px;">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/dpRkXAG-uYg/hqdefault.jpg"
-                  data-video-id="dpRkXAG-uYg">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/dpRkXAG-uYg/hqdefault.jpg" data-video-id="dpRkXAG-uYg">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.9' | translate }}</figcaption>
             </figure>
             <figure style="padding-bottom: 20px;">
               <a>
-                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://img.youtube.com/vi/aIO0UTZtMfo/hqdefault.jpg"
-                  data-video-id="aIO0UTZtMfo">
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/aIO0UTZtMfo/hqdefault.jpg" data-video-id="aIO0UTZtMfo">
               </a>
               <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.10' | translate }}</figcaption>
             </figure>
           </div>
         </div>
+
+        <div class="row hidden-lg hidden-md hidden-sm">
+          <div class="col-lg-6 col-md-6 col-sm-6 vids" style="padding-right: 35px; margin-top:20px; height: max-content;">
+            <figure style="padding-bottom: 20px; ">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/7si_4wdoQAI/hqdefault.jpg" data-video-id="7si_4wdoQAI">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.1' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/etr1rdwNYA8/hqdefault.jpg" data-video-id="etr1rdwNYA8">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.2' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()" src="https://img.youtube.com/vi/ix0erbQ8oGs/hqdefault.jpg" data-video-id="ix0erbQ8oGs">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.3' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/vGWtyPBr21M/hqdefault.jpg" data-video-id="vGWtyPBr21M">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.4' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()" src="https://img.youtube.com/vi/lJfCFoxDkCQ/hqdefault.jpg" data-video-id="lJfCFoxDkCQ">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.5' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/UlHP5CblzpA/hqdefault.jpg" data-video-id="UlHP5CblzpA">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.6' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()" src="https://img.youtube.com/vi/vQlJ2S0BXUo/hqdefault.jpg" data-video-id="vQlJ2S0BXUo">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.7' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/i8rVVsicIoI/hqdefault.jpg" data-video-id="i8rVVsicIoI">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.8' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()"  src="https://img.youtube.com/vi/dpRkXAG-uYg/hqdefault.jpg" data-video-id="dpRkXAG-uYg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.9' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                (click)="scrollToPlayer()" src="https://img.youtube.com/vi/aIO0UTZtMfo/hqdefault.jpg" data-video-id="aIO0UTZtMfo">
+              </a>
+              <figcaption class="text-center" style="padding-top: 5px;">{{ 'COACHING.10' | translate }}</figcaption>
+            </figure>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

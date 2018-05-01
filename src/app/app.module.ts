@@ -19,7 +19,7 @@ import { CoachComponent } from './coaches/coach/coach.component';
 import { FeatureComponent } from './feature/feature.component';
 import { ProfilesComponent } from './profiles/profiles.component';
 import { ProfileComponent } from './profiles/profile/profile.component';
-import { LoginComponent } from 'app/header/login/login.component';
+//import { LoginComponent } from 'app/header/login/login.component';
 import { CoachingComponent } from './coaching/coaching.component';
 import { RankingsComponent } from './rankings/rankings.component';
 import { CalendarComponent } from './calendar/calendar.component';
@@ -84,14 +84,14 @@ export function provideConfig() {
     FeatureComponent,
     ProfilesComponent,
     ProfileComponent,
-    LoginComponent,
+    //LoginComponent,
     CoachingComponent,
     RankingsComponent,
     CalendarComponent,
   ],
-  entryComponents: [
-    LoginComponent // MODALS HAVE TO BE ADDED HERE
-  ],
+  //entryComponents: [
+    //LoginComponent // MODALS HAVE TO BE ADDED HERE
+  //],
   imports: [
     FormsModule,
     BrowserModule,
