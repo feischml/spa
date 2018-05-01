@@ -169,5 +169,9 @@
         "8": "8. Boastul",
         "9": "9. Scurta",
         "10": "10. Lobul"
+    },
+    "RANKINGS":{
+        "TITLE": "Clasamente locale",
+        "DESCRIPTION": "La Cluj comunitatea este în continuă creştere, fiind organizate regulat competiţii locale la diferite cluburi pentru incepători și avansati."
     }
 }

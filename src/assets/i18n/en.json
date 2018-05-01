@@ -168,5 +168,9 @@
         "8": "8. The Boast",
         "9": "9. The Drop Shot",
         "10": "10. The Lob"
+    },
+    "RANKINGS":{
+        "TITLE": "Local rankings",
+        "DESCRIPTION": "In Cluj, the squash community is growing. Local competitions are organized on a regular basis by the squash clubs for beginner and advanced players."
     }
 }
