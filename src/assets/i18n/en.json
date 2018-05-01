@@ -115,7 +115,7 @@
             "DESCRIPTION": "Easily register and unregister from local events. Invite friends, check opponents."
         },
         "COACHING":{
-            "TITLE": "Coaching",
+            "TITLE": "Tips & Tricks",
             "DESCRIPTION": "Go to the next level. Get your best tips from coaches and world class players."
         }
     },
@@ -171,6 +171,13 @@
     },
     "RANKINGS":{
         "TITLE": "Local rankings",
-        "DESCRIPTION": "In Cluj, the squash community is growing. Local competitions are organized on a regular basis by the squash clubs for beginner and advanced players."
+        "DESCRIPTION": "In Cluj, the squash community is growing. Local competitions are organized on a regular basis by the squash clubs for beginner and advanced players.",
+        "LAITEKBEGINNERS" : "Laitek Beginners",
+        "LAITEKADVANCED" : "Laitek Advanced",
+        "SUPER8BEGINNERS" : "Super 8 Beginners",
+        "SUPER8ADVANCED" : "Super 8 Advanced",
+        "FIRSTNAME" : "Firstname",
+        "LASTNAME" : "Lastname",
+        "POINTS" : "Points"
     }
 }

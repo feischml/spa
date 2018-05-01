@@ -1,6 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
+import { EmbedVideoService } from 'ngx-embed-video';
 
 @Component({
   selector: 'app-coaching',
@@ -10,10 +11,15 @@ import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
 })
 export class CoachingComponent implements OnInit {
 
+  private iframe_html: any;
+  private youtubeUrl = "https://www.youtube.com/watch?v=7si_4wdoQAI";
+
   constructor(private translate: TranslateService,
-              private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective()) { }
+              private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
+              private embedService: EmbedVideoService ) { }
 
   ngOnInit() {
+    this.iframe_html = this.embedService.embed(this.youtubeUrl);
   }
 
   ngAfterViewInit(): void {
@@ -22,10 +28,12 @@ export class CoachingComponent implements OnInit {
     this.myScroll.onClick();
   }
 
-  private scrollToPlayer(){
-    this.myScroll.scrollTo = "video-placeholder";
+  private scrollToPlayer(vidId: string){
+    this.myScroll.scrollTo = "#video-placeholder";
     this.myScroll.offset = 80;
     this.myScroll.onClick();
+
+    this.iframe_html = this.embedService.embed_youtube(vidId);
   }
 
 }

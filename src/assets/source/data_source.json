@@ -1,81 +1,82 @@
     {
-        "coaches":[
-        {
-            "name": "COACHES.MIKI.NAME",
-            "photo": "assets/img/micky_profile.jpg",
-            "title": "COACHES.MIKI.TITLE",
-            "description": "COACHES.MIKI.DESCRIPTION",
-            "social": {
-                "facebook": "https://www.facebook.com/micky.puskas"
+        "coaches": [
+            {
+                "name": "COACHES.MIKI.NAME",
+                "photo": "assets/img/micky_profile.jpg",
+                "title": "COACHES.MIKI.TITLE",
+                "description": "COACHES.MIKI.DESCRIPTION",
+                "social": {
+                    "facebook": "https://www.facebook.com/micky.puskas"
+                }
+            },
+            {
+                "name": "COACHES.SIMI.NAME",
+                "photo": "assets/img/simi_profile.jpg",
+                "title": "COACHES.SIMI.TITLE",
+                "description": "COACHES.SIMI.DESCRIPTION",
+                "social": {
+                    "facebook": "https://www.facebook.com/profile.php?id=100008258236295"
+                }
+            },
+            {
+                "name": "COACHES.CALIN.NAME",
+                "photo": "assets/img/calin_profile.jpg",
+                "title": "COACHES.CALIN.TITLE",
+                "description": "COACHES.CALIN.DESCRIPTION",
+                "social": {
+                    "facebook": "https://www.facebook.com/calin.codarcea",
+                    "twitter": "https://twitter.com/calincodarcea",
+                    "instagram": "https://www.instagram.com/calincodarcea/"
+                }
+            },
+            {
+                "name": "COACHES.BARBU.NAME",
+                "photo": "assets/img/barbu_profile.jpg",
+                "title": "COACHES.BARBU.TITLE",
+                "description": "COACHES.BARBU.DESCRIPTION",
+                "social": {
+                    "facebook": "https://www.facebook.com/barbu.campean"
+                }
+            },
+            {
+                "name": "COACHES.LACI.NAME",
+                "photo": "assets/img/laci_profile.jpg",
+                "title": "COACHES.LACI.TITLE",
+                "description": "COACHES.LACI.DESCRIPTION",
+                "social": {
+                    "facebook": "https://www.facebook.com/profile.php?id=100010499463804",
+                    "instagram": "https://www.instagram.com/laszlo_feischmidt/"
+                }
+            },
+            {
+                "name": "COACHES.VALI.NAME",
+                "photo": "assets/img/vali_profile.jpg",
+                "title": "COACHES.VALI.TITLE",
+                "description": "COACHES.VALI.DESCRIPTION",
+                "social": {
+                    "facebook": "https://m.facebook.com/valentin.chindris.9",
+                    "instagram": "https://www.instagram.com/valentinc95/"
+                }
+            },
+            {
+                "name": "COACHES.MANU.NAME",
+                "photo": "assets/img/manu_profile.jpg",
+                "title": "COACHES.MANU.TITLE",
+                "description": "COACHES.MANU.DESCRIPTION",
+                "social": {
+                    "facebook": "https://www.facebook.com/marcus.emanuel.12"
+                }
+            },
+            {
+                "name": "COACHES.LAJOS.NAME",
+                "photo": "assets/img/lajos_profile.jpg",
+                "title": "COACHES.LAJOS.TITLE",
+                "description": "COACHES.LAJOS.DESCRIPTION",
+                "social": {
+                    "facebook": "https://www.facebook.com/squashfan.zalau"
+                }
             }
-        },
-        {
-            "name": "COACHES.SIMI.NAME",
-            "photo": "assets/img/simi_profile.jpg",
-            "title": "COACHES.SIMI.TITLE",
-            "description": "COACHES.SIMI.DESCRIPTION",
-            "social": {
-                "facebook": "https://www.facebook.com/profile.php?id=100008258236295"
-            }
-        },
-        {
-            "name": "COACHES.CALIN.NAME",
-            "photo": "assets/img/calin_profile.jpg",
-            "title": "COACHES.CALIN.TITLE",
-            "description": "COACHES.CALIN.DESCRIPTION",
-            "social": {
-                "facebook": "https://www.facebook.com/calin.codarcea",
-                "twitter": "https://twitter.com/calincodarcea",
-                "instagram": "https://www.instagram.com/calincodarcea/"
-            }
-        },
-        {
-            "name": "COACHES.BARBU.NAME",
-            "photo": "assets/img/barbu_profile.jpg",
-            "title": "COACHES.BARBU.TITLE",
-            "description": "COACHES.BARBU.DESCRIPTION",
-            "social": {
-                "facebook": "https://www.facebook.com/barbu.campean"
-            }
-        },
-        {
-            "name": "COACHES.LACI.NAME",
-            "photo": "assets/img/laci_profile.jpg",
-            "title": "COACHES.LACI.TITLE",
-            "description": "COACHES.LACI.DESCRIPTION",
-            "social": {
-                "facebook": "https://www.facebook.com/profile.php?id=100010499463804",
-                "instagram": "https://www.instagram.com/laszlo_feischmidt/"
-            }
-        },
-        {
-            "name": "COACHES.VALI.NAME",
-            "photo": "assets/img/vali_profile.jpg",
-            "title": "COACHES.VALI.TITLE",
-            "description": "COACHES.VALI.DESCRIPTION",
-            "social": {
-                "facebook": "https://m.facebook.com/valentin.chindris.9",
-                "instagram": "https://www.instagram.com/valentinc95/"
-            }
-        },
-        {
-            "name": "COACHES.MANU.NAME",
-            "photo": "assets/img/manu_profile.jpg",
-            "title": "COACHES.MANU.TITLE",
-            "description": "COACHES.MANU.DESCRIPTION",
-            "social": {
-                "facebook": "https://www.facebook.com/marcus.emanuel.12"
-            }
-        },
-        {
-            "name": "COACHES.LAJOS.NAME",
-            "photo": "assets/img/lajos_profile.jpg",
-            "title": "COACHES.LAJOS.TITLE",
-            "description": "COACHES.LAJOS.DESCRIPTION",
-            "social": {
-                "facebook": "https://www.facebook.com/squashfan.zalau"
-            }
-        }],
+        ],
         "features": [
             {
                 "title": "FUTURE.RANKINGS.TITLE",
@@ -87,13 +88,338 @@
                 "title": "FUTURE.EVENTCALENDAR.TITLE",
                 "description": "FUTURE.EVENTCALENDAR.DESCRIPTION",
                 "icon": "glyphicon glyphicon-calendar icon"
-                
             },
             {
                 "title": "FUTURE.COACHING.TITLE",
                 "description": "FUTURE.COACHING.DESCRIPTION",
                 "icon": "glyphicon glyphicon-info-sign icon",
                 "link": "coaching"
+            }
+        ],
+        "laitekbeginners": [
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 1,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 2,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 4,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 3,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 5,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 6,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 7,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 8,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 9,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 10,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 11,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 12,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 13,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 14,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 15,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 16,
+                "points" : 800
+            },{
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 17,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 18,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 19,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 20,
+                "points" : 800
+            }
+        ],
+        "laitekadvanced": [
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 1,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 2,
+                "points" : 700
+            },
+            {
+                "firstName" : "hello",
+                "lastName" : "Feischmidt4",
+                "place" : 4,
+                "points" : 500
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 3,
+                "points" : 600
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 5,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 6,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 7,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 8,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 9,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 10,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 11,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 12,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 13,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 14,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 15,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 16,
+                "points" : 800
+            },{
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 17,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 18,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 19,
+                "points" : 800
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 20,
+                "points" : 800
+            }
+        ],
+        "super8beginners": [
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 1
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 2
+            },
+            {
+                "firstName" : "dod",
+                "lastName" : "Feischmidt4",
+                "place" : 4
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 3
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 5
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 6
+            },
+            {
+                "firstName" : "dod",
+                "lastName" : "Feischmidt4",
+                "place" : 7
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 8
+            }
+        ],
+        "super8advanced" : [
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 1
+            },
+            {
+                "firstName" : "jean",
+                "lastName" : "Feischmidt2",
+                "place" : 2
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt4",
+                "place" : 4
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 3
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt",
+                "place" : 5
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt2",
+                "place" : 6
+            },
+            {
+                "firstName" : "dod",
+                "lastName" : "Feischmidt4",
+                "place" : 7
+            },
+            {
+                "firstName" : "Laszlo",
+                "lastName" : "Feischmidt3",
+                "place" : 8
             }
         ]
     }

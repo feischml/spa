@@ -1,19 +1,48 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
+import { SourceService } from '../service/source.service';
 
 @Component({
   selector: 'app-rankings',
   templateUrl: './rankings.component.html',
   styleUrls: ['./rankings.component.css'],
-  providers: [ SmoothScrollToDirective ] 
+  providers: [SmoothScrollToDirective, SourceService]
 })
 export class RankingsComponent implements OnInit {
 
+  private laitekBeginners;
+  private laitekAdvanced;
+  private super8Beginners;
+  private super8Advanced;
+
   constructor(public translate: TranslateService,
-              private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective()) { }
+    private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
+    private sourceService: SourceService) { }
 
   ngOnInit() {
+    this.sourceService.getSource().subscribe(
+      res => {
+        this.laitekAdvanced = res.json()['laitekadvanced'];
+        this.laitekBeginners = res.json()['laitekbeginners'];
+        this.super8Advanced = res.json()['super8advanced'];
+        this.super8Beginners = res.json()['super8beginners'];
+
+        //sort after place
+        this.laitekAdvanced.sort(function (a, b) {
+          return a.place - b.place;
+        });
+        this.laitekBeginners.sort(function (a, b) {
+          return a.place - b.place;
+        });
+        this.super8Advanced.sort(function (a, b) {
+          return a.place - b.place;
+        });
+        this.super8Beginners.sort(function (a, b) {
+          return a.place - b.place;
+        });
+      }
+    )
   }
 
   ngAfterViewInit(): void {

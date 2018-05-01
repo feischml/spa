@@ -115,7 +115,7 @@
             "DESCRIPTION": "Înregistrează-te uşor la evenimente locale. Inviţă-ţi prietenii, verifică adversarii."
         },
         "COACHING":{
-            "TITLE": "Antrenori",
+            "TITLE": "Tips & Tricks",
             "DESCRIPTION": "Păşeşte la următorul nivel. Citeşte sfaturile antrenorilor și jucătorilor de clasă mondială."
         }
     },
@@ -172,6 +172,13 @@
     },
     "RANKINGS":{
         "TITLE": "Clasamente locale",
-        "DESCRIPTION": "La Cluj comunitatea este în continuă creştere, fiind organizate regulat competiţii locale la diferite cluburi pentru incepători și avansati."
+        "DESCRIPTION": "La Cluj comunitatea este în continuă creştere, fiind organizate regulat competiţii locale la diferite cluburi pentru incepători și avansati.",
+        "LAITEKBEGINNERS" : "Laitek începători",
+        "LAITEKADVANCED" : "Laitek avansaţi",
+        "SUPER8BEGINNERS" : "Super 8 începători",
+        "SUPER8ADVANCED" : "Super 8 avansaţi",
+        "FIRSTNAME" : "Prenume",
+        "LASTNAME" : "Nume",
+        "POINTS" : "Puncte"
     }
 }

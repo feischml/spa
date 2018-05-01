@@ -1,16 +1,15 @@
 <div data-aos="fade-up" data-aos-once="true" style="background-color: white">
-
-  <div data-aos-once="true" class="highlight-clean" style="padding:21px 0px;">
+  <div data-aos-once="true" class="highlight-clean" style="padding: 30px 0px; background-color:rgb(238,244,247);">
     <div class="features-clean">
       <div class="container">
-        <div id="#rankings" class="row features" style="padding:10px 0px 0px 0px">
+        <div id="#rankings" class="row">
           <div class="col-md-12 col-sm-12 item">
             <div class="container-fluid" style="background-position:1%;background-size:100%;background-repeat:no-repeat;">
               <div class="intro">
                 <h2 class="text-center" style="padding:1px;color:rgba(30, 21, 54, 0.93);">
                   <strong>{{ 'RANKINGS.TITLE' | translate }}</strong>
                 </h2>
-                <p class="text-center" style="padding:9px;background-position:center;background-size:auto;background-repeat:no-repeat;">{{ 'RANKINGS.DESCRIPTION' | translate }}</p>
+                <p class="text-center" style="padding:0px;background-position:center;background-size:auto;background-repeat:no-repeat;">{{ 'RANKINGS.DESCRIPTION' | translate }}</p>
               </div>
             </div>
           </div>
@@ -18,5 +17,132 @@
       </div>
     </div>
   </div>
-
+  <div id="#tables" data-aos-once="true" style="padding:0px 0px 0px 40px">
+    <div class="row" style="padding-bottom: 30px;">
+      <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 tablePadding">
+        <div class="intro">
+          <h3 class="text-center" style="padding-bottom: 20px;">
+            <strong>{{ 'RANKINGS.LAITEKADVANCED' | translate }}</strong>
+          </h3>
+        </div>
+        <table class="table table-striped" style="background-color:rgb(238,244,247);">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">{{ 'RANKINGS.FIRSTNAME' | translate }}</th>
+              <th scope="col">{{ 'RANKINGS.LASTNAME' | translate }}</th>
+              <th scope="col">{{ 'RANKINGS.POINTS' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of laitekAdvanced">
+              <td *ngIf="item.place < 4">
+                <img *ngIf="item.place == 1" src="assets/img/medal1.png" style="height: 12%;" />
+                <img *ngIf="item.place == 2" src="assets/img/medal2.png" style="height: 15%;" />
+                <img *ngIf="item.place == 3" src="assets/img/medal3.png" style="height: 15%;" />
+              </td>
+              <td *ngIf="item.place > 3" scope="row" style="padding-left: 12px;">
+                {{ item.place }}
+              </td>
+              <td>{{ item.firstName }}</td>
+              <td>{{ item.lastName }}</td>
+              <td>{{ item.points }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 tablePadding">
+        <div class="intro">
+          <h3 class="text-center" style="padding-bottom: 20px;">
+            <strong>{{ 'RANKINGS.LAITEKBEGINNERS' | translate }}</strong>
+          </h3>
+        </div>
+        <table class="table table-striped" style="background-color:rgb(238,244,247);">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">{{ 'RANKINGS.FIRSTNAME' | translate }}</th>
+              <th scope="col">{{ 'RANKINGS.LASTNAME' | translate }}</th>
+              <th scope="col">{{ 'RANKINGS.POINTS' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of laitekBeginners">
+              <td *ngIf="item.place < 4">
+                <img *ngIf="item.place == 1" src="assets/img/medal1.png" style="height: 12%;" />
+                <img *ngIf="item.place == 2" src="assets/img/medal2.png" style="height: 15%;" />
+                <img *ngIf="item.place == 3" src="assets/img/medal3.png" style="height: 15%;" />
+              </td>
+              <td *ngIf="item.place > 3" scope="row" style="padding-left: 12px;">
+                {{ item.place }}
+              </td>
+              <td>{{ item.firstName }}</td>
+              <td>{{ item.lastName }}</td>
+              <td>{{ item.points }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 tablePadding">
+        <div class="intro">
+          <h3 class="text-center" style="padding-bottom: 20px;">
+            <strong>{{ 'RANKINGS.SUPER8ADVANCED' | translate }}</strong>
+          </h3>
+        </div>
+        <table class="table table-striped" style="background-color:rgb(238,244,247);">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">{{ 'RANKINGS.FIRSTNAME' | translate }}</th>
+              <th scope="col">{{ 'RANKINGS.LASTNAME' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of super8Advanced">
+              <td *ngIf="item.place < 4">
+                <img *ngIf="item.place == 1" src="assets/img/medal1.png" style="height: 12%;" />
+                <img *ngIf="item.place == 2" src="assets/img/medal2.png" style="height: 15%;" />
+                <img *ngIf="item.place == 3" src="assets/img/medal3.png" style="height: 15%;" />
+              </td>
+              <td *ngIf="item.place > 3" scope="row" style="padding-left: 12px;">
+                {{ item.place }}
+              </td>
+              <td>{{ item.firstName }}</td>
+              <td>{{ item.lastName }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 tablePadding">
+        <div class="intro">
+          <h3 class="text-center" style="padding-bottom: 20px;">
+            <strong>{{ 'RANKINGS.SUPER8BEGINNERS' | translate }}</strong>
+          </h3>
+        </div>
+        <table class="table table-striped" style="background-color:rgb(238,244,247);">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">{{ 'RANKINGS.FIRSTNAME' | translate }}</th>
+              <th scope="col">{{ 'RANKINGS.LASTNAME' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of super8Beginners">
+              <td *ngIf="item.place < 4">
+                <img *ngIf="item.place == 1" src="assets/img/medal1.png" style="height: 12%;" />
+                <img *ngIf="item.place == 2" src="assets/img/medal2.png" style="height: 15%;" />
+                <img *ngIf="item.place == 3" src="assets/img/medal3.png" style="height: 15%;" />
+              </td>
+              <td *ngIf="item.place > 3" scope="row" style="padding-left: 12px;">
+                {{ item.place }}
+              </td>
+              <td>{{ item.firstName }}</td>
+              <td>{{ item.lastName }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </div>

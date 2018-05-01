@@ -51,6 +51,8 @@ import { MatDialogModule } from '@angular/material'
 import { SocialLoginModule, AuthServiceConfig } from "angular4-social-login";
 import { GoogleLoginProvider, FacebookLoginProvider } from "angular4-social-login";
 
+import { EmbedVideo } from 'ngx-embed-video';
+
 let config = new AuthServiceConfig([
   {
     id: GoogleLoginProvider.PROVIDER_ID,
@@ -106,6 +108,7 @@ export function provideConfig() {
         deps: [HttpClient]
       }
     }),
+    EmbedVideo.forRoot(),
     RecaptchaModule.forRoot(),
     ReactiveFormsModule,
     SocialLoginModule,
