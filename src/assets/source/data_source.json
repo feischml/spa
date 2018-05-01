@@ -80,14 +80,14 @@
             {
                 "title": "FUTURE.RANKINGS.TITLE",
                 "description": "FUTURE.RANKINGS.DESCRIPTION",
-                "icon": "glyphicon glyphicon-stats icon",
-                "link": "rankings"
+                "icon": "glyphicon glyphicon-stats icon"
+                
             },
             {
                 "title": "FUTURE.EVENTCALENDAR.TITLE",
                 "description": "FUTURE.EVENTCALENDAR.DESCRIPTION",
-                "icon": "glyphicon glyphicon-calendar icon",
-                "link": "calendar"
+                "icon": "glyphicon glyphicon-calendar icon"
+                
             },
             {
                 "title": "FUTURE.COACHING.TITLE",

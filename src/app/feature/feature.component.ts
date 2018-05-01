@@ -18,7 +18,8 @@ export class FeatureComponent implements OnInit {
   }
 
   private navigateTo(){
-    this.router.navigate([this.feature.link]);
+    if (this.feature.link)
+      this.router.navigate([this.feature.link]);
   }
 
 }

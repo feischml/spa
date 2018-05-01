@@ -93,7 +93,7 @@
     },
     "FUTURE":{
         "TITLE": "Our community",
-        "DESCRIPTION": "We are continuously focusing on the fun and competitive part of squash which fuels desire. Any suggestion is welcomed, we are building things for the growing community. Share your ideas with us to create a more friendly and effective environment. Some topics on which we are already working:",
+        "DESCRIPTION": "We are continuously focusing on the fun and competitive part of squash which fuels desire. Any suggestion is welcomed, we are building things for the growing community. Share your ideas with us to create a more friendly and effective environment.",
         "RANKINGS": {
             "TITLE": "Local Rankings",
             "DESCRIPTION": "See up to date, real time rankings for all competitions - beginners, advanced."
@@ -116,7 +116,7 @@
         },
         "COACHING":{
             "TITLE": "Coaching",
-            "DESCRIPTION": "Go to the next level. Get your periodic tips from coaches."
+            "DESCRIPTION": "Go to the next level. Get your best tips from coaches and world class players."
         }
     },
     "FOOTER":{
@@ -154,5 +154,19 @@
         "LAST": "Last",
         "PREVIOUS": "Previous",
         "FIRST": "First"
+    },
+    "COACHING":{
+        "TITLE": "Tips and tricks",
+        "DESCRIPTION": "Nicholas Matthew (born 25 July 1980 in Sheffield) is an English professional squash player who has won the two most prestigious tournaments in the professional game, the British Open and the World Open, three times each. He reached a career-high world ranking of World No. 1 in June 2010. His home club is Hallamshire Tennis and Squash Club in Sheffield which has named 'The Nick Matthew Showcourt'. Watch his tipps below.",
+        "1": "1. The Warm Up",
+        "2": "2. The Serve",
+        "3": "3. Return of Serve",
+        "4": "4. Court Movement",
+        "5": "5. Forehand Drive",
+        "6": "6. The Backhand Drive",
+        "7": "7. The Volley",
+        "8": "8. The Boast",
+        "9": "9. The Drop Shot",
+        "10": "10. The Lob"
     }
 }

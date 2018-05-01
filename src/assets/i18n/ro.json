@@ -93,7 +93,7 @@
     },
     "FUTURE":{
         "TITLE": "Comunitate",
-        "DESCRIPTION": "Încercăm permanent să facem activitatea jucătorilor şi antrenorilor cât mai uşoară. Orice sugestie în această direcţie este bine venită. Împărtăşeşte-ţi ideile ca să construim un mediu prietenos. Câteva proiecte la care deja am început să lucrăm:",
+        "DESCRIPTION": "Încercăm permanent să facem activitatea jucătorilor şi antrenorilor cât mai uşoară. Orice sugestie în această direcţie este bine venită. Împărtăşeşte-ţi ideile ca să construim un mediu prietenos.",
         "RANKINGS": {
             "TITLE": "Clasamente locale",
             "DESCRIPTION": "Vezi toate clasamentele în timp real - competiţii pentru începători şi avansaţi."
@@ -116,7 +116,7 @@
         },
         "COACHING":{
             "TITLE": "Antrenori",
-            "DESCRIPTION": "Păşeşte la următorul nivel. Citeşte sfaturile antrenorilor, rămâi cu ei în contact."
+            "DESCRIPTION": "Păşeşte la următorul nivel. Citeşte sfaturile antrenorilor și jucătorilor de clasă mondială."
         }
     },
     "FOOTER":{
@@ -155,5 +155,19 @@
         "LAST": "Ultima",
         "PREVIOUS": "Precedenta",
         "FIRST": "Prima pagină"
+    },
+    "COACHING":{
+        "TITLE": "Sfaturi practice",
+        "DESCRIPTION": "Nicholas Matthew (născut pe data de 25 iulie 1980 în Sheffield) este un jucător profesionist de squash în Anglia, care a participat la cele mai prestigioase turnee din jocul profesionist, British Open și World Open, câstigând de trei ori fiecare. A devenit numarul 1. în lume în iunie 2010. Clubul său de acasă este Hallamshire Tennis și Squash Club din Sheffield. Vezi mai jos sfaturile lui utile.",
+        "1": "1. Încălzirea",
+        "2": "2. Serva",
+        "3": "3. Returul de servă",
+        "4": "4. Mișcarea pe teren",
+        "5": "5. Forehand Drive",
+        "6": "6. Backhand Drive",
+        "7": "7. Voleul",
+        "8": "8. Boastul",
+        "9": "9. Scurta",
+        "10": "10. Lobul"
     }
 }
