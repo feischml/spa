@@ -173,10 +173,8 @@
     "RANKINGS":{
         "TITLE": "Clasamente locale",
         "DESCRIPTION": "La Cluj comunitatea este în continuă creştere, fiind organizate regulat competiţii locale la diferite cluburi pentru incepători și avansati.",
-        "LAITEKBEGINNERS" : "Laitek începători",
-        "LAITEKADVANCED" : "Laitek avansaţi",
-        "SUPER8BEGINNERS" : "Super 8 începători",
-        "SUPER8ADVANCED" : "Super 8 avansaţi",
+        "LAITEKBEGINNERS" : "Liga Laitek începători",
+        "LAITEKADVANCED" : "Liga Laitek",
         "FIRSTNAME" : "Prenume",
         "LASTNAME" : "Nume",
         "POINTS" : "Puncte"

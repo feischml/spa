@@ -172,10 +172,8 @@
     "RANKINGS":{
         "TITLE": "Local rankings",
         "DESCRIPTION": "In Cluj, the squash community is growing. Local competitions are organized on a regular basis by the squash clubs for beginner and advanced players.",
-        "LAITEKBEGINNERS" : "Laitek Beginners",
-        "LAITEKADVANCED" : "Laitek Advanced",
-        "SUPER8BEGINNERS" : "Super 8 Beginners",
-        "SUPER8ADVANCED" : "Super 8 Advanced",
+        "LAITEKBEGINNERS" : "Laitek League Beginners",
+        "LAITEKADVANCED" : "Laitek League",
         "FIRSTNAME" : "Firstname",
         "LASTNAME" : "Lastname",
         "POINTS" : "Points"

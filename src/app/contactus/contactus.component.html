@@ -8,7 +8,9 @@
                             <div class="box">
                                 <p class="description text-justify">"{{ 'CONTACT.MIRCEA.QUOTE' | translate }}"</p>
                             </div>
-                            <div class="author"><img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" src="assets/img/baba_profile.jpg">
+                            <div class="author">
+                                <img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
+                                    src="assets/img/baba_profile.jpg">
                                 <h5 class="name">{{ 'CONTACT.MIRCEA.NAME' | translate }}</h5>
                                 <p class="title">{{ 'CONTACT.MIRCEA.TITLE' | translate }}</p>
                             </div>
@@ -19,7 +21,9 @@
                             <div class="box">
                                 <p class="description text-justify">"{{ 'CONTACT.PAUL.QUOTE' | translate }}"</p>
                             </div>
-                            <div class="author"><img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" src="assets/img/paul_profile.jpg">
+                            <div class="author">
+                                <img class="img-circle" style="border:1px solid rgba(30, 21, 54, 0.93); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
+                                    src="assets/img/paul_profile.jpg">
                                 <h5 class="name">{{ 'CONTACT.PAUL.NAME' | translate }}</h5>
                                 <p class="title">{{ 'CONTACT.PAUL.TITLE' | translate }}</p>
                             </div>
@@ -32,33 +36,29 @@
                     <form [formGroup]="contactForm">
                         <h2 class="text-center" style="color:rgba(30, 21, 54, 0.93)">{{ 'CONTACT.GETINTOUCH' | translate }} </h2>
                         <div class="form-group has-success has-error has-feedback">
-                            <input #name formControlName="name" type="text" name="name" class="form-control" placeholder="{{ 'CONTACT.NAME' | translate }}" >
-                            <i *ngIf="!contactForm.controls['name'].valid" class="form-control-feedback glyphicon glyphicon-remove" ></i>
+                            <input #name formControlName="name" type="text" name="name" class="form-control" placeholder="{{ 'CONTACT.NAME' | translate }}">
+                            <i *ngIf="!contactForm.controls['name'].valid" class="form-control-feedback glyphicon glyphicon-remove"></i>
                             <i *ngIf="contactForm.controls['name'].valid" class="form-control-feedback glyphicon glyphicon-ok" style="color: green"></i>
                         </div>
                         <div class="form-group has-success has-error has-feedback">
-                            <input class="form-control"
-                                #email formControlName="email"
-                                type="email" name="email" placeholder="{{ 'CONTACT.EMAIL' | translate }} ">
-                                <i *ngIf="!contactForm.controls['email'].valid" class="form-control-feedback glyphicon glyphicon-remove" ></i>
-                                <i *ngIf="contactForm.controls['email'].valid" class="form-control-feedback glyphicon glyphicon-ok" style="color: green"></i>    
+                            <input class="form-control" #email formControlName="email" type="email" name="email" placeholder="{{ 'CONTACT.EMAIL' | translate }} ">
+                            <i *ngIf="!contactForm.controls['email'].valid" class="form-control-feedback glyphicon glyphicon-remove"></i>
+                            <i *ngIf="contactForm.controls['email'].valid" class="form-control-feedback glyphicon glyphicon-ok" style="color: green"></i>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" 
-                            #message formControlName="message"
-                            rows="14" name="message" placeholder="{{ 'CONTACT.MESSAGE' | translate }} "></textarea>
+                            <textarea class="form-control" #message formControlName="message" rows="14" name="message" placeholder="{{ 'CONTACT.MESSAGE' | translate }} "></textarea>
                         </div>
                         <div class="form-group" style="transform:scale(0.72);-webkit-transform:scale(0.72);transform-origin:0 0;-webkit-transform-origin:0 0;">
-                            <re-captcha #captchaRef (resolved)="resolved($event)"
-                             siteKey="{{ siteKey }}"
-                             name="captcha"></re-captcha>
+                            <re-captcha #captchaRef (resolved)="resolved($event)" siteKey="{{ siteKey }}" name="captcha"></re-captcha>
                         </div>
                         <div class="form-group">
                             <button class="btn btn-primary btn-lg" type="submit" [disabled]="!contactForm.valid" (click)="submit(contactForm)" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-                                    {{ 'CONTACT.SEND' | translate }}  <i *ngIf="spinning" class="fa fa-spinner fa-spin" style="font-size:13px;color:white; "></i></button>
+                                {{ 'CONTACT.SEND' | translate }}
+                                <i *ngIf="spinning" class="fa fa-spinner fa-spin" style="font-size:13px;color:white; "></i>
+                            </button>
                         </div>
                         <div class="form-group">
-                                <p *ngIf="observ">{{ observ | async }}</p>
+                            <p *ngIf="observ">{{ observ | async }}</p>
                         </div>
                     </form>
                 </div>

@@ -13,8 +13,6 @@ export class RankingsComponent implements OnInit {
 
   private laitekBeginners;
   private laitekAdvanced;
-  private super8Beginners;
-  private super8Advanced;
 
   constructor(public translate: TranslateService,
     private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
@@ -25,20 +23,12 @@ export class RankingsComponent implements OnInit {
       res => {
         this.laitekAdvanced = res.json()['laitekadvanced'];
         this.laitekBeginners = res.json()['laitekbeginners'];
-        this.super8Advanced = res.json()['super8advanced'];
-        this.super8Beginners = res.json()['super8beginners'];
 
         //sort after place
         this.laitekAdvanced.sort(function (a, b) {
           return a.place - b.place;
         });
         this.laitekBeginners.sort(function (a, b) {
-          return a.place - b.place;
-        });
-        this.super8Advanced.sort(function (a, b) {
-          return a.place - b.place;
-        });
-        this.super8Beginners.sort(function (a, b) {
           return a.place - b.place;
         });
       }

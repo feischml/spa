@@ -98,328 +98,185 @@
         ],
         "laitekbeginners": [
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
+                "firstName" : "Doru",
+                "lastName" : "Căilean",
                 "place" : 1,
-                "points" : 800
+                "points" : 1660
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
+                "firstName" : "Ovidiu",
+                "lastName" : "Borza",
                 "place" : 2,
-                "points" : 800
+                "points" : 1215
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
-                "place" : 4,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
+                "firstName" : "Ruxandra",
+                "lastName" : "Golea",
                 "place" : 3,
-                "points" : 800
+                "points" : 1182
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
+                "firstName" : "Arnold",
+                "lastName" : "Korponai",
+                "place" : 4,
+                "points" : 1073
+            },
+            {
+                "firstName" : "Călin",
+                "lastName" : "Cozma",
                 "place" : 5,
-                "points" : 800
+                "points" : 1020
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
+                "firstName" : "Előd Ajtai",
+                "lastName" : "Cziko",
                 "place" : 6,
-                "points" : 800
+                "points" : 1019
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
+                "firstName" : "Adrian",
+                "lastName" : "Pop",
                 "place" : 7,
-                "points" : 800
+                "points" : 874
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
+                "firstName" : "Tamás",
+                "lastName" : "Dencsák",
                 "place" : 8,
-                "points" : 800
+                "points" : 784
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
+                "firstName" : "Tamás",
+                "lastName" : "Bozso",
                 "place" : 9,
-                "points" : 800
+                "points" : 704
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
+                "firstName" : "Maria",
+                "lastName" : "Paşca",
                 "place" : 10,
-                "points" : 800
+                "points" : 681
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
+                "firstName" : "Raul",
+                "lastName" : "Lepşa",
                 "place" : 11,
-                "points" : 800
+                "points" : 666
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
+                "firstName" : "Rareş",
+                "lastName" : "Lupşan",
                 "place" : 12,
-                "points" : 800
+                "points" : 515
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
+                "firstName" : "Bram",
+                "lastName" : "Vijgen",
                 "place" : 13,
-                "points" : 800
+                "points" : 483
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
+                "firstName" : "Rodica",
+                "lastName" : "Pop",
                 "place" : 14,
-                "points" : 800
+                "points" : 443
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
+                "firstName" : "Andrei",
+                "lastName" : "Bochiş",
                 "place" : 15,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
-                "place" : 16,
-                "points" : 800
+                "points" : 351
             },{
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
+                "firstName" : "Botond",
+                "lastName" : "Daradics",
+                "place" : 16,
+                "points" : 316
+            },
+            {
+                "firstName" : "Vladimir",
+                "lastName" : "Pop",
                 "place" : 17,
-                "points" : 800
+                "points" : 300
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
+                "firstName" : "Levente",
+                "lastName" : "Gál",
                 "place" : 18,
-                "points" : 800
+                "points" : 271
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
+                "firstName" : "Darius",
+                "lastName" : "Blaj",
                 "place" : 19,
-                "points" : 800
+                "points" : 225
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
+                "firstName" : "László",
+                "lastName" : "Kiss",
                 "place" : 20,
-                "points" : 800
+                "points" : 200
             }
         ],
         "laitekadvanced": [
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
+                "firstName" : "Emanuel",
+                "lastName" : "Mărcuș",
                 "place" : 1,
+                "points" : 860
+            },
+            {
+                "firstName" : "Cristian",
+                "lastName" : "Balogh",
+                "place" : 2,
+                "points" : 840
+            },
+            {
+                "firstName" : "Lajos",
+                "lastName" : "Almási",
+                "place" : 3,
                 "points" : 800
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
-                "place" : 2,
-                "points" : 700
-            },
-            {
-                "firstName" : "hello",
-                "lastName" : "Feischmidt4",
+                "firstName" : "Paul",
+                "lastName" : "Miheț",
                 "place" : 4,
-                "points" : 500
+                "points" : 800
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
-                "place" : 3,
-                "points" : 600
-            },
-            {
-                "firstName" : "Laszlo",
+                "firstName" : "László",
                 "lastName" : "Feischmidt",
                 "place" : 5,
                 "points" : 800
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
+                "firstName" : "Marius",
+                "lastName" : "Gârbo",
                 "place" : 6,
-                "points" : 800
+                "points" : 790
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
+                "firstName" : "Barbu",
+                "lastName" : "Câmpean",
                 "place" : 7,
-                "points" : 800
+                "points" : 770
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
+                "firstName" : "Tamás",
+                "lastName" : "Dencsák",
                 "place" : 8,
-                "points" : 800
+                "points" : 700
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
+                "firstName" : "Andrei",
+                "lastName" : "Chindriş",
                 "place" : 9,
-                "points" : 800
+                "points" : 700
             },
             {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
+                "firstName" : "Ionuț",
+                "lastName" : "Lupşan",
                 "place" : 10,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
-                "place" : 11,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
-                "place" : 12,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
-                "place" : 13,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
-                "place" : 14,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
-                "place" : 15,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
-                "place" : 16,
-                "points" : 800
-            },{
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
-                "place" : 17,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
-                "place" : 18,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
-                "place" : 19,
-                "points" : 800
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
-                "place" : 20,
-                "points" : 800
-            }
-        ],
-        "super8beginners": [
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
-                "place" : 1
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
-                "place" : 2
-            },
-            {
-                "firstName" : "dod",
-                "lastName" : "Feischmidt4",
-                "place" : 4
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
-                "place" : 3
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
-                "place" : 5
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
-                "place" : 6
-            },
-            {
-                "firstName" : "dod",
-                "lastName" : "Feischmidt4",
-                "place" : 7
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
-                "place" : 8
-            }
-        ],
-        "super8advanced" : [
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
-                "place" : 1
-            },
-            {
-                "firstName" : "jean",
-                "lastName" : "Feischmidt2",
-                "place" : 2
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt4",
-                "place" : 4
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
-                "place" : 3
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt",
-                "place" : 5
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt2",
-                "place" : 6
-            },
-            {
-                "firstName" : "dod",
-                "lastName" : "Feischmidt4",
-                "place" : 7
-            },
-            {
-                "firstName" : "Laszlo",
-                "lastName" : "Feischmidt3",
-                "place" : 8
+                "points" : 690
             }
         ]
     }
