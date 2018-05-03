@@ -1,8 +1,8 @@
 <div data-aos="fade-up" data-aos-once="true" style="background-color: white">
-  <div data-aos-once="true" class="highlight-clean" style="padding: 30px 0px; background-color:rgb(238,244,247);">
+  <div id="#rankings" class="highlight-clean" style="padding: 30px 0px; background-color:rgb(238,244,247);">
     <div class="features-clean">
       <div class="container">
-        <div id="#rankings" class="row">
+        <div class="row">
           <div class="col-md-12 col-sm-12 item">
             <div class="container-fluid" style="background-position:1%;background-size:100%;background-repeat:no-repeat;">
               <div class="intro">
@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-  <div id="#tables" data-aos-once="true" style="padding:0px 0px 0px 40px">
+  <div id="#tables" style="padding:0px 0px 0px 40px">
     <div class="row" style="padding-bottom: 30px;">
       <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 tablePadding">
         <div class="intro">
@@ -37,9 +37,9 @@
           <tbody>
             <tr *ngFor="let item of laitekAdvanced">
               <td *ngIf="item.place < 4">
-                <img *ngIf="item.place == 1" src="assets/img/medal1.png" style="height: 12%;" />
-                <img *ngIf="item.place == 2" src="assets/img/medal2.png" style="height: 15%;" />
-                <img *ngIf="item.place == 3" src="assets/img/medal3.png" style="height: 15%;" />
+                <img *ngIf="item.place == 1" src="assets/img/medal1.png" style="height: 15px;" />
+                <img *ngIf="item.place == 2" src="assets/img/medal2.png" style="height: 15px;" />
+                <img *ngIf="item.place == 3" src="assets/img/medal3.png" style="height: 15px;" />
               </td>
               <td *ngIf="item.place > 3" scope="row" style="padding-left: 12px;">
                 {{ item.place }}
@@ -69,9 +69,9 @@
           <tbody>
             <tr *ngFor="let item of laitekBeginners">
               <td *ngIf="item.place < 4">
-                <img *ngIf="item.place == 1" src="assets/img/medal1.png" style="height: 12%;" />
-                <img *ngIf="item.place == 2" src="assets/img/medal2.png" style="height: 15%;" />
-                <img *ngIf="item.place == 3" src="assets/img/medal3.png" style="height: 15%;" />
+                <img *ngIf="item.place == 1" src="assets/img/medal1.png" style="height: 15px;" />
+                <img *ngIf="item.place == 2" src="assets/img/medal2.png" style="height: 15px;" />
+                <img *ngIf="item.place == 3" src="assets/img/medal3.png" style="height: 15px;" />
               </td>
               <td *ngIf="item.place > 3" scope="row" style="padding-left: 12px;">
                 {{ item.place }}
