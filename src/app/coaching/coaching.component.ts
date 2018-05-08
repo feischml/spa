@@ -16,8 +16,8 @@ export class CoachingComponent implements OnInit {
 
   constructor(private translate: TranslateService,
     private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
-    private embedService: EmbedVideoService) {
-    this.iframe_html = this.embedService.embed(this.url);
+    private embedService: EmbedVideoService){
+      this.iframe_html = this.embedService.embed(this.url);
   }
 
   ngOnInit() {

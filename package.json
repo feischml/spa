@@ -41,12 +41,13 @@
     "jquery": "^3.3.1",
     "ng-recaptcha": "^3.0.0",
     "ng2-smooth-scroll": "^1.0.1",
-    "ng2-toastr": "^4.1.2",
+    "ngx-device-detector": "^1.2.2",
     "ngx-embed-video": "^0.3.0",
     "rxjs": "^5.1.0",
     "systemjs": "^0.20.18",
     "toastr": "^2.1.2",
     "underscore": "^1.8.3",
+    "web-animations-js": "^2.3.1",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {

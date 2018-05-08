@@ -1,10 +1,12 @@
-import { Component, OnInit, ElementRef, Renderer } from '@angular/core';
+import { Component, OnInit, ElementRef, Renderer, ViewContainerRef } from '@angular/core';
 import { TranslateService } from "@ngx-translate/core";
 import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
 import { MatDialogRef, MdDialog } from '@angular/material';
 import { LoginComponent } from 'app/header/login/login.component';
 //import { AuthService } from 'angular4-social-login';
 import { SocialUser } from 'angular4-social-login';
+import { ToastsManager } from 'ng2-toastr/ng2-toastr';
+import { DeviceDetectorService } from 'ngx-device-detector';
 
 @Component({
   selector: 'app-header',
@@ -17,19 +19,27 @@ export class HeaderComponent implements OnInit {
   //private lodginDialog: LoginComponent;
 
   //user: SocialUser;   
+  private browser = null;
 
   constructor(public translate: TranslateService,
+    public toastr: ToastsManager,
+    private vRef: ViewContainerRef,
     private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
     public dialog: MdDialog,
     //private authService: AuthService,
     private el: ElementRef, 
-    private renderer: Renderer) {
+    private renderer: Renderer,
+    private deviceService: DeviceDetectorService) {
+      this.toastr.setRootViewContainerRef(this.vRef);
+      this.browser = this.deviceService.getDeviceInfo().browser;
   }
 
   ngOnInit(){
     //this.authService.authState.subscribe((user) => {
     //    this.user = user
     //});
+    if (this.checkBrowser() == false)
+      this.toastr.warning('For the best experience and all the features please use Chrome, Safari, Firefox browsers.', null, { toastLife: 10000 });
   }
 
   // scroll to specified element
@@ -41,8 +51,7 @@ export class HeaderComponent implements OnInit {
     this.myScroll.onClick();
 
     // close the navigation bar
-    this.closeNavbar();
-
+    this.closeNavbar();          
   }
 
   private closeNavbar(){
@@ -63,4 +72,21 @@ export class HeaderComponent implements OnInit {
       err => console.log(err)
     );
   }*/
+
+  private checkBrowser(): boolean {
+    switch (this.browser) {
+      case "chrome": {
+        return true;
+      }
+      case "firefox": {
+        return true;
+      }
+      case "safari": {
+        return true;
+      }
+      default: {
+          return false;
+      }
+    }
+  }
 }

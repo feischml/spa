@@ -18,6 +18,8 @@ import { FeatureComponent } from './feature/feature.component';
 import { ProfilesComponent } from './profiles/profiles.component';
 import { ProfileComponent } from './profiles/profile/profile.component';
 //import { LoginComponent } from 'app/header/login/login.component';
+import { DeviceDetectorModule } from 'ngx-device-detector';
+import { ToastModule } from 'ng2-toastr/ng2-toastr'
 import { CoachingComponent } from './coaching/coaching.component';
 import { RankingsComponent } from './rankings/rankings.component';
 import { CalendarComponent } from './calendar/calendar.component';
@@ -111,6 +113,8 @@ export function provideConfig() {
     ReactiveFormsModule,
     SocialLoginModule,
     HttpModule,
+    DeviceDetectorModule.forRoot(),
+    ToastModule.forRoot(),
     routing
   ],
   exports: [
