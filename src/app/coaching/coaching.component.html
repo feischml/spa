@@ -1,15 +1,17 @@
-<div data-aos="fade-up" data-aos="fade-up" data-aos-once="true" style="background-color: white">
-  <div id="#coaching" data-aos-once="true" class="highlight-clean" style="padding:21px 0px;">
-    <div class="features-clean">
-      <div class="container">
-        <div class="row features" style="padding:10px 0px 0px 0px">
-          <div class="col-md-12 col-sm-12 item">
-            <div class="container-fluid" style="background-position:1%;background-size:100%;background-repeat:no-repeat;">
-              <div class="intro">
-                <h2 class="text-center" style="padding:1px;color:rgba(30, 21, 54, 0.93);">
-                  <strong>{{ 'COACHING.TITLE' | translate }}</strong>
-                </h2>
-                <p class="text-center" style="padding:9px;background-position:center;background-size:auto;background-repeat:no-repeat;">{{ 'COACHING.DESCRIPTION' | translate }}</p>
+<div style="background-color:rgb(238,244,247);" class="highlight-clean" data-aos="fade-up" data-aos-once="true">
+  <div data-aos="fade-right" data-aos-once="true" class="container">
+    <div id="#coaching" style="padding:0px 0px;">
+      <div class="features-clean">
+        <div class="container">
+          <div class="row features" style="padding:10px 0px 0px 0px">
+            <div class="col-md-12 col-sm-12 item">
+              <div class="container-fluid" style="background-position:1%;background-size:100%;background-repeat:no-repeat;">
+                <div class="intro">
+                  <h2 class="text-center" style="padding:1px;color:rgba(30, 21, 54, 0.93);">
+                    <strong>{{ 'COACHING.TITLE' | translate }}</strong>
+                  </h2>
+                  <p class="text-center" style="padding:9px;background-position:center;background-size:auto;background-repeat:no-repeat;">{{ 'COACHING.DESCRIPTION' | translate }}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -17,87 +19,92 @@
       </div>
     </div>
   </div>
-  <div id="dqv" style="padding:0px 0px 20px 30px">
-    <div class="row" style="padding-bottom: 30px;">
-      <div class="col-lg-6 col-md-6 col-sm-6" style="margin: 20px 20px 20px 0px;">
-        <div *ngIf="iframe_html" class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-          <div  [innerHtml]="iframe_html" id="#video-placeholder"></div>
+</div>
+<div style="background-color:white" class="highlight-clean">
+  <div class="container">
+    <div id="dqv" style="padding:0px 0px 20px 30px">
+      <div class="row" style="padding-bottom: 30px;">
+        <div class="col-lg-6 col-md-6 col-sm-6" style="margin: 20px 20px 20px 0px;">
+          <div *ngIf="iframe_html" class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <div [innerHtml]="iframe_html" id="#video-placeholder"></div>
+          </div>
+          <!-- <p class="font-weight-light text-center" style="padding-top: 10px;">{{ text }}</p> -->
         </div>
-      </div>
-      <div class="col-lg-5 col-md-5 col-sm-5">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 vids" style="padding-right: 35px; margin-top:20px;">
-          <figure style="padding-bottom: 20px; ">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('7si_4wdoQAI')" src="https://img.youtube.com/vi/7si_4wdoQAI/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.1' | translate }}</figcaption>
-          </figure>
-          <figure style="padding-bottom: 20px;">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('etr1rdwNYA8')" src="https://img.youtube.com/vi/etr1rdwNYA8/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.2' | translate }}</figcaption>
-          </figure>
-          <figure style="padding-bottom: 20px;">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('ix0erbQ8oGs')" src="https://img.youtube.com/vi/ix0erbQ8oGs/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.3' | translate }}</figcaption>
-          </figure>
-          <figure style="padding-bottom: 20px;">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('vGWtyPBr21M')" src="https://img.youtube.com/vi/vGWtyPBr21M/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.4' | translate }}</figcaption>
-          </figure>
-          <figure style="padding-bottom: 20px;">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('lJfCFoxDkCQ')" src="https://img.youtube.com/vi/lJfCFoxDkCQ/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.5' | translate }}</figcaption>
-          </figure>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 vids" style="padding-right: 35px; margin-top:20px;">
-          <figure style="padding-bottom: 20px;">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('UlHP5CblzpA')" src="https://img.youtube.com/vi/UlHP5CblzpA/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.6' | translate }}</figcaption>
-          </figure>
-          <figure style="padding-bottom: 20px;">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('vQlJ2S0BXUo')" src="https://img.youtube.com/vi/vQlJ2S0BXUo/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.7' | translate }}</figcaption>
-          </figure>
-          <figure style="padding-bottom: 20px;">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('i8rVVsicIoI')" src="https://img.youtube.com/vi/i8rVVsicIoI/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.8' | translate }}</figcaption>
-          </figure>
-          <figure style="padding-bottom: 20px;">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('dpRkXAG-uYg')" src="https://img.youtube.com/vi/dpRkXAG-uYg/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.9' | translate }}</figcaption>
-          </figure>
-          <figure style="padding-bottom: 20px;">
-            <a>
-              <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
-                (click)="scrollToPlayer('aIO0UTZtMfo')" src="https://img.youtube.com/vi/aIO0UTZtMfo/sddefault.jpg">
-            </a>
-            <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.10' | translate }}</figcaption>
-          </figure>
+        <div class="col-lg-5 col-md-5 col-sm-5">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 vids" style="padding-right: 35px; margin-top:20px;">
+            <figure style="padding-bottom: 20px; ">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('7si_4wdoQAI')" src="https://img.youtube.com/vi/7si_4wdoQAI/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.1' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('etr1rdwNYA8')" src="https://img.youtube.com/vi/etr1rdwNYA8/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.2' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('ix0erbQ8oGs')" src="https://img.youtube.com/vi/ix0erbQ8oGs/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.3' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('vGWtyPBr21M')" src="https://img.youtube.com/vi/vGWtyPBr21M/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.4' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('lJfCFoxDkCQ')" src="https://img.youtube.com/vi/lJfCFoxDkCQ/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.5' | translate }}</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 vids" style="padding-right: 35px; margin-top:20px;">
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('UlHP5CblzpA')" src="https://img.youtube.com/vi/UlHP5CblzpA/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.6' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('vQlJ2S0BXUo')" src="https://img.youtube.com/vi/vQlJ2S0BXUo/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.7' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('i8rVVsicIoI')" src="https://img.youtube.com/vi/i8rVVsicIoI/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.8' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('dpRkXAG-uYg')" src="https://img.youtube.com/vi/dpRkXAG-uYg/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.9' | translate }}</figcaption>
+            </figure>
+            <figure style="padding-bottom: 20px;">
+              <a>
+                <img class="img-responsive jean center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                  (click)="scrollToPlayer('aIO0UTZtMfo')" src="https://img.youtube.com/vi/aIO0UTZtMfo/sddefault.jpg">
+              </a>
+              <figcaption class="text-center" style="padding-top: 10px;">{{ 'COACHING.10' | translate }}</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
     </div>
