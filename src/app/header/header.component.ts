@@ -66,6 +66,7 @@ export class HeaderComponent implements OnInit {
       this.dialog.open(LoginComponent, { width: "320px", height: "380px"});
   }*/
 
+  
   /*private logout() {
     this.closeNavbar();
     this.authService.signOut().catch( 
