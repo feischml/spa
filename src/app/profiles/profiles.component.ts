@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { ProfilesService } from 'app/profiles/service/ProfilesService';
-
 import * as _ from 'underscore';
-
 import { PagerService } from '../service/pager.service';
 import { SmoothScrollToDirective } from 'ng2-smooth-scroll';
 

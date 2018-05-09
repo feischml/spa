@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from "@ngx-translate/core";
 import { MatDialogRef } from '@angular/material';
-import { SocialUser } from 'angular4-social-login';
-import { AuthService } from 'angular4-social-login';
-import { GoogleLoginProvider } from 'angular4-social-login';
-import { FacebookLoginProvider } from 'angular4-social-login';
+//import { SocialUser } from 'angular4-social-login';
+//import { AuthService } from 'angular4-social-login';
+//import { GoogleLoginProvider } from 'angular4-social-login';
+//import { FacebookLoginProvider } from 'angular4-social-login';
 
 @Component({
     selector: 'app-login-modal',

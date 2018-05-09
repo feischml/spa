@@ -16,5 +16,12 @@
       "es2016",
       "dom"
     ]
-  }
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/ng2-smooth-scroll/index.ts"
+  ],
+  "files": [
+    "node_modules/ng2-smooth-scroll/lib/ng2-SmoothScroll.directive.ts"
+  ]
 }

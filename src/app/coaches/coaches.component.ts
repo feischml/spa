@@ -17,7 +17,6 @@ export class CoachesComponent implements OnInit {
               private sourceService: SourceService) { }
 
   ngOnInit() {
-    // get the coaches from observable
     this.sourceService.getSource().subscribe(
       res => this.coaches = res.json()['coaches']
     );

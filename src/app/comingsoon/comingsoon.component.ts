@@ -7,12 +7,11 @@ import { DeviceDetectorService } from 'ngx-device-detector';
   selector: 'app-comingsoon',
   templateUrl: './comingsoon.component.html',
   styleUrls: ['./comingsoon.component.css'],
-  providers: [ SourceService ]
+  providers: [SourceService]
 })
 export class ComingsoonComponent implements OnInit {
 
   private features;
-  private finalFeatures = [];
   private browser = null;
 
   constructor(public translate: TranslateService,
@@ -23,13 +22,7 @@ export class ComingsoonComponent implements OnInit {
 
   ngOnInit() {
     this.sourceService.getSource().subscribe(
-      res => {
-        this.features = res.json()['features'];
-        //for (let feature of this.features) {
-        //  if(this.checkBrowser(feature))
-        //    this.finalFeatures.push(feature);
-        //}
-      }
+      res => this.features = res.json()['features']
     )
   }
 

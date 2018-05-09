@@ -9,7 +9,7 @@ import { SourceService } from '../service/source.service';
   styleUrls: ['./rankings.component.css'],
   providers: [SmoothScrollToDirective, SourceService]
 })
-export class RankingsComponent implements OnInit {
+export class RankingsComponent implements OnInit, AfterViewInit {
 
   private laitekBeginners;
   private laitekAdvanced;

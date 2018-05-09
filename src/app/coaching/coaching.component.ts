@@ -9,7 +9,7 @@ import { EmbedVideoService } from 'ngx-embed-video';
   styleUrls: ['./coaching.component.css'],
   providers: [SmoothScrollToDirective]
 })
-export class CoachingComponent implements OnInit {
+export class CoachingComponent implements OnInit, AfterViewInit {
 
   private iframe_html: any;
   private url = "https://www.youtube.com/watch?v=7si_4wdoQAI";
