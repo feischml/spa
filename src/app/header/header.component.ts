@@ -5,8 +5,9 @@ import { MatDialogRef, MdDialog } from '@angular/material';
 import { LoginComponent } from 'app/header/login/login.component';
 //import { AuthService } from 'angular4-social-login';
 import { SocialUser } from 'angular4-social-login';
-//import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 import { DeviceDetectorService } from 'ngx-device-detector';
+import { ToastrService } from 'ngx-toastr';
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'app-header',
@@ -20,9 +21,10 @@ export class HeaderComponent implements OnInit {
 
   //user: SocialUser;   
   private browser = null;
+  public observ: Observable<string>;
 
   constructor(public translate: TranslateService,
-    //public toastr: ToastsManager,
+    private toastr: ToastrService,
     private vRef: ViewContainerRef,
     private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),
     public dialog: MdDialog,
@@ -30,7 +32,6 @@ export class HeaderComponent implements OnInit {
     private el: ElementRef, 
     private renderer: Renderer,
     private deviceService: DeviceDetectorService) {
-      //this.toastr.setRootViewContainerRef(this.vRef);
       this.browser = this.deviceService.getDeviceInfo().browser;
   }
 
@@ -38,8 +39,14 @@ export class HeaderComponent implements OnInit {
     //this.authService.authState.subscribe((user) => {
     //    this.user = user
     //});
-    //if (this.checkBrowser() == false)
-      //this.toastr.warning('For the best experience and all the features please use Chrome, Safari, Firefox browsers.', null, { toastLife: 10000 });
+    if (this.checkBrowser() == false){
+      this.observ = this.translate.get("MESSAGES.IE");
+      this.observ.subscribe(
+        res => this.toastr.info(res, null, {
+          disableTimeOut: true
+        })
+      );
+    }
   }
 
   // scroll to specified element

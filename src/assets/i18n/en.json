@@ -143,7 +143,8 @@
     "MESSAGES":{
         "ROBOT": "Are you sure you are not a robot?",
         "SENT": "Message sent!",
-        "ERROR": "Some error occured, please retry."
+        "ERROR": "Some error occured, please retry.",
+        "IE": "For all the features and best experience we recommend using Google Chrome, Safari or Mozilla."
     },
     "PROFILES":{
         "TITLE": "PRO Squash Team",
