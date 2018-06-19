@@ -11,8 +11,8 @@ import { SourceService } from '../service/source.service';
 })
 export class RankingsComponent implements OnInit, AfterViewInit {
 
-  private laitekBeginners;
-  private laitekAdvanced;
+  public laitekBeginners;
+  public laitekAdvanced;
 
   constructor(public translate: TranslateService,
     private myScroll: SmoothScrollToDirective = new SmoothScrollToDirective(),

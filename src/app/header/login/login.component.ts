@@ -13,18 +13,18 @@ import { MatDialogRef } from '@angular/material';
 })
 export class LoginComponent implements OnInit{
     
-    constructor(public dialogRef: MatDialogRef<LoginComponent>,
+    //constructor(public dialogRef: MatDialogRef<LoginComponent>,
                 //private authService: AuthService,
-                public translate: TranslateService) { }
+    //            public translate: TranslateService) { }
 
     ngOnInit(){ }
 
-    private signInWithGoogle(): void {
+    public signInWithGoogle(): void {
         //this.authService.signIn(GoogleLoginProvider.PROVIDER_ID);
         //this.dialogRef.close();
     }
 
-    private signInWithFacebook(): void {
+    public signInWithFacebook(): void {
         //this.authService.signIn(FacebookLoginProvider.PROVIDER_ID);
         //this.dialogRef.close();
     }

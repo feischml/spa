@@ -11,7 +11,7 @@ import { Observable } from 'rxjs/Observable';
 })
 export class CoachesComponent implements OnInit {
 
-  private coaches;
+  public coaches;
 
   constructor(public translate: TranslateService,
               private sourceService: SourceService) { }

@@ -43,11 +43,11 @@ export class ContactusComponent implements OnInit, AfterViewInit {
     this.myScroll.onClick();
   }
 
-  private resolved(captchaResponse: string) {
+  public resolved(captchaResponse: string) {
     this.reCaptchaResponse = captchaResponse;
   }
 
-  private submit(form: FormGroup) {
+  public submit(form: FormGroup) {
 
     let message = form.controls.message.value;
     let name = form.controls.name.value;

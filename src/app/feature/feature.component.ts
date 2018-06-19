@@ -42,7 +42,7 @@ export class FeatureComponent implements OnInit {
     }
   }
 
-  private navigateTo() {
+  public navigateTo() {
     if (this.feature.link && this.checkBrowser())
       this.router.navigate([this.feature.link]);
   }

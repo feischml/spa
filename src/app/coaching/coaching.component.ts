@@ -11,7 +11,7 @@ import { EmbedVideoService } from 'ngx-embed-video';
 })
 export class CoachingComponent implements OnInit, AfterViewInit {
 
-  private iframe_html: any;
+  public iframe_html: any;
   private url = "https://www.youtube.com/watch?v=7si_4wdoQAI";
 
   constructor(private translate: TranslateService,
@@ -29,7 +29,7 @@ export class CoachingComponent implements OnInit, AfterViewInit {
     this.myScroll.onClick();
   }
 
-  private scrollToPlayer(vidId: string) {
+  public scrollToPlayer(vidId: string) {
     this.myScroll.scrollTo = "#video-placeholder";
     this.myScroll.offset = 80;
     this.myScroll.onClick();

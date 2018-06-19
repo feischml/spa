@@ -11,7 +11,7 @@ import { DeviceDetectorService } from 'ngx-device-detector';
 })
 export class ComingsoonComponent implements OnInit {
 
-  private features;
+  public features;
   private browser = null;
 
   constructor(public translate: TranslateService,
@@ -26,7 +26,7 @@ export class ComingsoonComponent implements OnInit {
     )
   }
 
-  private checkBrowser(feature): boolean {
+  public checkBrowser(feature): boolean {
     switch (this.browser) {
       case "chrome": {
         return true;

@@ -50,7 +50,7 @@ export class HeaderComponent implements OnInit {
   }
 
   // scroll to specified element
-  private scrollTo(element: String) {
+  public scrollTo(element: String) {
     this.myScroll.scrollTo = element;
     this.myScroll.duration = 2500;
     this.myScroll.offset = 80;
@@ -61,7 +61,7 @@ export class HeaderComponent implements OnInit {
     this.closeNavbar();          
   }
 
-  private closeNavbar(){
+  public closeNavbar(){
     let navbar = this.el.nativeElement.querySelector('.navcol-1');
     this.renderer.setElementClass(navbar, 'in', false);
   }
@@ -81,7 +81,7 @@ export class HeaderComponent implements OnInit {
     );
   }*/
 
-  private checkBrowser(): boolean {
+  public checkBrowser(): boolean {
     switch (this.browser) {
       case "chrome": {
         return true;

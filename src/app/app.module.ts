@@ -17,7 +17,7 @@ import { CoachComponent } from './coaches/coach/coach.component';
 import { FeatureComponent } from './feature/feature.component';
 import { ProfilesComponent } from './profiles/profiles.component';
 import { ProfileComponent } from './profiles/profile/profile.component';
-//import { LoginComponent } from 'app/header/login/login.component';
+import { LoginComponent } from 'app/header/login/login.component';
 import { DeviceDetectorModule } from 'ngx-device-detector';
 import { CoachingComponent } from './coaching/coaching.component';
 import { RankingsComponent } from './rankings/rankings.component';
@@ -86,7 +86,7 @@ export function provideConfig() {
     FeatureComponent,
     ProfilesComponent,
     ProfileComponent,
-    //LoginComponent,
+    LoginComponent,
     CoachingComponent,
     RankingsComponent,
     CalendarComponent,

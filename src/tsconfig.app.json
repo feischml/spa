@@ -9,5 +9,22 @@
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
+  ],
+  "files": [
+    "test.ts",
+    "polyfills.ts",
+    "../node_modules/ngx-embed-video/src/embed-video.service.ts",
+    "../node_modules/ng2-smooth-scroll/index.ts",
+    "../node_modules/ng2-smooth-scroll/lib/ng2-SmoothScroll.directive.ts",
+    "../node_modules/ngx-embed-video/index.ts"
+  ],
+  "include": [
+    "**/*.spec.ts",
+    "../src/**/*",
+    "**/*.d.ts",
+    "../node_modules/ngx-embed-video/src/embed-video.service.ts",
+    "../node_modules/ng2-smooth-scroll/index.ts",
+    "../node_modules/ng2-smooth-scroll/lib/ng2-SmoothScroll.directive.ts",
+    "../node_modules/ngx-embed-video/index.ts"
   ]
 }
