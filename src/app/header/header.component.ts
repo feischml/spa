@@ -32,7 +32,7 @@ export class HeaderComponent implements OnInit {
     private el: ElementRef, 
     private renderer: Renderer,
     private deviceService: DeviceDetectorService) {
-      this.browser = this.deviceService.getDeviceInfo().browser;
+    this.browser = this.deviceService.getDeviceInfo().browser;
   }
 
   ngOnInit(){

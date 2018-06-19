@@ -20,4 +20,4 @@ export const routing = RouterModule.forRoot([
     { path: 'rankings', component: RankingsComponent },
     // Others
     { path: '**', component: ContentcontainerComponent }
-]);
+] , {useHash: true});
